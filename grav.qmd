@@ -1,0 +1,13 @@
+---
+title: La gravitation universelle
+lang: fr    
+format:
+  html:
+    default-image-extension: svg
+  pdf:
+    default-image-extension: pdf
+  docx:
+    default-image-extension: png
+---
+
+En construction.

@@ -1,0 +1,226 @@
+---
+title: "Mouvement rectiligne uniforme"
+lang: fr    
+format:
+  html:
+    default-image-extension: svg
+  pdf:
+    default-image-extension: pdf
+  docx:
+    default-image-extension: png
+---
+
+## Introduction
+
+Nous allons réaliser une expérience numérique à partir de l'application suivante.
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/fiy6sraekn?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/mru/mru-1){fig-align="center" width=40%}
+:::
+
+Sur cette application, on va d'abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.
+
+![](figures/mru/fig2){width=100%}
+
+
+Que constates-tu?
+
+Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre $t_0$ et $t_1$ est définie par 
+
+$$
+v_{\text{moy}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
+$$
+Autrement dit, la vitesse moyenne entre $t_0$ et $t_1$ est la distance parcourue entre $t_0$ et $t_1$ divisée par le temps du parcours.
+
+Complétons le tableau suivant.
+
+![](figures/mru/fig3){width=100%}
+
+Que constates-tu?
+
+Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:
+
+1. la vitesse de la voiture est constante, ici $v=$
+2. la position $x(t)$ de la voiture en fonction du temps est une fonction du premier degré. De plus, 
+    * l'ordonnée à l'origine est la position initiale: $x(0)=x_0=$
+    * le taux d'accroissement est égal à la vitesse de la voiture.
+   Ainsi, on dispose d'une formule pour calculer et représenter la position en fonction du temps:
+
+   $$
+   x(t)=v\cdot t+x_0=
+   $$
+
+Ce modèle permet de faire deux choses importantes:
+
+1. interpoler: grâce à ce modèle, on peut calculer toutes les positions entre le moment de départ et le moment où on a arrêté le chronomètre. 
+2. extrapoler: grâce à ce modèle, on peut faire des prédictions. Autrement dit, on peut à l'avance connaître la position de la voiture à des instants qui sont au delà du temps où on a arrêté le chronomètre, pour autant que l'on suppose que la voiture continue sa trajectoire sous les mêmes conditions.
+
+Vérifions ces deux affirmations, pour les temps $t_1=\ldots\ldots$ et $t_2=\ldots\ldots$.
+
+{{< pagebreak >}}
+
+## Les caractéristiques d'un MRU
+
+::: {#def-mru}
+Un corps est en  *mouvement rectiligne uniforme* s'il parcourt une ligne droite à vitesse constante, sans changer de sens.
+:::
+
+Les MRU ont les caractéristiques suivantes:
+
+### Caractéristiques graphiques
+
+
+::: {layout-ncol=2}
+
+### Position
+La représentation de la position en fonction du temps est une droite: la fonction $x(t)$ est une fonction du premier degré.
+![](figures/mru/fig4){width=100%}
+
+### Vitesse
+La représentation de la vitesse en fonction du temps est une droite horizontales:
+la fonction $v(t)$ est une fonction constante.
+![](figures/mru/fig5){width=100%}
+
+:::
+
+### Caractéristiques analytiques
+
+::: {layout-ncol=2}
+
+### Position
+La position en fonction du temps est donnée par 
+$$
+x(t)=vt+x_0,
+$$
+où $v$ est la vitesse du corps en MRU et $x_0$ sa position initiale.
+
+### Vitesse
+La vitesse en fonction du temps est donnée par 
+$$
+v(t)=v. 
+$$
+:::
+
+
+{{< pagebreak >}}
+
+## Comparaisons de deux MRU
+
+Revenons à la voiture rouge de l'introduction. Nous allons ajouter une voiture bleue et observer leurs mouvements, dans deux situations: lorsqu'elles parcourent la route dans le même sens et lorsqu'elles parcourent la route dans des sens opposés.
+
+
+
+### Parcours dans le même sens
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/mru/mru-2){fig-align="center" width=40%}
+:::
+
+Tu observes que les voitures se croisent. Comment peux-tu donner le temps de croisement à l'aide du graphique?
+
+Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du graphique?
+
+### Parcours dans des sens opposés
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/mru/mru-3){fig-align="center" width=40%}
+:::
+
+Tu observes aussi que les voitures se croisent. On peut ici aussi appliquer les raisonnements de l'exemple précédent pour déterminer graphiquement le temps de croisement.
+
+Que vaut la vitesse de la voiture bleue? 
+
+Quelle voiture va le plus vite?
+
+{{< pagebreak >}}
+
+## Exercices
+
+
+::: {#exr-xapdv}
+Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d'un corps en MRU.
+
+![](figures/mru/fig6){fig-align="center" width=40%}
+
+Parmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix.
+![](figures/mru/fig7){fig-align="center" width=100%}
+
+:::
+
+::: {#exr-vapdx}
+Sur le graphique ci-dessous, tu as la position, en fonction du temps, d'un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.
+
+![](figures/mru/fig8){fig-align="center" width=40%}
+
+:::
+
+::: {#exr-ois}
+Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l'origine correspond au Beffroi. Ces repères décrivent le mouvement d'oiseaux entre le Beffroi et Sparkoh. Décrit ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).
+
+![](figures/mru/fig9){fig-align="center" width=100%}
+
+:::
+
+::: {#exr-coureur}
+Voici le graphique de la position d'un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.
+
+![](figures/mru/fig10){fig-align="center" width=50%}
+
+Durant quelle(s) étape(s):
+
+1. sa vitesse est positive?
+2. sa vitesse est négative?
+3. sa vitesse est nulle?
+4. sa vitesse est la plus grande, en valeur absolue?
+5. la distance parcourue est la plus grande?
+6. la distance parcourue est la plus petite?
+:::
+
+::: {#exr-croisement}
+Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.
+
+![](figures/mru/fig11){fig-align="center" width=50%}
+
+
+Indique si les propositions suivantes sont vraies ou fausses. Justifie.
+
+1. Les trois particules se déplacent dans le même sens.
+2. La particule A est la plus rapide.
+3. A dépasse C à l'instant $t=30$.
+4. B dépasse A à l'instant $t=60$.
+5. A est moins rapide que B, à l'instant $t=60$.
+6. B est plus près de A que de C, à l'instant $t=10$.
+7. C ne croise jamais A.
+8. C croise B à deux moments.
+:::
+
+::: {#exr-calcul-2}
+Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour $x(t)$ et $v(t)$.
+
+![](figures/mru/fig12){fig-align="center" width=50%}
+:::
+
+::: {#exr-calcul-1}
+Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l'entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?
+:::
+
+

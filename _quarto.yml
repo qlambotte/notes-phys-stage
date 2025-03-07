@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: Cours de Physique
+  navbar:
+    left:
+      - href: mru.qmd
+        text: Mouvement rectiligne uniforme
+      - href: ff.qmd
+        text: Fusion et fission nucléaires
+      - href: grav.qmd
+        text: La gravitation universelle
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+
