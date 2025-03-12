@@ -34,9 +34,9 @@ Que constates-tu?
 Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre $t_0$ et $t_1$ est définie par 
 
 $$
-v_{\text{moy}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
+v_{\text{m}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
 $$
-Autrement dit, la vitesse moyenne entre $t_0$ et $t_1$ est la distance parcourue entre $t_0$ et $t_1$ divisée par le temps du parcours.
+Autrement dit, la vitesse moyenne entre $t_0$ et $t_1$ est la distance parcourue entre $t_0$ et $t_1$ divisée par la durée $t_1-t_0$.
 
 Complétons le tableau suivant.
 
@@ -46,10 +46,10 @@ Que constates-tu?
 
 Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:
 
-1. la vitesse de la voiture est constante, ici $v=$
-2. la position $x(t)$ de la voiture en fonction du temps est une fonction du premier degré. De plus, 
+1. la vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici $v=$
+2. la position $x(t)$ de la voiture en fonction du temps est une fonction du premier degré, du type $x(t)=m\cdot t+p$. De plus, 
     * l'ordonnée à l'origine est la position initiale: $x(0)=x_0=$
-    * le taux d'accroissement est égal à la vitesse de la voiture.
+    * le taux d'accroissement (=pente de la droite qui représente $x(t)$) est égal à la vitesse de la voiture.
    Ainsi, on dispose d'une formule pour calculer et représenter la position en fonction du temps:
 
    $$
@@ -79,11 +79,11 @@ Les MRU ont les caractéristiques suivantes:
 ::: {layout-ncol=2}
 
 ### Position
-La représentation de la position en fonction du temps est une droite: la fonction $x(t)$ est une fonction du premier degré.
+La représentation de la position en fonction du temps est une droite oblique: la fonction $x(t)$ est une fonction du premier degré.
 ![](figures/mru/fig4){width=100%}
 
 ### Vitesse
-La représentation de la vitesse en fonction du temps est une droite horizontales:
+La représentation de la vitesse en fonction du temps est une droite horizontale:
 la fonction $v(t)$ est une fonction constante.
 ![](figures/mru/fig5){width=100%}
 
@@ -96,14 +96,14 @@ la fonction $v(t)$ est une fonction constante.
 ### Position
 La position en fonction du temps est donnée par 
 $$
-x(t)=vt+x_0,
+x(t)=v\cdot t+x_0,
 $$
 où $v$ est la vitesse du corps en MRU et $x_0$ sa position initiale.
 
 ### Vitesse
 La vitesse en fonction du temps est donnée par 
 $$
-v(t)=v. 
+v(t)=v_{\text{m}}=\text{constante}. 
 $$
 :::
 
@@ -128,7 +128,7 @@ Revenons à la voiture rouge de l'introduction. Nous allons ajouter une voiture 
 ![QR-code de l'application](figures/mru/mru-2){fig-align="center" width=40%}
 :::
 
-Tu observes que les voitures se croisent. Comment peux-tu donner le temps de croisement à l'aide du graphique?
+Tu observes qu'une voiture dépasse l'autre. Comment peux-tu donner le temps de ce dépassement à l'aide du graphique?
 
 Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du graphique?
 
@@ -145,7 +145,7 @@ Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du graphique?
 ![QR-code de l'application](figures/mru/mru-3){fig-align="center" width=40%}
 :::
 
-Tu observes aussi que les voitures se croisent. On peut ici aussi appliquer les raisonnements de l'exemple précédent pour déterminer graphiquement le temps de croisement.
+Tu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l'aide du graphique?
 
 Que vaut la vitesse de la voiture bleue? 
 
@@ -174,7 +174,7 @@ Sur le graphique ci-dessous, tu as la position, en fonction du temps, d'un corps
 :::
 
 ::: {#exr-ois}
-Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l'origine correspond au Beffroi. Ces repères décrivent le mouvement d'oiseaux entre le Beffroi et Sparkoh. Décrit ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).
+Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l'origine correspond au Beffroi. Ces repères décrivent le mouvement d'oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).
 
 ![](figures/mru/fig9){fig-align="center" width=100%}
 
@@ -205,10 +205,10 @@ Indique si les propositions suivantes sont vraies ou fausses. Justifie.
 
 1. Les trois particules se déplacent dans le même sens.
 2. La particule A est la plus rapide.
-3. A dépasse C à l'instant $t=30$.
-4. B dépasse A à l'instant $t=60$.
-5. A est moins rapide que B, à l'instant $t=60$.
-6. B est plus près de A que de C, à l'instant $t=10$.
+3. A dépasse C à l'instant $t=30\text{s}$.
+4. B dépasse A à l'instant $t=60\text{s}$.
+5. A est moins rapide que B, à l'instant $t=60\text{s}$.
+6. B est plus près de A que de C, à l'instant $t=10\text{s}$.
 7. C ne croise jamais A.
 8. C croise B à deux moments.
 :::

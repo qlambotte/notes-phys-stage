@@ -10,4 +10,31 @@ format:
     default-image-extension: png
 ---
 
-En construction.
+## Introduction: une longue histoire un quatre étapes
+
+### Le modèle géocentrique
+
+### Le modèle éliocentrique
+
+### Les lois de Kepler
+
+### La loi de la gravitation
+
+## La loi de la gravitation
+### La démarche de Newton
+
+#### Mouvement de la Lune et de la Station Spaciale Internationnale 
+
+### Enoncé de la loi
+
+### L'attraction entre deux corps massifs
+
+### Applications
+
+#### Le mouvement des planètes autours du soleil
+
+#### La masse des corps célestes
+
+#### La gravité autours de la Terre
+
+### Le champ gravitationnel

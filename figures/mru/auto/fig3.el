@@ -9,6 +9,7 @@
     "standalone10"
     "tkz-fct"
     "tkz-base"
-    "array"))
+    "array"
+    "amsmath"))
  :latex)
 
