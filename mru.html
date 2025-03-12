@@ -192,18 +192,18 @@ window.Quarto = {
 <p>Que constates-tu?</p>
 <p>Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est définie par</p>
 <p><span class="math display">\[
-v_{\text{moy}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
-\]</span> Autrement dit, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est la distance parcourue entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> divisée par le temps du parcours.</p>
+v_{\text{m}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
+\]</span> Autrement dit, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est la distance parcourue entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> divisée par la durée <span class="math inline">\(t_1-t_0\)</span>.</p>
 <p>Complétons le tableau suivant.</p>
 <p><img src="figures/mru/fig3.svg" class="img-fluid" style="width:100.0%"></p>
 <p>Que constates-tu?</p>
 <p>Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:</p>
 <ol type="1">
-<li>la vitesse de la voiture est constante, ici <span class="math inline">\(v=\)</span></li>
-<li>la position <span class="math inline">\(x(t)\)</span> de la voiture en fonction du temps est une fonction du premier degré. De plus,
+<li>la vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici <span class="math inline">\(v=\)</span></li>
+<li>la position <span class="math inline">\(x(t)\)</span> de la voiture en fonction du temps est une fonction du premier degré, du type <span class="math inline">\(x(t)=m\cdot t+p\)</span>. De plus,
 <ul>
 <li>l’ordonnée à l’origine est la position initiale: <span class="math inline">\(x(0)=x_0=\)</span></li>
-<li>le taux d’accroissement est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:</li>
+<li>le taux d’accroissement (=pente de la droite qui représente <span class="math inline">\(x(t)\)</span>) est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:</li>
 </ul>
 <span class="math display">\[
 x(t)=v\cdot t+x_0=
@@ -233,11 +233,11 @@ x(t)=v\cdot t+x_0=
 <div class="quarto-layout-row">
 <section id="position" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h3 class="anchored" data-anchor-id="position">Position</h3>
-<p>La représentation de la position en fonction du temps est une droite: la fonction <span class="math inline">\(x(t)\)</span> est une fonction du premier degré. <img src="figures/mru/fig4.svg" class="img-fluid" style="width:100.0%"></p>
+<p>La représentation de la position en fonction du temps est une droite oblique: la fonction <span class="math inline">\(x(t)\)</span> est une fonction du premier degré. <img src="figures/mru/fig4.svg" class="img-fluid" style="width:100.0%"></p>
 </section>
 <section id="vitesse" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h3 class="anchored" data-anchor-id="vitesse">Vitesse</h3>
-<p>La représentation de la vitesse en fonction du temps est une droite horizontales: la fonction <span class="math inline">\(v(t)\)</span> est une fonction constante. <img src="figures/mru/fig5.svg" class="img-fluid" style="width:100.0%"></p>
+<p>La représentation de la vitesse en fonction du temps est une droite horizontale: la fonction <span class="math inline">\(v(t)\)</span> est une fonction constante. <img src="figures/mru/fig5.svg" class="img-fluid" style="width:100.0%"></p>
 </section>
 </div>
 </div>
@@ -252,13 +252,13 @@ x(t)=v\cdot t+x_0=
 <section id="position-1" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h3 class="anchored" data-anchor-id="position-1">Position</h3>
 <p>La position en fonction du temps est donnée par <span class="math display">\[
-x(t)=vt+x_0,
+x(t)=v\cdot t+x_0,
 \]</span> où <span class="math inline">\(v\)</span> est la vitesse du corps en MRU et <span class="math inline">\(x_0\)</span> sa position initiale.</p>
 </section>
 <section id="vitesse-1" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h3 class="anchored" data-anchor-id="vitesse-1">Vitesse</h3>
 <p>La vitesse en fonction du temps est donnée par <span class="math display">\[
-v(t)=v.
+v(t)=v_{\text{m}}=\text{constante}.
 \]</span></p>
 </section>
 </div>
@@ -272,14 +272,14 @@ v(t)=v.
 <h3 class="anchored" data-anchor-id="parcours-dans-le-même-sens">Parcours dans le même sens</h3>
 <iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
-<p>Tu observes que les voitures se croisent. Comment peux-tu donner le temps de croisement à l’aide du graphique?</p>
+<p>Tu observes qu’une voiture dépasse l’autre. Comment peux-tu donner le temps de ce dépassement à l’aide du graphique?</p>
 <p>Quelle voiture va le plus vite? Peux-tu l’observer à l’aide du graphique?</p>
 </section>
 <section id="parcours-dans-des-sens-opposés" class="level3">
 <h3 class="anchored" data-anchor-id="parcours-dans-des-sens-opposés">Parcours dans des sens opposés</h3>
 <iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
-<p>Tu observes aussi que les voitures se croisent. On peut ici aussi appliquer les raisonnements de l’exemple précédent pour déterminer graphiquement le temps de croisement.</p>
+<p>Tu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l’aide du graphique?</p>
 <p>Que vaut la vitesse de la voiture bleue?</p>
 <p>Quelle voiture va le plus vite?</p>
 <div style="page-break-after: always;"></div>
@@ -305,7 +305,7 @@ v(t)=v.
 </div>
 </div>
 <div id="exr-ois" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 3</strong></span> Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décrit ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).</p>
+<p><span class="theorem-title"><strong>Exercice 3</strong></span> Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/mru/fig9.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
@@ -340,10 +340,10 @@ v(t)=v.
 <ol type="1">
 <li>Les trois particules se déplacent dans le même sens.</li>
 <li>La particule A est la plus rapide.</li>
-<li>A dépasse C à l’instant <span class="math inline">\(t=30\)</span>.</li>
-<li>B dépasse A à l’instant <span class="math inline">\(t=60\)</span>.</li>
-<li>A est moins rapide que B, à l’instant <span class="math inline">\(t=60\)</span>.</li>
-<li>B est plus près de A que de C, à l’instant <span class="math inline">\(t=10\)</span>.</li>
+<li>A dépasse C à l’instant <span class="math inline">\(t=30\text{s}\)</span>.</li>
+<li>B dépasse A à l’instant <span class="math inline">\(t=60\text{s}\)</span>.</li>
+<li>A est moins rapide que B, à l’instant <span class="math inline">\(t=60\text{s}\)</span>.</li>
+<li>B est plus près de A que de C, à l’instant <span class="math inline">\(t=10\text{s}\)</span>.</li>
 <li>C ne croise jamais A.</li>
 <li>C croise B à deux moments.</li>
 </ol>

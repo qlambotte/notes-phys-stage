@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://qlambotte.github.io/notes-phys-stage/index.html</loc>
-    <lastmod>2025-03-07T14:51:35.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://qlambotte.github.io/notes-phys-stage/ff.html</loc>
-    <lastmod>2025-03-07T14:51:35.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://qlambotte.github.io/notes-phys-stage/mru.html</loc>
-    <lastmod>2025-03-07T14:51:35.947Z</lastmod>
+    <loc>https://qlambotte.github.io/notes-phys-stage/reveal/mru.html</loc>
+    <lastmod>2025-03-10T14:30:24.417Z</lastmod>
   </url>
   <url>
     <loc>https://qlambotte.github.io/notes-phys-stage/grav.html</loc>
-    <lastmod>2025-03-07T14:51:35.946Z</lastmod>
+    <lastmod>2025-03-10T14:24:12.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://qlambotte.github.io/notes-phys-stage/mru.html</loc>
+    <lastmod>2025-03-10T14:50:25.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://qlambotte.github.io/notes-phys-stage/ff.html</loc>
+    <lastmod>2025-03-12T20:06:31.670Z</lastmod>
+  </url>
+  <url>
+    <loc>https://qlambotte.github.io/notes-phys-stage/index.html</loc>
+    <lastmod>2025-03-07T14:51:35.947Z</lastmod>
   </url>
 </urlset>
