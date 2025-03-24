@@ -155,8 +155,7 @@ window.Quarto = {
   <li><a href="#la-loi-de-la-gravitation-universelle-1" id="toc-la-loi-de-la-gravitation-universelle-1" class="nav-link" data-scroll-target="#la-loi-de-la-gravitation-universelle-1">La loi de la gravitation universelle</a>
   <ul class="collapse">
   <li><a href="#la-démarche-de-newton" id="toc-la-démarche-de-newton" class="nav-link" data-scroll-target="#la-démarche-de-newton">La démarche de Newton</a></li>
-  <li><a href="#quels-sont-les-paramètres-qui-influencent-cette-force" id="toc-quels-sont-les-paramètres-qui-influencent-cette-force" class="nav-link" data-scroll-target="#quels-sont-les-paramètres-qui-influencent-cette-force">Quels sont les paramètres qui influencent cette force ?</a></li>
-  <li><a href="#la-loi-de-la-gravitation-universelle-2" id="toc-la-loi-de-la-gravitation-universelle-2" class="nav-link" data-scroll-target="#la-loi-de-la-gravitation-universelle-2">La loi de la gravitation universelle</a></li>
+  <li><a href="#lénoncé-de-la-loi-de-la-gravitation-universelle" id="toc-lénoncé-de-la-loi-de-la-gravitation-universelle" class="nav-link" data-scroll-target="#lénoncé-de-la-loi-de-la-gravitation-universelle">L’énoncé de la loi de la gravitation universelle</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
   <li><a href="#mouvement-des-astres-dans-le-système-solaire" id="toc-mouvement-des-astres-dans-le-système-solaire" class="nav-link" data-scroll-target="#mouvement-des-astres-dans-le-système-solaire">Mouvement des astres dans le système solaire</a></li>
   </ul></li>
@@ -358,11 +357,17 @@ Troisième loi: loi des périodes.
 <h3 class="anchored" data-anchor-id="la-démarche-de-newton">La démarche de Newton</h3>
 <p>Nous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.</p>
 <p>La première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :</p>
-<p><strong>ILLUSTRATION</strong></p>
+<iframe src="https://www.desmos.com/calculator/tvughflven?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
 <p>Tout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité <span class="math inline">\(g = 9,81\text{ m/s}^2\)</span>. Si vous lâchez cette pomme, elle tombe. Si vous la lancez verticalement, elle suit une trajectoire parabolique avant de retomber.</p>
 <p>En s’appuyant sur cette idée, Newton a imaginé un tir oblique où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.</p>
 <p>Les observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète <span class="math inline">\(a_L\)</span>, que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.</p>
-<p><strong>ILLUSTRATION</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig3.svg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>La Pomme de Newton et la Lune</figcaption>
+</figure>
+</div>
 <p>Pour rappel :</p>
 <ol type="1">
 <li><span class="math inline">\(a_L = \omega^2 R = \dfrac{4\pi^2 R}{T^2}\)</span></li>
@@ -378,15 +383,27 @@ Troisième loi: loi des périodes.
 </ol>
 </div>
 <p>Newton en déduit que la force exercée par la Terre sur la pomme, <span class="math inline">\(\overrightarrow{F}_{\text{T/P}}\)</span>, est de même nature que celle exercée sur la Lune, <span class="math inline">\(\overrightarrow{F}_{\text{T/L}}\)</span>. Les résultats de l’exercice précédent montrent que cette force est proportionnelle à <span class="math inline">\(\dfrac{1}{R^2}\)</span>.</p>
-<p>Autrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.</p>
-<div id="exr-variation-force" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 3</strong></span> <strong>Exercice</strong> 1. À partir du graphique, comment évolue la force gravitationnelle lorsque la distance double ?<br>
-2. Déterminer la valeur de la force lorsque <span class="math inline">\(d = 2\)</span> m et <span class="math inline">\(d = 10\)</span> m.</p>
+<div class="callout callout-style-simple callout-important callout-titled" title="Dépendance de la distance">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>Nous observons que plus la distance entre les objets est grande, plus la force gravitationnelle diminue. Cette observation nous amène à identifier les paramètres influençant cette force.</p>
-</section>
-<section id="quels-sont-les-paramètres-qui-influencent-cette-force" class="level3">
-<h3 class="anchored" data-anchor-id="quels-sont-les-paramètres-qui-influencent-cette-force">Quels sont les paramètres qui influencent cette force ?</h3>
+<div class="callout-title-container flex-fill">
+Dépendance de la distance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Autrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.</p>
+</div>
+</div>
+<!-- 
+::: {#exr-variation-force}
+**Exercice**
+1. À partir du graphique, comment évolue la force gravitationnelle lorsque la distance double ?  
+2. Déterminer la valeur de la force lorsque $d = 2$ m et $d = 10$ m.  
+:::
+
+Nous observons que plus la distance entre les objets est grande, plus la force gravitationnelle diminue. Cette observation nous amène à identifier les paramètres influençant cette force. -->
 <p>D’après la deuxième loi de Newton, la force gravitationnelle <span class="math inline">\(\overrightarrow{F}_{\text{T/L}}\)</span> est reliée à l’accélération de la Lune par :</p>
 <p><span class="math display">\[
 \overrightarrow{F}_{\text{T/L}} = m_L \overrightarrow{a}_L.
@@ -397,10 +414,15 @@ Troisième loi: loi des périodes.
 \overrightarrow{F}_{\text{T/L}} = -\overrightarrow{F}_{\text{L/T}}.
 \]</span></p>
 <p>D’après la deuxième loi de Newton, <span class="math inline">\(\overrightarrow{F}_{\text{T/L}}\)</span> dépend donc aussi de la masse de la Terre.</p>
-<p><strong>ILLUSTRATION</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig4.svg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>L’attraction de la Lune par la Terre</figcaption>
+</figure>
+</div>
 </section>
-<section id="la-loi-de-la-gravitation-universelle-2" class="level3">
-<h3 class="anchored" data-anchor-id="la-loi-de-la-gravitation-universelle-2">La loi de la gravitation universelle</h3>
+<section id="lénoncé-de-la-loi-de-la-gravitation-universelle" class="level3">
+<h3 class="anchored" data-anchor-id="lénoncé-de-la-loi-de-la-gravitation-universelle">L’énoncé de la loi de la gravitation universelle</h3>
 <p>En résumé, la force <span class="math inline">\(\overrightarrow{F}_{\text{T/L}}\)</span> est :</p>
 <ol type="1">
 <li>proportionnelle aux masses <span class="math inline">\(m_L\)</span> et <span class="math inline">\(m_T\)</span>,</li>
@@ -419,9 +441,14 @@ Loi de la gravitation universelle
 <div class="callout-body-container callout-body">
 <p>Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :</p>
 <p><span class="math display">\[
-F = k_g \dfrac{m_1 m_2}{d^2}.
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
 \]</span></p>
 </div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig7.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
 </div>
 <p>La constante <span class="math inline">\(k_g\)</span> est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :</p>
 <p><span class="math display">\[
@@ -429,8 +456,14 @@ k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
 \]</span></p>
 <p>Cette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.<br>
 On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à ce que <span class="math inline">\(k_gm^2=1\)</span>. Ceci permet d’écrire que <span class="math inline">\(F_{m_1/m_2}=\dfrac{1}{d^2}\)</span>. Voici une représentation graphique de <span class="math inline">\(F_{m_1/m_2}\)</span> en fonction de la distance entre les objets.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig02.svg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Intensité de la force en fonction de la distance</figcaption>
+</figure>
+</div>
 <div id="exr-refl" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 4</strong></span> &nbsp;</p>
+<p><span class="theorem-title"><strong>Exercice 3</strong></span> &nbsp;</p>
 <ol type="1">
 <li>Si la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?</li>
 <li>Un astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?</li>
@@ -438,12 +471,12 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 </ol>
 </div>
 <div id="exr-appl" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 5</strong></span> Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.</p>
+<p><span class="theorem-title"><strong>Exercice 4</strong></span> Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.</p>
 </div>
 </section>
 <section id="applications" class="level3">
 <h3 class="anchored" data-anchor-id="applications">Applications</h3>
-<p>Pourles exercices qui suivent, les constantes suivantes seront utilisées.</p>
+<p>Pour les exercices qui suivent, les constantes suivantes seront utilisées.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 57%">
@@ -457,7 +490,7 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 </thead>
 <tbody>
 <tr class="odd">
-<td>Constante gravitationnelle <span class="math inline">\(G\)</span></td>
+<td>Constante gravitationnelle <span class="math inline">\(k_g\)</span></td>
 <td><span class="math inline">\(6,67 \times 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}\)</span></td>
 </tr>
 <tr class="even">
@@ -478,7 +511,9 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 <section id="mouvement-des-astres-dans-le-système-solaire" class="level3">
 <h3 class="anchored" data-anchor-id="mouvement-des-astres-dans-le-système-solaire">Mouvement des astres dans le système solaire</h3>
 <p>La première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:</p>
-<p>Tu peux constater que les trajectoires ont l’air d’être des cercles: il se fait que les ellipses ont des foyers très proches. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.</p>
+<iframe src="https://www.desmos.com/calculator/xduxbk3ok3?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
+<p>Tu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.</p>
 <p>Voyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.</p>
 <div id="exm-netpune" class="theorem example">
 <p><span class="theorem-title"><strong>Exemple 1</strong></span> Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.</p>
@@ -490,17 +525,20 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 <p>D’après la deuxième loi de Newton, on a que <span class="math inline">\(F_{S/N}=m_Na_N\)</span> , où <span class="math inline">\(a_N=\dfrac{v^2}{R_N}\)</span> est l’accélération centripète.</p>
 <p>On a donc <span class="math inline">\(v^2=k_g\dfrac{m_S}{R_N}\)</span>. Comme <span class="math inline">\(R_N=30 R_T=30\cdot 6,37\cdot 10^6\text{m}\)</span>, on a que</p>
 <p><span class="math display">\[
-v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08 10^{13} \text{m}^2/\text{s}^2
+v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2
 \]</span></p>
 <p>Donc <span class="math inline">\(v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}\)</span>.</p>
 </div>
 <div id="exr-vitesse-orbitale" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 6</strong></span> Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.</p>
+<p><span class="theorem-title"><strong>Exercice 5</strong></span> Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.</p>
 <ol type="1">
 <li>Exprime le rayon de son orbite en fonction du rayon terrestre.</li>
 <li>Calcule sa vitesse orbitale en supposant que <span class="math inline">\(R_T = 6,37 \times 10^6\)</span> m.</li>
 <li>Donne la période de révolution du satellite.</li>
 </ol>
+</div>
+<div id="exr-iss" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercice 6</strong></span> La station spaciale internationnale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l’ISS.</p>
 </div>
 </section>
 </section>
@@ -512,7 +550,7 @@ v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10
 <p>Nous savons que tout objet de masse <span class="math inline">\(m\)</span> situé près de la surface terrestre subit une accélération <span class="math inline">\(g = 9,81\)</span> m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.</p>
 <p>En appliquant la deuxième loi de Newton :</p>
 <p><span class="math display">\[
-m g = F_{\text{grav}} = k_g\frac{m m_T}{R_T^2}
+m g =  k_g\frac{m m_T}{R_T^2}
 \]</span></p>
 <p>On peut simplifier :</p>
 <p><span class="math display">\[
@@ -520,33 +558,49 @@ g = k_g\frac{ m_T}{R_T^2}
 \]</span></p>
 <p>D’où :</p>
 <p><span class="math display">\[
-m_T = k_g\frac{g R_T^2}{G}
+m_T = \frac{g R_T^2}{k_g}\simeq 5,97\cdot 10^{24}\text{kg}.
 \]</span></p>
 <p>Ce raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.</p>
 <div id="exr-masse-terre" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 7</strong></span> En utilisant <span class="math inline">\(g_M = 3,71\)</span> m/s² et <span class="math inline">\(R_M = 3,39 \times 10^6\)</span> m, calcule la masse de Mars.</p>
 </div>
 <div id="exr-masse-mars" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 8</strong></span> Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre. 1. Calcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut <span class="math inline">\(150\)</span> millions de km. 2. Déduis-en la masse du Soleil.</p>
+<p><span class="theorem-title"><strong>Exercice 8</strong></span> Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.</p>
+<ol type="1">
+<li>Calcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut <span class="math inline">\(150\)</span> millions de km.</li>
+<li>Déduis-en la masse du Soleil.</li>
+</ol>
 </div>
 </section>
 <section id="la-gravité-autour-de-la-terre" class="level2">
 <h2 class="anchored" data-anchor-id="la-gravité-autour-de-la-terre">La gravité autour de la Terre</h2>
-<p>L’accélération gravitationnelle varie avec l’altitude. Considérons bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:</p>
+<p>L’accélération gravitationnelle varie avec l’altitude.</p>
+<div id="exr-alt" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercice 9</strong></span> Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:</p>
 <ol type="1">
 <li>elle est à 10m au dessus de la surface de la Terre.</li>
 <li>elle est à 10km au dessus de la surface de la Terre.</li>
 <li>elle est dans la Station Spaciale Internationnale (400km d’altitude).</li>
 </ol>
-<p>ILLUSTRATION</p>
-<p>Pour un object à la surface de la Terre, nous avons <span class="math inline">\(g = \frac{G m_T}{R_T^2}=9,81 text{m/s}^2\)</span>. Mais si l’objet est à une altitude <span class="math inline">\(h\)</span>, la distance qui le sépare du centre de la Terre devient <span class="math inline">\(R_T + h\)</span>.</p>
+</div>
+<p>Les calculs réalisés dans l’exercice précédent peuvent se généraliser pour un objet de masse <span class="math inline">\(m\)</span> à une altitude <span class="math inline">\(h\)</span>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig5.svg" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Accélération gravitationnelle en fonction de l’altitude</figcaption>
+</figure>
+</div>
+<p>Pour cet object, s’il est à la surface de la Terre, nous avons <span class="math inline">\(g = \frac{k_g m_T}{R_T^2}=9,81 \text{m/s}^2\)</span>. Mais si l’objet est à une altitude <span class="math inline">\(h\)</span>, la distance qui le sépare du centre de la Terre devient <span class="math inline">\(R_T + h\)</span>. En notant <span class="math inline">\(g_h\)</span> son accélération centripète, on obtient:</p>
+<p><span class="math display">\[
+mg_h=k_g\dfrac{m_Tm}{(R_T+h)^2}.
+\]</span></p>
 <p>La nouvelle accélération gravitationnelle est donc :</p>
 <p><span class="math display">\[
-g_h = \frac{G m_T}{(R_T + h)^2}
+g_h = \frac{k_g m_T}{(R_T + h)^2}
 \]</span></p>
-<p>Ainsi, plus on s’éloigne de la Terre, plus la gravité diminue.</p>
+<p>Ainsi on constate à nouveau que plus on s’éloigne de la Terre, plus l’intensité de la force de gravité terrestre diminue.</p>
 <div id="exr-gravite-altitude" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 9</strong></span> &nbsp;</p>
+<p><span class="theorem-title"><strong>Exercice 10</strong></span> &nbsp;</p>
 <ol type="1">
 <li>Calcule la gravité ressentie par un astronaute à bord de l’ISS, située à 400 km d’altitude.</li>
 <li>Compare cette valeur avec <span class="math inline">\(g = 9,81\)</span> m/s².</li>
@@ -557,31 +611,44 @@ g_h = \frac{G m_T}{(R_T + h)^2}
 <h2 class="anchored" data-anchor-id="le-champ-gravitationnel">Le champ gravitationnel</h2>
 <p>Nous avons vu que l’intensité de l’accélération de pesanteur d’un objet proche de la Terre dépend de son altitude. En effet, pour une altitude donnée, nous avons vu que</p>
 <p><span class="math display">\[
-g_h = \frac{G m_T}{(R_T + h)^2}
+g_h = \frac{k_g m_T}{(R_T + h)^2}
 \]</span></p>
-<p>Voici un shéma qui représente divers accélérations pour différentes masses, autour de la Terre.</p>
-<p>ILLUSTRATION</p>
-<p>Ce mode de représentation porte le nom de <em>champ gravitationnel</em>: on place en chaque point autour de la terre un vecteur dont l’intensité vaut <span class="math inline">\(g_h\)</span> et dont le sens est vers le centre de la Terre. Ce mode de représentation permet d’observer visuellement l’influence que la terre exerce sur les objets proches d’elle.</p>
-<p>Formellement, on définit le <strong>champ gravitationnel <span class="math inline">\(\mathbf{g}\)</span></strong> en tout point de l’espace comme, autour de l’objet de masse <span class="math inline">\(M\)</span> :</p>
+<p>Voici un shéma qui représente divers accélérations pour différentes altitudes, autour de la Terre.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/grav/fig6.svg" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Vecteur accélération gravitationnelle en fonction de l’altitude</figcaption>
+</figure>
+</div>
+<p>Ce mode de représentation porte le nom de <em>champ gravitationnel</em>: on place en chaque point autour de la terre un vecteur dont l’intensité vaut <span class="math inline">\(g_h\)</span> et pointant vers le centre de la Terre. Ce mode de représentation permet d’observer visuellement l’influence que la terre exerce sur les objets proches d’elle.</p>
+<p>Formellement, on définit le champ gravitationnel autour d’un objet comme suit:</p>
+<div id="def-champ" class="theorem definition">
+<p><span class="theorem-title"><strong>Définition 1</strong></span> Soit un astre de masse <span class="math inline">\(M\)</span>. Le <strong>champ gravitationnel <span class="math inline">\(\overrightarrow{g}_M\)</span></strong> autour de cet astre est défini en tout point, d’altitude <span class="math inline">\(h\)</span>, de l’espace comme:</p>
 <p><span class="math display">\[
-\overrightarrow{g} = \frac{G M}{r^2} \overrightarrow{u},
-\]</span> où <span class="math inline">\(\overrightarrow{u}\)</span> représente un vecteur de longueur 1 pointant vers le centre de l’objet.</p>
-<p>Cela signifie que tout objet de masse <span class="math inline">\(m\)</span> subira une force gravitationnelle :</p>
+\overrightarrow{g}_M(h) = \frac{k_g M}{(R_M+h)^2} \overrightarrow{u},
+\]</span> où <span class="math inline">\(R_M\)</span> est le rayon de l’astre et <span class="math inline">\(\overrightarrow{u}\)</span> représente un vecteur de longueur 1 pointant vers le centre de l’objet <span class="math inline">\(M\)</span>.</p>
+</div>
+<p>Le champ gravitationnel permet donc de décrire l’attraction qu’il exerce sur un objet autour de lui. Plus précisément, tout objet de masse <span class="math inline">\(m\)</span> subira une force gravitationnelle décrite par l’équation suivante:</p>
 <p><span class="math display">\[
-\mathbf{F_{M/m}} = m \mathbf{g}
+\overrightarrow{F}_{M/m} = m \overrightarrow{g}.
 \]</span></p>
 <p>On retrouve bien la loi de la gravitation universelle !</p>
-<hr>
+<div id="exr-champ" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercice 11</strong></span> Le rayon de la Lune vaut <span class="math inline">\(1738\text{km}\)</span>.</p>
+<ol type="1">
+<li>Ecris la formule du champ gravitationnel autour de la Lune.</li>
+<li>Peut-on affirmer qu’à la surface de la Lune, le poids d’un astronaute est 6 fois plus grand que sur Terre?</li>
+</ol>
+</div>
 </section>
 <section id="orbite-géostationnaire-et-satellites" class="level2">
 <h2 class="anchored" data-anchor-id="orbite-géostationnaire-et-satellites">Orbite géostationnaire et satellites</h2>
 <p>Un satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en <strong>exactement 24h</strong>.</p>
-<p>ILLUSTRATION</p>
 <div id="exr-periode-geo" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 10</strong></span> &nbsp;</p>
-<ol start="2" type="1">
-<li><p>Ecris une formule qui lie la période d’un satellite et la force de gravitation que celui-ci subit par la Terre.</p></li>
-<li><p>Déduis-en l’altitude de ce satellite si celui-ci est en orbite géostationnaire.</p></li>
+<p><span class="theorem-title"><strong>Exercice 12</strong></span> &nbsp;</p>
+<ol type="1">
+<li>Ecris une formule qui lie la période d’un satellite et la force de gravitation que celui-ci subit par la Terre.</li>
+<li>Déduis-en l’altitude de ce satellite si celui-ci est en orbite géostationnaire.</li>
 </ol>
 </div>
 
