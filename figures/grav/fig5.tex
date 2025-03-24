@@ -1,0 +1,28 @@
+\documentclass[tikz, border=5mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}
+  % Définir une couleur pour le schéma
+  \definecolor{mycolor}{RGB}{0,0,0}
+
+  % Dessiner le cercle (la terre)
+  \draw[mycolor] (0,0) circle (2cm);
+
+  % Dessiner la lune
+  \draw[mycolor] (3,0) circle (0.2cm);
+  \node[mycolor] at (3,0) (moon) {$m$};
+
+
+
+
+  % Dessiner la ligne pointillée de la terre à la lune
+  \draw[mycolor, dotted, thick] (2,0) -- (3,0);
+  \draw[mycolor, dashed, thick] (0,0) -- (2,0);
+
+
+  % Ajouter les étiquettes R0 et R
+    \node[mycolor, above] at (1,0) {$R_{T}$};
+
+  \node[mycolor, above] at (2.5,0) {$h$};
+\end{tikzpicture}
+\end{document}

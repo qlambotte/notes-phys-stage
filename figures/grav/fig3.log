@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  24 MAR 2025 19:32
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  24 MAR 2025 15:05
  system commands enabled.
-**fig1.tex
-(./fig1.tex
+**fig3.tex
+(./fig3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -414,274 +414,50 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 \sa@box=\box62
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
-2024/02/04 5.06c tkz-euclide.sty
-Package: tkz-euclide  2024/02/04 5.06c for pure Euclidean Geometry 
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryangles.code.tex
-File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen192
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen193
-\pgfarrowlength=\dimen194
-\pgfarrowwidth=\dimen195
-\pgfarrowlinewidth=\dimen196
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box63
-\pgf@layerboxsaved@background=\box64
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen197
-\pgfdecoratedremainingdistance=\dimen198
-\pgfdecoratedinputsegmentcompleteddistance=\dimen199
-\pgfdecoratedinputsegmentremainingdistance=\dimen256
-\pgf@decorate@distancetomove=\dimen257
-\pgf@decorate@repeatstate=\count283
-\pgfdecorationsegmentamplitude=\dimen258
-\pgfdecorationsegmentlength=\dimen259
-)
-\tikz@lib@dec@box=\box65
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.markings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.markings.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.shapes.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.shapes.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.text.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.text.code.tex
-\pgf@lib@dec@text@box=\box66
-)
-\tikz@lib@dec@te@box=\box67
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryintersections.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
-s.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
-\pgf@intersect@solutions=\count284
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarymath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfpu.code.tex)
-\tikz@math@for@depth=\count285
-\tikz@math@dimen=\dimen260
-\tikz@math@toks=\toks32
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
-File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryquotes.code.tex
-File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarythrough.code.tex
-File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
-
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count286
+\l__color_backend_stack_int=\count283
 Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box68
-))
-Package: xfp 2023-10-10 L3 Floating point unit
+\l__pdf_internal_box=\box63
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
-Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+(./fig3.aux)
+\openout1 = fig3.aux
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
-))
-\tkzRadius=\dimen261
-\tkzLength=\dimen262
-\tkz@radi=\dimen263
-\tkz@ax=\dimen264
-\tkz@ay=\dimen265
-\tkz@bx=\dimen266
-\tkz@by=\dimen267
-\tkz@cx=\dimen268
-\tkz@cy=\dimen269
-\tkz@dx=\dimen270
-\tkz@dy=\dimen271
-\tkz@cntmk=\count288
-
-Local configuration file tkz-euclide.cfg found and used
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
-2024/02/04 5.06c tkz-euclide.cfg
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
-2024/02/04 5.06c tkz-tools-eu-base.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
-2024/02/04 5.06c tkz-tools-eu-utilities.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
-2024/02/04 5.06c tkz-obj-eu-BB.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
-2024/02/04 5.06c tkz-obj-eu-grids.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
-2024/02/04 5.06c tkz-lib-eu-marks.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
-2024/02/04 5.06c tkz-tools-eu-text.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
-2024/02/04 5.06c tkz-lib-eu-shape.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
-2024/02/04 5.06c tkz-obj-eu-axesmin
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
-2024/02/04 5.06c tkz-tools-eu-colors
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/02/04 5.06c tkz-obj-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
-2024/02/04 5.06c tkz-draw-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/02/04 5.06c tkz-obj-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
-2024/02/04 5.06c tkz-tools-eu-points-by.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
-2024/02/04 5.06c tkz-tools-eu-math.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections
-.tex
-2024/02/04 5.06c tkz-tools-eu-intersections.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
-2024/02/04 5.06c tkz-obj-eu-points-with.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
-2024/02/04 5.06c tkz-obj-el-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
-2024/02/04 5.06c tkz-tools-eu-angles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
-2024/02/04 5.06c tkz-obj-eu-circles.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
-2024/02/04 5.06c tkz-obj-eu-circles.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
-2024/02/04 5.06c tkz-obj-eu-points-rnd.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
-2024/02/04 5.06c tkz-obj-eu-lines.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
-2024/02/04 5.06c tkz-obj-eu-polygons.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
-2024/02/04 5.06c tkz-obj-eu-triangles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
-2024/02/04 5.06c tkz-obj-eu-draw-lines.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
-2024/02/04 5.06c tkz-obj-eu-draw-circles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
-2024/02/04 5.06c tkz-obj-eu-draw-ellipses.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
-2024/02/04 5.06c tkz-obj-eu-polygons.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
-2024/02/04 5.06c tkz-tool-eu-angles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
-2024/02/04 5.06c tkz-obj-eu-sectors.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
-2024/02/04 5.06c tkz-obj-eu-compass.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
-2024/02/04 5.06c tkz-obj-eu-show.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
-2024/02/04 5.06c tkz-obj-eu-protractor.tex
-)) (./fig1.aux)
-\openout1 = fig1.aux
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen272
-\scratchbox=\box69
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen273
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count284
+\scratchdimen=\dimen192
+\scratchbox=\box64
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen193
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -692,36 +468,39 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 22.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./fig1.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./fig3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2020/03/25>
+L3 programming layer <2024-01-22>
  ***********
 )
 
 Here is how much of LuaTeX's memory you used:
- 18746 strings out of 476553
+ 12841 strings out of 476553
  100000,1977958 words of node,token memory allocated
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:700,3:552,4:22,5:60,6:2,7:1139,8:2,9:348,11:27
- 39959 multiletter control sequences out of 65536+600000
- 26 fonts using 1476743 bytes
- 117i,7n,114p,1167b,669s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/
-fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on fig1.pdf (1 page, 16903 bytes).
+   avail lists: 2:606,3:414,4:148,5:54,6:2,7:458,8:16,9:249
+ 34466 multiletter control sequences out of 65536+600000
+ 25 fonts using 1345055 bytes
+ 117i,15n,114p,388b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb>
+Output written on fig3.pdf (1 page, 41038 bytes).
 
-PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+PDF statistics: 38 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -16,6 +16,11 @@ format:
       \usepackage[utf8]{inputenc}
       \usepackage[T1]{fontenc}
       \renewcommand*\familydefault{\sfdefault}
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
   docx:
     default-image-extension: png
 ---
@@ -133,3 +138,311 @@ Cette loi permet non seulement d'expliquer les trajectoires des planètes décri
 
 Newton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C'est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des planètes et celui des objets terrestres.
 
+## La loi de la gravitation universelle
+
+### La démarche de Newton
+
+Nous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.
+
+La première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/tvughflven?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/grav/sat){fig-align="center" width=20%}
+:::
+
+
+Tout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité $g = 9,81\text{ m/s}^2$. Si vous lâchez cette pomme, elle tombe. Si vous la lancez verticalement, elle suit une trajectoire parabolique avant de retomber.
+
+En s’appuyant sur cette idée, Newton a imaginé un tir oblique où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.
+
+Les observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète $a_L$, que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.
+
+![La Pomme de Newton et la Lune](figures/grav/fig3){fig-align="center" width=50%}
+
+
+Pour rappel :
+
+1. $a_L = \omega^2 R = \dfrac{4\pi^2 R}{T^2}$
+2. Le rayon Terre-Lune est $R = 385 000$ km
+3. Le rayon de la Terre est $R_0 = 6370$ km
+
+::: {#exr-lune}
+1. Calculer $\dfrac{g}{a_L}$.
+2. Calculer $\dfrac{R}{R_0}$.
+3. Déduire que $\dfrac{g}{a_L} \simeq \left(\dfrac{R}{R_0}\right)^2$.
+:::
+
+Newton en déduit que la force exercée par la Terre sur la pomme, $\overrightarrow{F}_{\text{T/P}}$, est de même nature que celle exercée sur la Lune, $\overrightarrow{F}_{\text{T/L}}$. Les résultats de l’exercice précédent montrent que cette force est proportionnelle à $\dfrac{1}{R^2}$.
+
+::: {.callout-important title="Dépendance de la distance" appearance="simple"}
+
+Autrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.
+:::
+
+<!-- 
+::: {#exr-variation-force}
+**Exercice**
+1. À partir du graphique, comment évolue la force gravitationnelle lorsque la distance double ?  
+2. Déterminer la valeur de la force lorsque $d = 2$ m et $d = 10$ m.  
+:::
+
+Nous observons que plus la distance entre les objets est grande, plus la force gravitationnelle diminue. Cette observation nous amène à identifier les paramètres influençant cette force. -->
+
+
+D’après la deuxième loi de Newton, la force gravitationnelle $\overrightarrow{F}_{\text{T/L}}$ est reliée à l’accélération de la Lune par :
+
+$$
+\overrightarrow{F}_{\text{T/L}} = m_L \overrightarrow{a}_L.
+$$
+
+On en déduit que cette force dépend de la masse de la Lune, $m_L$.
+
+Un autre paramètre intervient : la masse de la Terre, $m_T$. En effet, selon la loi des actions réciproques, la Lune exerce également une force sur la Terre, $\overrightarrow{F}_{\text{L/T}}$. Ces deux forces sont opposées mais de même intensité :
+
+$$
+\overrightarrow{F}_{\text{T/L}} = -\overrightarrow{F}_{\text{L/T}}.
+$$
+
+D’après la deuxième loi de Newton, $\overrightarrow{F}_{\text{T/L}}$ dépend donc aussi de la masse de la Terre.
+
+![L'attraction de la Lune par la Terre](figures/grav/fig4){fig-align="center" width=60%}
+
+### L'énoncé de la loi de la gravitation universelle
+
+En résumé, la force $\overrightarrow{F}_{\text{T/L}}$ est :
+
+1. proportionnelle aux masses $m_L$ et $m_T$,
+2. inversement proportionnelle au carré de la distance $R$ entre les deux corps.
+
+Le génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature :
+
+::: {.callout-note title="Loi de la gravitation universelle" appearance="simple"}
+Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :
+
+$$
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
+$$
+:::
+
+![](figures/grav/fig7){fig-align="center" width=60%}
+
+La constante $k_g$ est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :
+
+$$
+k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
+$$
+
+Cette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. 
+Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.  
+On choisi deux masses $m_1=m_2=m$ de sorte à ce que $k_gm^2=1$. Ceci permet d'écrire que $F_{m_1/m_2}=\dfrac{1}{d^2}$. Voici une représentation graphique de $F_{m_1/m_2}$ en fonction de la distance entre les objets.
+
+![Intensité de la force en fonction de la distance](figures/grav/fig02){fig-align="center" width=60%}
+
+
+::: {#exr-refl}
+
+1. Si la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?
+2. Un astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?
+3. Le poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.
+:::
+
+::: {#exr-appl}
+Calcule la force d'attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n'est pas collé à ton voisin.
+:::
+
+### Applications
+
+Pour les exercices qui suivent, les constantes suivantes seront utilisées.
+
+| Constante | Valeur |
+|-----------|--------|
+| Constante gravitationnelle $k_g$ | $6,67 \times 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}$ |
+| Accélération terrestre $g$ | $9,81 \text{ m/s}^2$ |
+| Masse de la Terre $m_T$ | $5,97 \times 10^{24} \text{ kg}$ |
+| Masse du Soleil $m_S$ | $1,99 \times 10^{30} \text{ kg}$ |
+
+### Mouvement des astres dans le système solaire
+
+La première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/xduxbk3ok3?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+::: {.content-visible unless-format="html"}
+![Orbites du système solaire (échelle: $10^9$m)](figures/grav/orbites){fig-align="center" width=20%}
+:::
+
+Tu peux constater que les trajectoires ont l'air d'être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.
+
+Voyons un exemple d'application pour trouver la vitesse ou la période de révolution d'un astre.
+
+::: {#exm-netpune}
+Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l'orbite de la Terre autour du soleil.
+
+Explicitons ce que dit l'énoncé de l'exmple:
+
+1. $F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}$
+3. $R_N=30R_T$
+
+D'après la deuxième loi de Newton, on a que $F_{S/N}=m_Na_N$ , où $a_N=\dfrac{v^2}{R_N}$ est l'accélération centripète.
+
+On a donc $v^2=k_g\dfrac{m_S}{R_N}$. Comme $R_N=30 R_T=30\cdot 6,37\cdot 10^6\text{m}$, on a que
+
+$$
+v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2
+$$
+
+Donc $v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}$.
+:::
+
+
+::: {#exr-vitesse-orbitale}
+Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.  
+
+1. Exprime le rayon de son orbite en fonction du rayon terrestre.
+3. Calcule sa vitesse orbitale en supposant que $R_T = 6,37 \times 10^6$ m.
+2. Donne la période de révolution du satellite.
+:::
+
+::: {#exr-iss}
+La station spaciale internationnale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
+:::
+## Détermination de la masse des corps célestes
+
+La loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres. 
+
+Prenons l’exemple de la Terre. Comment peut-on déterminer sa masse sans avoir à la "peser" directement ?  
+
+L’idée repose sur la relation entre la force gravitationnelle et l’accélération gravitationnelle $g$.  
+
+
+Nous savons que tout objet de masse $m$ situé près de la surface terrestre subit une accélération $g = 9,81$ m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.  
+
+En appliquant la deuxième loi de Newton :
+
+$$
+m g =  k_g\frac{m m_T}{R_T^2}
+$$
+
+On peut simplifier :
+
+$$
+g = k_g\frac{ m_T}{R_T^2}
+$$
+
+D’où :
+
+$$
+m_T = \frac{g R_T^2}{k_g}\simeq 5,97\cdot 10^{24}\text{kg}.
+$$
+
+Ce raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.
+
+::: {#exr-masse-terre}
+En utilisant $g_M = 3,71$ m/s² et $R_M = 3,39 \times 10^6$ m, calcule la masse de Mars.
+:::
+
+::: {#exr-masse-mars}
+Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.
+
+1. Calcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut $150$ millions de km.
+2. Déduis-en la masse du Soleil.
+:::
+
+## La gravité autour de la Terre
+
+L’accélération gravitationnelle varie avec l’altitude. 
+
+:::{#exr-alt}
+Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:
+
+1. elle est à 10m au dessus de la surface de la Terre.
+2. elle est à 10km au dessus de la surface de la Terre.
+3. elle est dans la Station Spaciale Internationnale (400km d'altitude).
+:::
+
+Les calculs réalisés dans l'exercice précédent peuvent se généraliser pour un objet de masse $m$ à une altitude $h$:
+
+![Accélération gravitationnelle en fonction de l'altitude](figures/grav/fig5){fig-align="center" width=80%}
+
+
+Pour cet object, s'il est à la surface de la Terre, nous avons $g = \frac{k_g m_T}{R_T^2}=9,81 \text{m/s}^2$. Mais si l'objet est à une altitude $h$, la distance qui le sépare du centre de la Terre devient $R_T + h$. En notant $g_h$ son accélération centripète, on obtient:
+
+$$
+mg_h=k_g\dfrac{m_Tm}{(R_T+h)^2}.
+$$
+
+La nouvelle accélération gravitationnelle est donc :
+
+$$
+g_h = \frac{k_g m_T}{(R_T + h)^2}
+$$
+
+Ainsi on constate à nouveau que plus on s’éloigne de la Terre, plus l'intensité de la force de gravité terrestre diminue.  
+
+::: {#exr-gravite-altitude}
+1. Calcule la gravité ressentie par un astronaute à bord de l’ISS, située à 400 km d’altitude.
+2. Compare cette valeur avec $g = 9,81$ m/s².
+:::
+
+
+## Le champ gravitationnel
+
+Nous avons vu que l'intensité de l'accélération de pesanteur d'un objet proche de la Terre dépend de son altitude. En effet, pour une altitude donnée, nous avons vu que 
+
+$$
+g_h = \frac{k_g m_T}{(R_T + h)^2}
+$$
+
+Voici un shéma qui représente divers accélérations pour différentes altitudes, autour de la Terre.
+
+![Vecteur accélération gravitationnelle en fonction de l'altitude](figures/grav/fig6){fig-align="center" width=80%}
+
+Ce mode de représentation porte le nom de *champ gravitationnel*: on place en chaque point autour de la terre un vecteur dont l'intensité vaut $g_h$ et pointant vers le centre de la Terre. Ce mode de représentation permet d'observer visuellement l'influence que la terre exerce sur les objets proches d'elle.
+
+Formellement, on définit le champ gravitationnel autour d'un objet comme suit:
+
+::: {#def-champ}
+Soit un astre de masse $M$. Le **champ gravitationnel $\overrightarrow{g}_M$** autour de cet astre
+est défini en tout point, d'altitude $h$, de l’espace comme:
+
+$$
+\overrightarrow{g}_M(h) = \frac{k_g M}{(R_M+h)^2} \overrightarrow{u},
+$$
+où $R_M$ est le rayon de l'astre et $\overrightarrow{u}$ représente un vecteur de longueur 1 pointant vers le centre de l'objet $M$.
+:::
+
+Le champ gravitationnel permet donc de décrire l'attraction qu'il exerce sur un objet autour de lui. Plus précisément, tout objet de masse $m$ subira une force gravitationnelle décrite par l'équation suivante:
+
+$$
+\overrightarrow{F}_{M/m} = m \overrightarrow{g}.
+$$
+
+On retrouve bien la loi de la gravitation universelle !
+
+::: {#exr-champ}
+Le rayon de la Lune vaut $1738\text{km}$. 
+
+1. Ecris la formule du champ gravitationnel autour de la Lune.
+2. Peut-on affirmer qu'à la surface de la Lune, le poids d'un astronaute est 6 fois plus grand que sur Terre?
+:::
+
+## Orbite géostationnaire et satellites
+
+Un satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en **exactement 24h**.    
+
+::: {#exr-periode-geo}
+
+1. Ecris une formule qui lie la période d'un satellite et la force de gravitation que celui-ci subit par la Terre.
+2. Déduis-en l'altitude de ce satellite si celui-ci est en orbite géostationnaire.
+
+:::

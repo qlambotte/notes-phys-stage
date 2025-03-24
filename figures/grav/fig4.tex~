@@ -1,0 +1,37 @@
+\documentclass[tikz, border=5mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}
+  % Définir une couleur pour le schéma
+  \definecolor{mycolor}{RGB}{0,0,0}
+
+  % Dessiner le cercle (la terre)
+  \draw[mycolor] (0,0) circle (2cm);
+
+  % Dessiner la lune
+  \draw[mycolor] (4,7) circle (0.5cm);
+  \node[mycolor] at (4,7) (moon) {L};
+
+  % Dessiner la pomme
+  \draw[mycolor] (-1.8,1.35) circle (0.25cm);
+
+  \node[mycolor] at (-1.8,1.35) (apple) {P};
+
+  % Dessiner le vecteur g0
+  \draw[mycolor, ->, thick] (-1.8,1.35) -- (-0.5,0.375)
+  node[midway,above right] {$\overrightarrow{g}_0$};
+
+  % Dessiner le vecteur aL
+  \draw[mycolor, ->, thick] (4,7) -- (3.5,6.125) node[midway,left] {$\overrightarrow{a}_L $};
+
+  % Dessiner la ligne pointillée de la terre à la lune
+  \draw[mycolor, dashed, thick] (0,0) -- (4,7);
+
+  % Dessiner la ligne pointillée de la terre à la pomme
+  \draw[mycolor, dashed, thick] (0,0) -- (-1.8,1.35);
+
+  % Ajouter les étiquettes R0 et R
+  \node[mycolor, below left] at (-0.2,0.15) {$R_0$};
+  \node[mycolor] at (1,4.5) {$R = 60 R_0$};
+\end{tikzpicture}
+\end{document}
