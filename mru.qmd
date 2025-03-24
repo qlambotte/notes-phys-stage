@@ -5,6 +5,14 @@ format:
   html:
     default-image-extension: svg
   pdf:
+    keep-tex: true
+    papersize: a4
+    classoption: "sans"
+    geometry:
+    - top=30mm
+    - left=20mm
+    - right=20mm
+
     default-image-extension: pdf
   docx:
     default-image-extension: png
@@ -75,24 +83,29 @@ Les MRU ont les caractéristiques suivantes:
 
 ### Caractéristiques graphiques
 
+::::: {layout="[0.475,-0.05,0.475]" layout-valign="top"}
 
-::: {layout-ncol=2}
-
+::: {#leftcol}
 ### Position
+
 La représentation de la position en fonction du temps est une droite oblique: la fonction $x(t)$ est une fonction du premier degré.
 ![](figures/mru/fig4){width=100%}
+:::
 
+::: {#rightcol}
 ### Vitesse
+
 La représentation de la vitesse en fonction du temps est une droite horizontale:
 la fonction $v(t)$ est une fonction constante.
 ![](figures/mru/fig5){width=100%}
-
 :::
 
+:::::
+
 ### Caractéristiques analytiques
+::::: {layout="[0.55,-0.05,0.55]" layout-valign="top"}
 
-::: {layout-ncol=2}
-
+::: {#leftcol}
 ### Position
 La position en fonction du temps est donnée par 
 $$
@@ -100,13 +113,16 @@ x(t)=v\cdot t+x_0,
 $$
 où $v$ est la vitesse du corps en MRU et $x_0$ sa position initiale.
 
+:::
+
+::: {#rightcol}
 ### Vitesse
 La vitesse en fonction du temps est donnée par 
 $$
 v(t)=v_{\text{m}}=\text{constante}. 
 $$
 :::
-
+:::::
 
 {{< pagebreak >}}
 

@@ -1,0 +1,53 @@
+\documentclass[tikz, border=5mm]{standalone}
+\usepackage{tkz-euclide}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=2]
+  % Définition des paramètres de l'ellipse
+  \def\a{2.5}   % demi-grand axe
+  \def\b{1.5}   % demi-petit axe
+  \def\c{2}    % distance focale (Soleil)
+
+  % Définition des points clés
+  \coordinate (Soleil) at (\c,0);
+  \coordinate (Centre) at (0,0);
+
+  % Dessin de l'ellipse
+  \draw[thick] (Centre) ellipse ({\a} and {\b});
+
+  % Dessin du Soleil
+  \node at (Soleil) [circle, fill=yellow, inner sep=2pt, label=above:{Soleil}] {};
+
+  % Positions de la planète (à des moments différents)
+  \def\thetaA{30}   % Angle pour la première position
+  \def\thetaB{60}   % Angle pour la deuxième position
+  \def\thetaC{150}  % Angle pour la troisième position
+  \def\thetaD{170}  % Angle pour la quatrième position
+
+  % Calcul des coordonnées des positions de la planète
+  \coordinate (A) at (\a*cos(\thetaA), \b*sin(\thetaA));
+  \coordinate (B) at (\a*cos(\thetaB), \b*sin(\thetaB));
+  \coordinate (C) at (\a*cos(\thetaC), \b*sin(\thetaC));
+  \coordinate (D) at (\a*cos(\thetaD), \b*sin(\thetaD));
+
+  % Dessin des secteurs
+  \draw[fill=blue!20, opacity=0.6] (Soleil) -- (A) arc (\thetaA:\thetaB:{\a} and {\b}) -- cycle;
+  \draw[fill=red!20, opacity=0.6] (Soleil) -- (C) arc (\thetaC:\thetaD:{\a} and {\b}) -- cycle;
+
+  % Dessin des segments reliant le Soleil aux positions de la planète
+  \draw[dashed] (Soleil) -- (A);
+  \draw[dashed] (Soleil) -- (B);
+  \draw[dashed] (Soleil) -- (C);
+  \draw[dashed] (Soleil) -- (D);
+
+  % Ajout des labels pour les aires
+  \node at ($(Soleil)!0.5!(A)$) [below right] {$A_1$};
+  \node at ($(Soleil)!0.5!(C)$) [below left] {$A_2$};
+
+  % Ajout d'une légende
+  \node at (0,-2.5) {Loi des aires: $A_1 = A_2$ si $\Delta t_1 = \Delta t_2$};
+
+\end{tikzpicture}
+\end{document}
+

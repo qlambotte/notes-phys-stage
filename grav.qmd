@@ -5,36 +5,131 @@ format:
   html:
     default-image-extension: svg
   pdf:
+    keep-tex: true
     default-image-extension: pdf
+    pdf-engine: latexmk
+    number-sections: true
+    pdf-engine-opts:
+      - '--shell-escape'
+    header-includes: |
+      \usepackage{sansmathfonts}
+      \usepackage[utf8]{inputenc}
+      \usepackage[T1]{fontenc}
+      \renewcommand*\familydefault{\sfdefault}
   docx:
     default-image-extension: png
 ---
 
-## Introduction: une longue histoire un quatre étapes
+## Introduction: une longue histoire en quatre étapes
 
-### Le modèle géocentrique
+### Les modèles géocentriques
 
-### Le modèle éliocentrique
+Dès l'Antiquité, les savants ont observé les étoiles et ont essayé de comprendre leur mouvement.
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://stellarium-web.org/" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/grav/stell){fig-align="center" width=20%}
+:::
+
+Les premiers modèles qui ont tenté de rendre compte du mouvement des astres étaient géocentriques : le mouvement des astres se fait par rotation autour de la Terre, qui est le centre de l'univers.
+
+![Le modèle géocentrique](figures/grav/geo){fig-align="center" width=40%}
+
+Cependant, ce modèle est très vite confronté à certaines difficultés. L'une d'elles concerne le mouvement de Mars autour de la Terre.
+
+
+::: {.content-visible when-format="html"}
+
+{{< video https://youtu.be/o-G6IRjZGuw >}}
+
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code: Orbite de Mars autour de la Terre ](figures/grav/mars){fig-align="center" width=20%}
+:::
+
+Tu peux observer sur l'animation ci-dessus que Mars a un mouvement rétrograde autour de la Terre. Cette observation était déjà réalisée plus de deux siècles avant Jésus-Christ, et deux savants de l'époque, Apollonius et Hipparque, ont tenté d'expliquer pourquoi Mars a un tel mouvement : ils ont mis au point les premiers modèles par épicycles. Ces modèles décrivent le mouvement de Mars (mais aussi d'autres astres) de la manière suivante : Mars se déplace le long d'un cercle, à vitesse constante, et le centre de ce cercle se déplace lui-même sur un grand cercle dont le centre est la Terre.
+
+::: {.content-visible when-format="html"}
+<iframe src="https://www.desmos.com/calculator/fyxdec3cla?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
+
+::: {.content-visible unless-format="html"}
+![Modèle géocentrique avec épicycle](figures/grav/epicycle){fig-align="center" width=40%}
+:::
+
+Ces modèles par épicycles ont été étudiés et raffinés pendant longtemps, pour aboutir au modèle de Ptolémée, qui proposa un modèle avec plusieurs épicycles pour expliquer les défauts de mesure des modèles d'Apollonius et Hipparque. Les travaux de Ptolémée furent la référence en astronomie jusqu'au XVIe siècle, avec l'arrivée du modèle héliocentrique de Copernic.
+
+### Les modèles héliocentriques
+
+Malgré la précision importante des modèles géocentriques, les astronomes du XVIe siècle n'arrivent pas à prévoir parfaitement le mouvement des astres. Copernic émit l'hypothèse que le Soleil était au centre de l'Univers et que la Terre effectue un mouvement circulaire autour de lui : c'est la naissance des modèles héliocentriques. Bien que le modèle héliocentrique de Copernic représente une révolution en astronomie, il ne permet pas une plus grande précision dans les prédictions que dans le modèle de Ptolémée. La raison est que Copernic suppose que les astres décrivent des cercles autour du Soleil.
+
+
+![Le modèle de Copernic](figures/grav/copernic){fig-align="center" width=40%}
+
+
+Cependant, un atout du modèle de Copernic est sa simplicité par rapport au modèle avec épicycles. De plus, le mouvement rétrograde de Mars s'explique facilement comme un effet de perspective d'un observateur sur Terre.
+
+![Orbite de Mars dans le modèle héliocentrique](figures/grav/mars-2){fig-align="center" width=100%}
+
+
+Le modèle de Copernic ne rencontrera pas un franc succès auprès de ses contemporains : ceux-ci étaient, entre autres, influencés par le sens commun de l'époque et les dogmes religieux.  
+Au XVIIe siècle, Galilée se positionne en défenseur du modèle de Copernic : il apporta des arguments importants en faveur de ce modèle, grâce à des observations des satellites de Jupiter faites avec une lunette astronomique. Il observe que Jupiter et ses satellites forment un système planétaire miniature autour d'un centre qui n'est pas la Terre.
 
 ### Les lois de Kepler
 
-### La loi de la gravitation
+Le modèle de Copernic place le Soleil au centre de l'Univers et suppose que les astres décrivent un mouvement circulaire dont le centre est le Soleil. Cependant, les mesures des mouvements des astres ne collent pas parfaitement aux trajectoires du modèle et Copernic fait vite appel aux épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle héliocentrique reste imparfait.  
 
-## La loi de la gravitation
-### La démarche de Newton
+C'est à la fin du XVIe siècle qu'une avancée majeure est réalisée pour expliquer le mouvement des astres : Johannes Kepler, sur base de mesures méticuleuses réalisées par l'astronome danois Tycho Brahe, se rend compte que les planètes ne décrivent pas des mouvements circulaires mais elliptiques, dont un des foyers est occupé par le Soleil. Il s'agit de sa première loi, parmi trois qui tentent de décrire le mouvement des planètes autour du Soleil.
 
-#### Mouvement de la Lune et de la Station Spaciale Internationnale 
+::: {.callout-note title="Première loi: la loi des orbites." appearance="simple"}
+La trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil.
+:::
 
-### Enoncé de la loi
+![Trajectoire elliptique](figures/grav/fig1){fig-align="center" width=80%}
 
-### L'attraction entre deux corps massifs
 
-### Applications
+::: {.callout-note title="Deuxième loi: loi des aires." appearance="simple"}
+Le segment qui joint le Soleil à une planète balaie des secteurs d'aires égales en des durées égales, quelles que soient ces durées.
+:::
 
-#### Le mouvement des planètes autours du soleil
+![Loi des aires](figures/grav/aires){fig-align="center" width=80%}
 
-#### La masse des corps célestes
 
-#### La gravité autours de la Terre
+::: {.callout-note title="Troisième loi: loi des périodes." appearance="simple"}
+Le quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes :
+$$
+\frac{a^3_1}{T_1^2}=\frac{a^3_2}{T_2^2}=\ldots
+$$
+:::
 
-### Le champ gravitationnel
+::: {#exr-kepler}
+Complète le tableau suivant à l'aide de la 3e loi de Kepler.
+
+| Planète | $a(10^9\text{m})$ | $T(10^6\text{s})$ | $a^3/T^3(10^{15}\text{m}^3/\text{s}^2)$ |
+|---------|-------------------|-------------------|-----------------------------------------|
+| Mercure | 57,9              |                   | 3356                                    |
+| Vénus   | 108,1             | 19,41             |                                         |
+| Terre   | 149,6             |                   |                                         |
+| Mars    |                   | 59,36             | 3364                                    |
+| Jupiter | 778,4             | 374,3             |                                         |
+| Saturne | 1424              | 928,4             |                                         |
+: {.bordered tbl-colwidths="[40,30,30,30]"}
+
+:::
+
+### La loi de la gravitation universelle
+
+Kepler a décrit avec précision le mouvement des planètes, mais il ne l'a pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour comprendre pourquoi les planètes suivent ces trajectoires elliptiques.
+
+Newton propose que toutes les masses s'attirent mutuellement avec une force qui dépend de certaines de leurs carctéristiques. Il va montrer ainsi que l'interaction qui fait tomber un objet sur Terre est aussi responsable du mouvement des planètes autour du Soleil. Cette idée révolutionnaire unifie les phénomènes terrestres et célestes sous une même loi.
+
+Cette loi permet non seulement d'expliquer les trajectoires des planètes décrites par Kepler, mais aussi d'autres phénomènes tels que la chute des objets sur Terre, les marées ou encore le mouvement des satellites artificiels.
+
+Newton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C'est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des planètes et celui des objets terrestres.
+
