@@ -4,23 +4,13 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  letterpaper,
+  a4,
   DIV=11,
   numbers=noendperiod]{scrartcl}
-
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else  
+
+\ifPDFTeX\else
     % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -33,14 +23,14 @@
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
     \usepackage{parskip}
-  }{% else
+d  }{% else
     \setlength{\parindent}{0pt}
     \setlength{\parskip}{6pt plus 2pt minus 1pt}}
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=20mm,left=20mm,right=20mm,bottom=20mm]{geometry}
+\usepackage[top=20mm,left=15mm,right=15mm,bottom=20mm]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -168,6 +158,10 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
+\usepackage{amssymb}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
 
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -201,11 +195,44 @@
 \date{}
 
 \begin{document}
-\maketitle
 
+\begin{titlepage}
+    \centering
+
+    % Espace au-dessus du titre
+    \vspace*{2cm}
+
+    % Titre principal en grand
+    {\fontsize{24pt}{28pt}\selectfont\textbf{La loi de la gravitation universelle}\par}
+
+    % Espace entre le titre et l'image
+    \vspace*{1cm}
+
+    % Insertion de l'image
+    \includegraphics[width=\textwidth]{./figures/grav/nebula.png} % Ajustez width selon vos besoins
+
+
+
+    % Espacement pour aligner le bas
+    \vfill
+
+\end{titlepage}
 
 \section{Introduction: une longue histoire en quatre
 étapes}\label{introduction-une-longue-histoire-en-quatre-uxe9tapes}
+
+L'observation et l'étude des corps célestes est à l'origine de la loi de
+la gravitation universelle.
+
+\begin{figure}[H]
+
+{\centering \includegraphics{figures/grav/01-milky-way-NationalGeographic_1959323.pdf}
+
+}
+
+\caption{La Voie Lactée}
+
+\end{figure}%
 
 \subsection{Les modèles
 géocentriques}\label{les-moduxe8les-guxe9ocentriques}
@@ -307,7 +334,7 @@ Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=1\textwidth,height=\textheight]{figures/grav/mars-2.pdf}
+{\centering \includegraphics[width=0.7\textwidth,height=\textheight]{figures/grav/mars-2.pdf}
 
 }
 
@@ -334,6 +361,16 @@ parfaitement aux trajectoires du modèle et Copernic fait vite appel aux
 épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle
 héliocentrique reste imparfait.
 
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/soleil.pdf}
+
+}
+
+\caption{Le soleil}
+
+\end{figure}%
+
 C'est à la fin du XVIe siècle qu'une avancée majeure est réalisée pour
 expliquer le mouvement des astres : Johannes Kepler, sur base de mesures
 méticuleuses réalisées par l'astronome danois Tycho Brahe, se rend
@@ -342,7 +379,7 @@ elliptiques, dont un des foyers est occupé par le Soleil. Il s'agit de
 sa première loi, parmi trois qui tentent de décrire le mouvement des
 planètes autour du Soleil.
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, rightrule=.15mm, breakable, left=2mm, opacityback=0, leftrule=.75mm, arc=.35mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -358,15 +395,13 @@ occupé par le Soleil.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig1.pdf}
+{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig1.pdf}
 
 }
 
-\caption{Trajectoire elliptique}
-
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, rightrule=.15mm, breakable, left=2mm, opacityback=0, leftrule=.75mm, arc=.35mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -382,7 +417,7 @@ Le segment qui joint le Soleil à une planète balaie des secteurs d'aires
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/aires.pdf}
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/aires.pdf}
 
 }
 
@@ -390,7 +425,7 @@ Le segment qui joint le Soleil à une planète balaie des secteurs d'aires
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, rightrule=.15mm, breakable, left=2mm, opacityback=0, leftrule=.75mm, arc=.35mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -446,6 +481,16 @@ Kepler a décrit avec précision le mouvement des planètes, mais il ne l'a
 pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour
 comprendre pourquoi les planètes suivent ces trajectoires elliptiques.
 
+\begin{figure}[H]
+
+{\centering \includegraphics{figures/grav/terre-mune.pdf}
+
+}
+
+\caption{La terre vue de la Lune}
+
+\end{figure}%
+
 Newton propose que toutes les masses s'attirent mutuellement avec une
 force qui dépend de certaines de leurs carctéristiques. Il va montrer
 ainsi que l'interaction qui fait tomber un objet sur Terre est aussi
@@ -462,8 +507,18 @@ Newton montre que les lois de Kepler sont une conséquence directe de la
 gravitation universelle : en appliquant ses lois du mouvement et la
 force gravitationnelle, il retrouve les trajectoires elliptiques des
 planètes. C'est ainsi que la physique moderne voit le jour : un même
-principe explique à la fois le mouvement des planètes et celui des
+principe explique à la fois le mouvement des corps célestes et celui des
 objets terrestres.
+
+\begin{figure}[H]
+
+{\centering \includegraphics{figures/grav/galaxie-sombrero.pdf}
+
+}
+
+\caption{La galaxie du sombrero}
+
+\end{figure}%
 
 \section{La loi de la gravitation
 universelle}\label{la-loi-de-la-gravitation-universelle-1}
@@ -491,13 +546,12 @@ Tout objet proche de la surface de la Terre est soumis à une force
 gravitationnelle. Par exemple, une pomme que vous tenez dans la main
 subit une accélération dirigée vers le centre de la Terre, d'intensité
 \(g = 9,81\text{ m/s}^2\). Si vous lâchez cette pomme, elle tombe. Si
-vous la lancez verticalement, elle suit une trajectoire parabolique
-avant de retomber.
+vous la lancez horizontalement, elle suit une trajectoire parabolique.
 
-En s'appuyant sur cette idée, Newton a imaginé un tir oblique où la
+En s'appuyant sur cette idée, Newton a imaginé un tir horizontal où la
 vitesse initiale est si grande que l'objet ne retombe jamais au sol. La
 Lune, selon cette vision, est en perpétuelle chute libre autour de la
-Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.
+Terre, mais sa vitesse lui permet de ``manquer'' la Terre en permanence.
 
 Les observations montrent que la trajectoire de la Lune est
 approximativement circulaire. Nous allons donc supposer dans la suite
@@ -508,7 +562,7 @@ comparer à l'accélération d'un objet en chute libre sur Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/fig3.pdf}
+{\centering \includegraphics[width=0.3\textwidth,height=\textheight]{figures/grav/fig3.pdf}
 
 }
 
@@ -552,7 +606,7 @@ exercée sur la Lune, \(\overrightarrow{F}_{\text{T/L}}\). Les résultats
 de l'exercice précédent montrent que cette force est proportionnelle à
 \(\dfrac{1}{R^2}\).
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-important-color-frame, rightrule=.15mm, breakable, left=2mm, opacityback=0, leftrule=.75mm, arc=.35mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-important-color-frame, left=2mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-important-color}{\faExclamation}
 \end{minipage}%
@@ -590,7 +644,7 @@ dépend donc aussi de la masse de la Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig4.pdf}
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig4.pdf}
 
 }
 
@@ -615,9 +669,9 @@ En résumé, la force \(\overrightarrow{F}_{\text{T/L}}\) est :
 
 Le génie de Newton a été d'étendre ce raisonnement à tous les astres du
 système solaire, puis à tous les corps matériels. Il en a déduit une loi
-fondamentale de la nature :
+fondamentale de la nature.
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, rightrule=.15mm, breakable, left=2mm, opacityback=0, leftrule=.75mm, arc=.35mm, toprule=.15mm, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -645,7 +699,7 @@ La constante \(k_g\) est universelle. Elle a été estimée par Newton et
 mesurée avec précision par Cavendish en 1798 :
 
 \[
-k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
+k_g = 6,67 \cdot 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
 \]
 
 Cette valeur montre que la force gravitationnelle est généralement
@@ -660,7 +714,7 @@ entre les objets.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig02.pdf}
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig02.pdf}
 
 }
 
@@ -714,10 +768,10 @@ Valeur
 \bottomrule\noalign{}
 \endlastfoot
 Constante gravitationnelle \(k_g\) &
-\(6,67 \times 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}\) \\
+\(6,67 \cdot 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}\) \\
 Accélération terrestre \(g\) & \(9,81 \text{ m/s}^2\) \\
-Masse de la Terre \(m_T\) & \(5,97 \times 10^{24} \text{ kg}\) \\
-Masse du Soleil \(m_S\) & \(1,99 \times 10^{30} \text{ kg}\) \\
+Masse de la Terre \(m_T\) & \(5,97 \cdot 10^{24} \text{ kg}\) \\
+Masse du Soleil \(m_S\) & \(1,99 \cdot 10^{30} \text{ kg}\) \\
 \end{longtable}
 
 \subsection{Mouvement des astres dans le système
@@ -729,7 +783,7 @@ trajectoires:
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.2\textwidth,height=\textheight]{figures/grav/orbites.pdf}
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/orbites.pdf}
 
 }
 
@@ -752,7 +806,17 @@ Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en
 sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois
 plus grande que le rayon de l'orbite de la Terre autour du soleil.
 
-Explicitons ce que dit l'énoncé de l'exmple:
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.3\textwidth,height=\textheight]{figures/grav/neptune.png}
+
+}
+
+\caption{Neptune}
+
+\end{figure}%
+
+Explicitons ce que dit l'énoncé de l'exemple:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -789,7 +853,7 @@ km.
   Exprime le rayon de son orbite en fonction du rayon terrestre.
 \item
   Calcule sa vitesse orbitale en supposant que
-  \(R_T = 6,37 \times 10^6\) m.
+  \(R_T = 6,37 \cdot 10^6\) m.
 \item
   Donne la période de révolution du satellite.
 \end{enumerate}
@@ -798,13 +862,20 @@ km.
 
 \begin{exercise}[]\protect\hypertarget{exr-iss}{}\label{exr-iss}
 
-La station spaciale internationnale (ISS) est en orbite circulaire
-autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
+La station spaciale internationale (ISS) est en orbite circulaire autour
+de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
 
 \end{exercise}
+\begin{figure}[H]
 
-\section{Détermination de la masse des corps
-célestes}\label{duxe9termination-de-la-masse-des-corps-cuxe9lestes}
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/iss.pdf}
+
+}
+
+\caption{L'ISS}
+
+\end{figure}%
+\subsection{Détermination de la masse des corps célestes}
 
 La loi de la gravitation est une des seules manières dont nous pouvons
 mesurer la masse des astres.
@@ -816,7 +887,7 @@ L'idée repose sur la relation entre la force gravitationnelle et
 l'accélération gravitationnelle \(g\).
 
 Nous savons que tout objet de masse \(m\) situé près de la surface
-terrestre subit une accélération \(g = 9,81\) m/s². Cette accélération
+terrestre subit une accélération \(g = 9,81\) m/s$^{2}$. Cette accélération
 est due à la force gravitationnelle exercée par la Terre.
 
 En appliquant la deuxième loi de Newton :
@@ -843,7 +914,7 @@ autour de lui ou à sa surface.
 
 \begin{exercise}[]\protect\hypertarget{exr-masse-terre}{}\label{exr-masse-terre}
 
-En utilisant \(g_M = 3,71\) m/s² et \(R_M = 3,39 \times 10^6\) m,
+En utilisant \(g_M = 3,71\) m/s$^{2}$ et \(R_M = 3,39 \cdot 10^6\) m,
 calcule la masse de Mars.
 
 \end{exercise}
@@ -883,7 +954,7 @@ exercée par la Terre sur cette masse si:
 \item
   elle est à 10km au dessus de la surface de la Terre.
 \item
-  elle est dans la Station Spaciale Internationnale (400km d'altitude).
+  elle est dans la Station Spaciale Internationale (400km d'altitude).
 \end{enumerate}
 
 \end{exercise}
@@ -893,7 +964,7 @@ pour un objet de masse \(m\) à une altitude \(h\):
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig5.pdf}
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig5.pdf}
 
 }
 
@@ -901,7 +972,7 @@ pour un objet de masse \(m\) à une altitude \(h\):
 
 \end{figure}%
 
-Pour cet object, s'il est à la surface de la Terre, nous avons
+Pour cet objet, s'il est à la surface de la Terre, nous avons
 \(g = \frac{k_g m_T}{R_T^2}=9,81 \text{m/s}^2\). Mais si l'objet est à
 une altitude \(h\), la distance qui le sépare du centre de la Terre
 devient \(R_T + h\). En notant \(g_h\) son accélération centripète, on
@@ -931,7 +1002,7 @@ l'intensité de la force de gravité terrestre diminue.
   Calcule la gravité ressentie par un astronaute à bord de l'ISS, située
   à 400 km d'altitude.
 \item
-  Compare cette valeur avec \(g = 9,81\) m/s².
+  Compare cette valeur avec \(g = 9,81\) m/s$^{2}$.
 \end{enumerate}
 
 \end{exercise}
@@ -951,7 +1022,7 @@ altitudes, autour de la Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig6.pdf}
+{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig6.pdf}
 
 }
 

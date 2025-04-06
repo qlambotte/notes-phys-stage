@@ -1,0 +1,333 @@
+---
+title: "La loi de la gravitation universelle"
+title-slide-attributes:
+  data-background-image: figures/herbig-haro.png
+  data-background-size: cover
+lang: fr
+format: 
+ revealjs:
+      theme: [default,clean2.scss]
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      
+---
+
+## Introduction
+
+. . .
+
+L'histoire de la loi de la gravitation commence par l'étude
+
+. . .
+
+... des corps célestes.
+
+. . .
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://stellarium-web.org/" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+## Qu'est-ce qu'un corps céleste?
+
+. . .
+
+Corps céleste =  tout objet de l'univers.
+
+. . .
+
+Des exemples?
+
+## Les photographes de l'univers: Hubble et Webb
+
+- Hubble: <https://esahubble.org/images/>
+
+- Webb: <https://webbtelescope.org/news/first-images/gallery>
+
+## Le système solaire
+Nous allons nous concentrer sur le système solaire, et plus précisément sur le mouvement des astres autour du soleil.
+
+. . . 
+
+<iframe src="https://eyes.nasa.gov/apps/solar-system/#/home?featured=false&detailPanel=false&search=false&shareButton=false&collapseSettingsOptions=true&hideExternalLinks=true" width=100% height="500" style="border: 1px solid #ccc" frameborder=0 allowfullscreen ></iframe>
+
+. . .
+
+## Les lois de Kepler (fin XVIe siècle)
+
+. . .
+
+La première personne qui est parvenue a décrire précisément le mouvement des astres autour du soleil est le physicien Kepler, qui a énoncé 3 lois.
+
+::: {.incremental}
+
+1. La première décrit la trajectoire des astres.
+2. La deuxième décrit la vitesse avec laquelle les astres se déplacent.
+3. La troisième met en évidence une régularité commune à toutes les trajectoires des astres.
+
+:::
+## La première loi de Kepler
+
+. . .
+
+::: {.callout-note title="Première loi: la loi des orbites." appearance="simple"}
+La trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil.
+:::
+
+. . .
+
+![](figures/grav/fig1.svg){fig-align="center" width=80%}
+
+
+
+## La deuxième loi de Kepler
+
+. . .
+ 
+::: {.callout-note title="Deuxième loi: loi des aires." appearance="simple"}
+Le segment qui joint le Soleil à une planète balaie des secteurs d'aires égales en des durées égales, quelles que soient ces durées.
+:::
+
+![](figures/grav/aires.svg){fig-align="center" width=60%}
+
+. . .
+
+## La troisième loi de Kepler
+
+. . .
+
+::: {.callout-note title="Troisième loi: loi des périodes." appearance="simple"}
+Le quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes :
+$$
+\frac{a^3_1}{T_1^2}=\frac{a^3_2}{T_2^2}=\ldots
+$$
+:::
+ 
+. . .
+
+::: {#exr-kepler}
+Complète le tableau suivant à l'aide de la 3e loi de Kepler.
+
+| Planète | $a(10^9\text{m})$ | $T(10^6\text{s})$ | $a^3/T^3(10^{15}\text{m}^3/\text{s}^2)$ |
+|---------|-------------------|-------------------|-----------------------------------------|
+| Vénus   | 108,1             | 19,41             |                                         |
+| Terre   | 149,6             |                   |                                         |
+| Mars    |                   | 59,36             | 3364                                    |
+: {.bordered tbl-colwidths="[40,30,30,30]"}
+
+:::
+
+## La loi de la gravitation universelle: la démarche de Newton (XVIIe siècle)
+
+. . .
+
+C'est Newton qui a développé la loi de la gravitation universelle. Nous allons suivre sa démarche pour arriver a formuler sa loi.
+
+. . .
+
+Tout commence par l'étude du mouvement de la Lune autour de la Terre.
+
+![](figures/grav/terre-mune.png){fig-align="center" width="60%"}
+
+## Mouvement de la Lune
+
+. . .
+
+Mouvement de la Lune = . . . chute libre
+
+. . .
+
+<iframe src="https://www.desmos.com/calculator/tvughflven?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+## Ce qu'en déduit Newton
+
+Newton pense que la force $\overrightarrow{F}_{T/P}$ exercée par la Terre sur la pomme a la même nature que la force $\overrightarrow{F}_{T/L}$ exercée par la Terre sur la Lune. 
+
+Il va donc essayer de dégager les paramètres qui influencent cette force, que nous appellerons *force d'attraction terrestre*. Nous allons les découvrir pas à pas.
+
+
+## Rappels sur le MCU
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](figures/mcu.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="40%"}
+
+::: {.fragment}
+$v=\dfrac{2\pi R}{T}=\omega R$
+:::
+
+::: {.fragment}
+$a=\dfrac{v^2}{R}=\omega^2R$
+:::
+
+:::
+
+::::
+
+## Exercice
+
+La Lune est essentiellement en MCU autour de la Terre. On peut donc supposer qu'elle est en MCU et qu'elle possède une accélération centripète $a_L$. Nous allons comparer cette accélération à celle que subit une pomme à la surface de la Terre.
+
+. . .
+
+![](figures/grav/fig3.svg){fig-align="center" width=30%}
+
+
+##
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+
+![](figures/grav/fig3.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="70%"}
+
+
+::: {#exr-lune}
+1. Calculer $\dfrac{g}{a_L}$.
+2. Calculer $\dfrac{R}{R_0}$.
+3. Déduire que $\dfrac{g}{a_L} \simeq \left(\dfrac{R}{R_0}\right)^2$.
+:::
+
+
+
+
+Pour rappel :
+
+- Le rayon Terre-Lune est $R = 385 000$ km
+- Le rayon de la Terre est $R_0 = 6370$ km
+
+
+:::
+
+::::
+
+## Que peut-on en déduire?
+
+
+Grâce aux calculs précédents on peut observer que l'accélération de la pomme est plus grande que l'accélération de la Lune: $g$ est environ 3600 fois plus grande que $a_L$.
+
+. . .
+
+Newton en déduit que la force que la Terre exerce sur la pomme ou sur la Lune dépend de la distance qui les sépare de la Terre.
+Plus précisément:
+
+. . .
+
+::: {.callout-important title="Dépendance de la distance" appearance="simple"}
+
+L’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.
+:::
+
+
+
+
+## Deux autres paramètres influencent la force d'attraction terrestre
+
+La force d'attraction terrestre $\overrightarrow{F}_{T/L}$ est incluencée par deux autres paramètres: la masse de la Terre et la masse de la Lune.
+
+##
+
+En effet,
+
+1. Par la 2e Loi de Newton: $\overrightarrow{F}_{T/L}=m_L\overrightarrow{a}_{L}$ 
+
+. . .
+
+![](figures/grav/fig4.svg){fig-align="center" width=50%}
+
+. . .
+
+2. Par la loi des actions réciproques: $\overrightarrow{F}_{T/L}=-\overrightarrow{F}_{L/T}=m_T\overrightarrow{a}_{L}$.
+
+
+
+## Énoncé de la loi
+
+En résumé, la force $\overrightarrow{F}_{\text{T/L}}$ est :
+
+1. proportionnelle aux masses $m_L$ et $m_T$,
+2. inversement proportionnelle au carré de la distance $R$ entre les deux corps.
+
+. . .
+
+Le génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature.
+
+## Énoncé de la loi
+
+
+
+::: {.callout-note title="Loi de la gravitation universelle" appearance="simple"}
+Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :
+
+$$
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
+$$
+:::
+
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](figures/grav/fig7.svg){fig-align="center" width=100%}
+
+
+
+
+
+:::
+
+::: {.column width="30%"}
+$k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.$
+:::
+::::
+
+## Exercices
+
+## Applications
+
+Préciser hypothese des orbites circulaires. Enoncer principe de base.
+
+## Mouvement des astres dans le système solaire
+
+## Masse des astres
+
+## La gravité autour de la Terre
+
+## Le champ gravitationnel
+
+## Orbite géostationnaire et satellites
+
+## Interro formative
+
+:::{#exr-fml}
+Soit deux corps $m_1$ et $m_1$ de masses respectives $2kg$ et $5kg$. Ces deux corps sont séparés de $10km$. Calcule l'intensité de la force de gravitation exercée par $m_2$ sur $m_1$.
+:::
+
+:::{#exr-masse}
+Calcule la masse de Jupiter sachant que l'un de ses satellites, Callisto, effectue une révolution circulaire complète de $1,88\cdot 10^6$ km de rayon en 16,7 jours.
+:::
+
+:::{#exr-refl}
+Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente.
+:::

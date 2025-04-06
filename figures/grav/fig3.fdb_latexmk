@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742825146.15207 "fig3.tex" "fig3.pdf" "fig3" 1742825148.09267 0
+["lualatex"] 1743962404.27049 "fig3.tex" "fig3.pdf" "fig3" 1743962406.36205 0
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1731490634.78755 127309 677951b359b90ddbfa3eb54f696122f6 ""
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1742562084.36762 392850 c1b1392edadf014e7808f927cba6c198 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -14,7 +14,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm" 1136768653 1120 2b3f9b25605010c69bc328bea6ac000f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -163,8 +162,8 @@
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734025531.12657 5356990 b2b61d7a460b695664a2041d019c4711 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1734025621 12232784 2a215cef41d5f8c8f5e94aa38e604306 ""
-  "fig3.aux" 1742825147.86884 32 3985256e7290058c681f74d7a3565a19 "lualatex"
-  "fig3.tex" 1742825143.92679 1091 3f9a0b93eb1047fbde986d4f93ccf9ca ""
+  "fig3.aux" 1743962406.18982 32 3985256e7290058c681f74d7a3565a19 "lualatex"
+  "fig3.tex" 1743962402.60703 1082 6e05649c83bd4d85a9de61a01b8c03a2 ""
   (generated)
   "fig3.aux"
   "fig3.log"

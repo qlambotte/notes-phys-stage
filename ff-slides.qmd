@@ -1,0 +1,201 @@
+---
+title: "Fusion et fission nucléaire"
+lang: fr
+format: 
+ revealjs:
+      theme: [default,clean.scss]
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      
+---
+
+# La relation d'Einstein
+## Introduction 
+
+ <iframe width="100%" height="615" src="https://www.youtube.com/embed/KIGfevsoS8Q?si=ishcr8K4T5XYULiy&amp;start=22&end=541" frameborder="0" allowfullscreen></iframe>
+
+## Questions sur la vidéo
+
+1. Quelle est l'équation la plus connue de la physique?
+
+. . . 
+
+$E=mc^2$
+
+. . .
+
+2. Comment devrait-on écrie cette équation?
+
+. . .
+
+$m=\dfrac{E}{c^2}$
+
+. . .
+
+3. Quelles quantités varient simultanément?
+
+. . .
+
+La masse et l'énergie.
+
+##
+
+6. Dans l'équation d'Einstein, que représente $m$?
+
+. . .
+
+$m$ représente la masse intertielle, au repos.
+
+. . .
+
+7. Dans l'équation d'Einstein, que représente $E$?
+
+. . .
+
+$E$ représente l'énergie, au repos.
+
+. . .
+
+8. Pourquoi dit-on qu'il y a une perte de masse dans un atome d'hydrogène?
+
+. . .
+
+Lorsqu'un proton et un électron s'associent pour former un atome d'hydrogène, il y a un
+dégamenent d'énergie qui est associé à une perte de masse. 
+
+##
+
+9. De quoi est composé un noyau d'hélium?
+
+. . .
+
+Deux protons et deux neutrons
+ 
+. . .
+
+10. Peut-on dire qu'il est possible de transformer de la masse en énergie?
+
+. . .
+
+Pas vraiment.  Dans le cas du noyau d'hélium, lorsque le noyau se forme, l'énergie du
+système diminue: comme l'énergie est conservée, il y a une libération de l'énergie. Et en 
+conséquent,  une baisse de la masse, puisqu'elle "mesure" la quantité d'énergie d'un système
+
+## La relation d'Einstein
+
+$$E=mc^2$$
+
+Dans cette équation:
+
+- $m$ est la masse du corps au repos. La masse est exprimée en kg.
+- $E$ est l'énergie *totale* du corps au repos. L'énergie est exprimée en joules J.
+- $c$ est la vitesse de la lumière dans le vide. Cette constante est exprimée en $m/s$.
+
+Ici, la masse est une mesure de la résistance d'un corps à se mettre en mouvement. Ce n'est pas la même chose que la quantité de matière.
+
+## Interprétation de la relation d'Einstein
+
+$E=mc^2$ nous dit
+
+1. une variation de l'énergie d'un corps au repos correspond à une variation de la masse de ce corps.
+2. une variation de l'énergie correspond à une variation sensiblement plus petite de la masse (une variation environ $10^{17}$ fois plus petite).
+
+## Quelques exemples
+
+| Énergie (J) | Exemple | Masse (kg) | Exemple |
+|-------------------------|-------------------|-------------------------|-------------------------------------------|
+| $2,11 \cdot 10^{18}$    | Consommation totale d'énergie de la Belgique en 1 an | $23,5$ | un enfant de 8 ans |
+| $9 \cdot 10^{10}$       | Énergie consommée par une personne en un an | $1 \cdot 10^{-6}$ | un moustique |
+| $3,8 \cdot 10^{26}$     | Énergie émise par le Soleil en une seconde | $4,2 \cdot 10^9$ |  la grande pyramide de Gizeh |
+| $1 \cdot 10^6$          | Énergie cinétique d'une voiture à 100 km/h | $1,11 \cdot 10^{-11}$ |  dix cellules |
+| $8,368 \cdot 10^6$      | Énergie d'un repas de 2000 kcal | $9,3 \cdot 10^{-11}$ | un dixième de grain de sable |
+| $1$                    | Énergie pour soulever une pomme d'un mètre | $1,11 \cdot 10^{-17}$ | une bactérie |
+| $2,9288 \cdot 10^6$     | Énergie dépensée lors d'une course de 10 km | $3,26 \cdot 10^{-11}$ |  30 cellules |
+
+: {.striped tbl-colwidths="[20,30,20,30]"}
+
+## Le défaut de masse
+Lors de la formation d'un noyau, il y a une perte de masse...
+
+. . .
+
+![](figures/ff/fig1.svg){fig-align="center" width=60%}
+
+## Le défaut de masse
+
+Lors de la formation d'un noyau, il y a une perte de masse...
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+![](figures/ff/fig1.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="60%"}
+La formation d'un noyau coûte de l'énergie (= énergie de liaison). En conséquence, il y a une perte de masse.
+
+
+:::
+
+::::
+
+. . .
+
+
+| Élément | Valeur |
+|---------|-------------|
+| Masse du proton (p) | $1.67262 \times 10^{-27}\text{kg}$ |
+| Masse du neutron (n) | $1.67493 \times 10^{-27}\text{kg}$ |
+| Somme des masses (p + n) | $3.34755 \times 10^{-27}\text{kg}$ |
+| Masse réelle du deutérium | $3.34449 \times 10^{-27}\text{kg}$ |
+| Défaut de masse | $3.06 \times 10^{-30}\text{kg}$ |
+| Énergie de liaison | $2.75 \times 10^{-13}$ J |
+
+: {.bordered tbl-colwidths="[70,30]"}
+
+## Comment se crée le deutérium?
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+![](figures/ff/fig1.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="60%"}
+La formation d'un noyau de deuterium se réalise lorsqu'un proton capture un neutron.
+
+
+
+
+
+:::
+
+::::
+
+$$
+^1_1\text{H} + ^1_0\text{n} \rightarrow ^2_1\text{H} + \gamma
+$$
+
+
+Ce procédé peut se faire naturellement mais est rare. La création d'un noyau de deuterium peut se faire artificiellement dans un réacteur nucléaire. La production industrielle du deuterium se fait par distillation de l'eau de mer.
+
+
+# La fusion et la fission nucléaire
+
+## Introduction
+
+<iframe width="100%" height="615" src="https://www.youtube.com/embed/1MUcizMqVAc?si=YT-dqN8a_BvxUQrr&amp;start=0&end=484" frameborder="0" allowfullscreen></iframe>

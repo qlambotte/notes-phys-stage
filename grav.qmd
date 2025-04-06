@@ -5,10 +5,9 @@ format:
   html:
     default-image-extension: svg
   pdf:
+    number-sections: true
     keep-tex: true
     default-image-extension: pdf
-    pdf-engine: latexmk
-    number-sections: true
     pdf-engine-opts:
       - '--shell-escape'
     header-includes: |
@@ -24,8 +23,34 @@ format:
   docx:
     default-image-extension: png
 ---
+```{=latex}
+\begin{titlepage}
+    \centering
+    
+    % Espace au-dessus du titre
+    \vspace*{2cm} 
+    
+    % Titre principal en grand
+    {\fontsize{24pt}{28pt}\selectfont\textbf{La loi de la gravitation universelle}\par}
+    
+    % Espace entre le titre et l'image
+    \vspace*{1cm} 
+    
+    % Insertion de l'image
+    \includegraphics[width=\textwidth]{./figures/grav/nebula.png} % Ajustez width selon vos besoins
+    
 
+    
+    % Espacement pour aligner le bas
+    \vfill
+    
+\end{titlepage}
+```
 ## Introduction: une longue histoire en quatre étapes
+
+L'observation et l'étude des corps célestes est à l'origine de la loi de la gravitation universelle. 
+
+![La Voie Lactée](figures/grav/01-milky-way-NationalGeographic_1959323)
 
 ### Les modèles géocentriques
 
@@ -90,6 +115,8 @@ Au XVIIe siècle, Galilée se positionne en défenseur du modèle de Copernic : 
 
 Le modèle de Copernic place le Soleil au centre de l'Univers et suppose que les astres décrivent un mouvement circulaire dont le centre est le Soleil. Cependant, les mesures des mouvements des astres ne collent pas parfaitement aux trajectoires du modèle et Copernic fait vite appel aux épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle héliocentrique reste imparfait.  
 
+![Le soleil](figures/grav/soleil){fig-align="center" width=60%}
+
 C'est à la fin du XVIe siècle qu'une avancée majeure est réalisée pour expliquer le mouvement des astres : Johannes Kepler, sur base de mesures méticuleuses réalisées par l'astronome danois Tycho Brahe, se rend compte que les planètes ne décrivent pas des mouvements circulaires mais elliptiques, dont un des foyers est occupé par le Soleil. Il s'agit de sa première loi, parmi trois qui tentent de décrire le mouvement des planètes autour du Soleil.
 
 ::: {.callout-note title="Première loi: la loi des orbites." appearance="simple"}
@@ -132,11 +159,15 @@ Complète le tableau suivant à l'aide de la 3e loi de Kepler.
 
 Kepler a décrit avec précision le mouvement des planètes, mais il ne l'a pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour comprendre pourquoi les planètes suivent ces trajectoires elliptiques.
 
+![La terre vue de la Lune](figures/grav/terre-mune)
+
 Newton propose que toutes les masses s'attirent mutuellement avec une force qui dépend de certaines de leurs carctéristiques. Il va montrer ainsi que l'interaction qui fait tomber un objet sur Terre est aussi responsable du mouvement des planètes autour du Soleil. Cette idée révolutionnaire unifie les phénomènes terrestres et célestes sous une même loi.
 
 Cette loi permet non seulement d'expliquer les trajectoires des planètes décrites par Kepler, mais aussi d'autres phénomènes tels que la chute des objets sur Terre, les marées ou encore le mouvement des satellites artificiels.
 
-Newton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C'est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des planètes et celui des objets terrestres.
+Newton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C'est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des corps célestes et celui des objets terrestres.
+
+![La galaxie du sombrero](figures/grav/galaxie-sombrero)
 
 ## La loi de la gravitation universelle
 
@@ -157,9 +188,9 @@ La première idée de Newton est d’interpréter le mouvement de la Lune autour
 :::
 
 
-Tout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité $g = 9,81\text{ m/s}^2$. Si vous lâchez cette pomme, elle tombe. Si vous la lancez verticalement, elle suit une trajectoire parabolique avant de retomber.
+Tout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité $g = 9,81\text{ m/s}^2$. Si vous lâchez cette pomme, elle tombe. Si vous la lancez horizontalement, elle suit une trajectoire parabolique.
 
-En s’appuyant sur cette idée, Newton a imaginé un tir oblique où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.
+En s’appuyant sur cette idée, Newton a imaginé un tir horizontal où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.
 
 Les observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète $a_L$, que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.
 
@@ -220,7 +251,7 @@ En résumé, la force $\overrightarrow{F}_{\text{T/L}}$ est :
 1. proportionnelle aux masses $m_L$ et $m_T$,
 2. inversement proportionnelle au carré de la distance $R$ entre les deux corps.
 
-Le génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature :
+Le génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature.
 
 ::: {.callout-note title="Loi de la gravitation universelle" appearance="simple"}
 Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :
@@ -288,7 +319,9 @@ Voyons un exemple d'application pour trouver la vitesse ou la période de révol
 ::: {#exm-netpune}
 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l'orbite de la Terre autour du soleil.
 
-Explicitons ce que dit l'énoncé de l'exmple:
+
+
+Explicitons ce que dit l'énoncé de l'exemple:
 
 1. $F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}$
 3. $R_N=30R_T$
@@ -314,8 +347,9 @@ Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.
 :::
 
 ::: {#exr-iss}
-La station spaciale internationnale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
+La station spaciale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
 :::
+![L'ISS](figures/grav/iss)fig-align="center" width=40%}
 ## Détermination de la masse des corps célestes
 
 La loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres. 
@@ -367,7 +401,7 @@ Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée
 
 1. elle est à 10m au dessus de la surface de la Terre.
 2. elle est à 10km au dessus de la surface de la Terre.
-3. elle est dans la Station Spaciale Internationnale (400km d'altitude).
+3. elle est dans la Station Spaciale Internationale (400km d'altitude).
 :::
 
 Les calculs réalisés dans l'exercice précédent peuvent se généraliser pour un objet de masse $m$ à une altitude $h$:
@@ -375,7 +409,7 @@ Les calculs réalisés dans l'exercice précédent peuvent se généraliser pour
 ![Accélération gravitationnelle en fonction de l'altitude](figures/grav/fig5){fig-align="center" width=80%}
 
 
-Pour cet object, s'il est à la surface de la Terre, nous avons $g = \frac{k_g m_T}{R_T^2}=9,81 \text{m/s}^2$. Mais si l'objet est à une altitude $h$, la distance qui le sépare du centre de la Terre devient $R_T + h$. En notant $g_h$ son accélération centripète, on obtient:
+Pour cet objet, s'il est à la surface de la Terre, nous avons $g = \frac{k_g m_T}{R_T^2}=9,81 \text{m/s}^2$. Mais si l'objet est à une altitude $h$, la distance qui le sépare du centre de la Terre devient $R_T + h$. En notant $g_h$ son accélération centripète, on obtient:
 
 $$
 mg_h=k_g\dfrac{m_Tm}{(R_T+h)^2}.

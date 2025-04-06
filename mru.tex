@@ -4,10 +4,9 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  a4paper,
+  letterpaper,
   DIV=11,
-  numbers=noendperiod,
-  sans]{scrartcl}
+  numbers=noendperiod]{scrartcl}
 
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -41,9 +40,9 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=30mm,left=20mm,right=20mm]{geometry}
+\usepackage[top=20mm,left=20mm,right=20mm,bottom=20mm]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -95,6 +94,10 @@
 \makeatother
 
 \KOMAoption{captions}{tableheading}
+\usepackage{sansmathfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -183,14 +186,14 @@
 \maketitle
 
 
-\subsection{Introduction}\label{introduction}
+\section{Introduction}\label{introduction}
 
 Nous allons réaliser une expérience numérique à partir de l'application
 suivante.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/mru/mru-1.pdf}
+{\centering \includegraphics[width=0.2\textwidth,height=\textheight]{figures/mru/mru-1.pdf}
 
 }
 
@@ -204,7 +207,7 @@ remplissant le tableau suivant.
 
 \includegraphics[width=1\textwidth,height=\textheight]{figures/mru/fig2.pdf}
 
-Que constates-tu?
+Que constates-tu? \newpage
 
 Calculons maintenant la vitesse moyenne sur différents intervalles de
 temps. Pour rappel, la vitesse moyenne entre \(t_0\) et \(t_1\) est
@@ -221,6 +224,8 @@ Complétons le tableau suivant.
 \includegraphics[width=1\textwidth,height=\textheight]{figures/mru/fig3.pdf}
 
 Que constates-tu?
+
+\vspace{3cm}
 
 Nous venons de construire un modèle pour décrire le mouvement effectué
 par la voiture. En résumé, le modèle dit ceci:
@@ -270,9 +275,9 @@ Ce modèle permet de faire deux choses importantes:
 Vérifions ces deux affirmations, pour les temps \(t_1=\ldots\ldots\) et
 \(t_2=\ldots\ldots\).
 
-\newpage{}
+\vspace{2cm}
 
-\subsection{Les caractéristiques d'un
+\section{Les caractéristiques d'un
 MRU}\label{les-caractuxe9ristiques-dun-mru}
 
 \begin{definition}[]\protect\hypertarget{def-mru}{}\label{def-mru}
@@ -284,14 +289,14 @@ ligne droite à vitesse constante, sans changer de sens.
 
 Les MRU ont les caractéristiques suivantes:
 
-\subsubsection{Caractéristiques
+\subsection{Caractéristiques
 graphiques}\label{caractuxe9ristiques-graphiques}
 
 \begin{figure}
 
 \begin{minipage}{0.47\linewidth}
 
-\subsubsection{Position}\label{position}
+\subsection{Position}\label{position}
 
 La représentation de la position en fonction du temps est une droite
 oblique: la fonction \(x(t)\) est une fonction du premier degré.
@@ -302,7 +307,7 @@ oblique: la fonction \(x(t)\) est une fonction du premier degré.
 %
 \begin{minipage}{0.47\linewidth}
 
-\subsubsection{Vitesse}\label{vitesse}
+\subsection{Vitesse}\label{vitesse}
 
 La représentation de la vitesse en fonction du temps est une droite
 horizontale: la fonction \(v(t)\) est une fonction constante.
@@ -310,14 +315,14 @@ horizontale: la fonction \(v(t)\) est une fonction constante.
 
 \end{figure}%
 
-\subsubsection{Caractéristiques
+\subsection{Caractéristiques
 analytiques}\label{caractuxe9ristiques-analytiques}
 
 \begin{figure}
 
 \begin{minipage}{0.48\linewidth}
 
-\subsubsection{Position}\label{position-1}
+\subsection{Position}\label{position-1}
 
 La position en fonction du temps est donnée par \[
 x(t)=v\cdot t+x_0,
@@ -329,7 +334,7 @@ initiale.\end{minipage}%
 %
 \begin{minipage}{0.48\linewidth}
 
-\subsubsection{Vitesse}\label{vitesse-1}
+\subsection{Vitesse}\label{vitesse-1}
 
 La vitesse en fonction du temps est donnée par \[
 v(t)=v_{\text{m}}=\text{constante}. 
@@ -339,19 +344,19 @@ v(t)=v_{\text{m}}=\text{constante}.
 
 \newpage{}
 
-\subsection{Comparaisons de deux MRU}\label{comparaisons-de-deux-mru}
+\section{Comparaisons de deux MRU}\label{comparaisons-de-deux-mru}
 
 Revenons à la voiture rouge de l'introduction. Nous allons ajouter une
 voiture bleue et observer leurs mouvements, dans deux situations:
 lorsqu'elles parcourent la route dans le même sens et lorsqu'elles
 parcourent la route dans des sens opposés.
 
-\subsubsection{Parcours dans le même
+\subsection{Parcours dans le même
 sens}\label{parcours-dans-le-muxeame-sens}
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/mru/mru-2.pdf}
+{\centering \includegraphics[width=0.2\textwidth,height=\textheight]{figures/mru/mru-2.pdf}
 
 }
 
@@ -362,15 +367,19 @@ sens}\label{parcours-dans-le-muxeame-sens}
 Tu observes qu'une voiture dépasse l'autre. Comment peux-tu donner le
 temps de ce dépassement à l'aide du graphique?
 
+\vspace{3cm}
+
 Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du
 graphique?
 
-\subsubsection{Parcours dans des sens
+\vspace{3cm}
+
+\subsection{Parcours dans des sens
 opposés}\label{parcours-dans-des-sens-opposuxe9s}
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/mru/mru-3.pdf}
+{\centering \includegraphics[width=0.2\textwidth,height=\textheight]{figures/mru/mru-3.pdf}
 
 }
 
@@ -379,15 +388,18 @@ opposés}\label{parcours-dans-des-sens-opposuxe9s}
 \end{figure}%
 
 Tu observes que les voitures se croisent. Comment peux-tu donner le
-temps de ce croisement à l'aide du graphique?
+temps de ce croisement à l'aide du graphique? \vspace{3cm}
 
 Que vaut la vitesse de la voiture bleue?
 
+\vspace{3cm}
+
 Quelle voiture va le plus vite?
 
-\newpage{}
+\vspace{3cm}
+\newpage
 
-\subsection{Exercices}\label{exercices}
+\section{Exercices}\label{exercices}
 
 \begin{exercise}[]\protect\hypertarget{exr-xapdv}{}\label{exr-xapdv}
 
@@ -404,6 +416,8 @@ fonction du temps? Explique ton choix. \begin{center}
 \end{center}
 
 \end{exercise}
+
+\newpage
 
 \begin{exercise}[]\protect\hypertarget{exr-vapdx}{}\label{exr-vapdx}
 
@@ -430,6 +444,8 @@ finale et vitesse).
 \end{center}
 
 \end{exercise}
+
+\newpage
 
 \begin{exercise}[]\protect\hypertarget{exr-coureur}{}\label{exr-coureur}
 
@@ -478,23 +494,83 @@ Indique si les propositions suivantes sont vraies ou fausses. Justifie.
 \tightlist
 \item
   Les trois particules se déplacent dans le même sens.
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
 \item
   La particule A est la plus rapide.
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
 \item
   A dépasse C à l'instant \(t=30\text{s}\).
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
 \item
   B dépasse A à l'instant \(t=60\text{s}\).
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
 \item
   A est moins rapide que B, à l'instant \(t=60\text{s}\).
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
 \item
   B est plus près de A que de C, à l'instant \(t=10\text{s}\).
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
 \item
   C ne croise jamais A.
+\end{enumerate}
+
+\vspace{2cm}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
 \item
   C croise B à deux moments.
 \end{enumerate}
 
+\vspace{2cm}
+
 \end{exercise}
+
+\newpage
 
 \begin{exercise}[]\protect\hypertarget{exr-calcul-2}{}\label{exr-calcul-2}
 
@@ -507,6 +583,8 @@ du corps en mouvement, ainsi que sa position initiale. Donne ensuite une
 \end{center}
 
 \end{exercise}
+
+\vspace{5cm}
 
 \begin{exercise}[]\protect\hypertarget{exr-calcul-1}{}\label{exr-calcul-1}
 

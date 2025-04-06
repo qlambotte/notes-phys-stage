@@ -1,0 +1,239 @@
+---
+title: "Mouvement rectiligne uniforme"
+lang: fr
+format: 
+ revealjs:
+      theme: [default,clean.scss]
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      
+---
+
+## Introduction
+
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/fiy6sraekn?embed" width=100% height="550" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+
+---
+
+## Etude de la position
+
+![](figures/mru/fig2.svg){width=100%}
+
+Que constatez-vous?
+
+## Etude de la vitesse moyenne 
+
+![](figures/mru/fig3.svg){width=100%}
+
+Que constatez-vous ?
+
+---
+
+## Modèle du MRU
+
+
+1.  **Vitesse constante** : $v = \text{constante}$
+2.  **Position** : $x(t)$ est une fonction du premier degré
+    *   oào $=x_0$
+    *   pente $=v$
+    *   $x(t)=v\cdot t+x_0$
+3.  **Utilité** : interpolation et extrapolation
+
+---
+
+## Définition et caractéristiques du MRU
+
+::: {#def-mru}
+Un corps est en  *mouvement rectiligne uniforme* s'il parcourt une ligne droite à vitesse constante, sans changer de sens.
+:::
+
+
+## Caractéristiques graphiques
+
+::::: {layout="[0.475,-0.05,0.475]" layout-valign="top"}
+
+::: {#leftcol}
+### Position $x(t)$
+
+Fonction du premier degré (droite oblique).
+
+![](figures/mru/fig4.svg){width=100%}
+:::
+
+::: {#rightcol}
+### Vitesse $v(t)$
+
+Fonction constante (droite horizontale).
+
+![](figures/mru/fig5.svg){width=100%}
+:::
+
+:::::
+
+## Caractéristiques analytiques
+
+::::: {layout="[0.55,-0.05,0.55]" layout-valign="top"}
+
+::: {#leftcol}
+### Position
+La position en fonction du temps est donnée par 
+$$
+x(t)=v\cdot t+x_0.
+$$
+
+:::
+
+::: {#rightcol}
+### Vitesse
+La vitesse en fonction du temps est donnée par 
+$$
+v(t)=v_{\text{m}}=\text{constante}. 
+$$
+:::
+:::::
+
+
+## Exercice 1
+
+![](figures/mru/fig6.svg){fig-align="center" width=30%}
+
+Quel graphique représente la position ?
+
+![](figures/mru/fig7.svg){fig-align="center" width=80%}
+
+## Exercice 1
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+
+![](figures/mru/fig6.svg){fig-align="center" width=100%}
+
+:::
+
+::: {.column width="75%"}
+![](figures/mru/fig7.svg){fig-align="center" width=100%}
+
+:::
+
+::::
+
+## Exercice 2
+
+Tracer le graphique de la vitesse.
+
+![](figures/mru/fig8.svg){ width=40%}
+
+## Exercice 6
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](figures/mru/fig12.svg){width=100%}
+
+
+:::
+
+::: {.column width="50%"}
+$v=$
+
+$x_0=$
+
+$x(t)=$
+
+$v(t)=$
+:::
+
+::::
+
+
+## Exercice 7
+
+Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l'entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?
+
+## Comparaison: même sens
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width=100% height="550" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+
+## Questions 
+
+*   Une des deux voitures dépasse l'autre. Quand est-ce le cas et comment l'observer sur le graphique?
+*   Quelle voiture est la plus rapide ?
+
+
+
+## Comparaison: sens opposés
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width=100% height="550" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+
+## Questions 
+
+*   Quand se croisent-elles ?
+*   Vitesses respectives ? Quelle voiture est la plus rapide ?
+
+
+
+
+
+## Exercice 3 : Les oiseaux {#exr-ois}
+
+Décrire chaque mouvement.
+
+![](figures/mru/fig9.svg){fig-align="center" width=100%}
+
+---
+
+## Exercice 4 : Le coureur {#exr-coureur}
+
+![](figures/mru/fig10.svg){fig-align="center" width=50%}
+
+Pendant quelle(s) étape(s) :
+
+1.  $v > 0$ ?
+2.  $v < 0$ ?
+3.  $v = 0$ ?
+4.  $|v|$ est max ?
+5.  Distance max ?
+6.  Distance min ?
+
+
+
+## Exercice 5 : Croisement {#exr-croisement}
+
+![](figures/mru/fig11.svg){fig-align="center" width=50%}
+
+Vrai ou faux (justifier) :
+
+1.  Même sens ?
+2.  A est plus rapide ?
+3.  A dépasse C à $t=30$ s ?
+4.  B dépasse A à $t=60$ s ?
+5.  $v_A < v_B$ à $t=60$ s ?
+6.  B plus proche de A que de C à $t=10$ s ?
+7.  C ne croise jamais A ?
+8.  C croise B deux fois ?
+
+---
+

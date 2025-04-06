@@ -5,12 +5,30 @@ format:
   html:
     default-image-extension: svg
   pdf:
+    number-sections: true
+    keep-tex: true
     default-image-extension: pdf
+    pdf-engine-opts:
+      - '--shell-escape'
+    header-includes: |
+      \usepackage{sansmathfonts}
+      \usepackage[utf8]{inputenc}
+      \usepackage[T1]{fontenc}
+      \renewcommand*\familydefault{\sfdefault}
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
   docx:
     default-image-extension: png
 ---
-
+```{=latex}
+\includegraphics[width=\textwidth]{./figures/ff/sun.png}
+\newpage
+```
 # La relation d'Einstein
+
 ## Introduction
 Regardons la vidéo suivante de ScienceEtonnante:
 
@@ -21,19 +39,42 @@ Regardons la vidéo suivante de ScienceEtonnante:
 :::
 
 ::: {.content-visible unless-format="html"}
-![QR-code de la vidéo](figures/ff/video-mc2){fig-align="center" width=40%}
+![QR-code de la vidéo](figures/ff/video-mc2){fig-align="center" width=20%}
 :::
 
 Réponds aux questions suivantes:
 
 1. Quelle est l'équation la plus connue de la physique?
+
+\vspace{1cm}
 2. Comment devrait-on écrie cette équation?
+
+\vspace{1cm}
+
 3. Quelles quantités varient simultanément?
+
+\vspace{1cm}
+
 6. Dans l'équation d'Einstein, que représente $m$?
+
+\vspace{1cm}
+
 6. Dans l'équation d'Einstein, que représente $E$?
+
+\vspace{1cm}
+
 7. Pourquoi dit-on qu'il y a une perte de masse dans un atome d'hydrogène?
+
+\vspace{3cm}
+
 8. De quoi est composé un noyau d'hélium?
+
+\vspace{1cm}
+
 9. Peut-on dire qu'il est possible de transformer de la masse en énergie?
+
+\vspace{4cm}
+
 
 ## La relation d'Einstein
 
@@ -72,7 +113,7 @@ Nous avons vu dans la vidéo que la masse d'un noyau d'hélium n'est pas égale 
 
 Le noyau de cet isotope contient un proton et un neutron.
 
-![Représentation des noyaux de deuterium et de l'hydrogène](figures/ff/fig1){fig-align="center" width=80%}
+![Représentation des noyaux de deuterium et de l'hydrogène](figures/ff/fig1){fig-align="center" width=60%}
 
 Voici un tableau résummant les valeurs des masses et du défaut de masse, ainsi que l'énergie correspondant à ce défaut.
 
@@ -108,18 +149,37 @@ Regardons la vidéo suivante de ScienceEtonnante:
 :::
 
 ::: {.content-visible unless-format="html"}
-![QR-code de la vidéo](figures/ff/video-nucl){fig-align="center" width=40%}
+![QR-code de la vidéo](figures/ff/video-nucl){fig-align="center" width=20%}
 :::
 
 Réponds aux questions suivantes:
 
 1. peut-on produire de l'énergie?
+
+\vspace{4cm}
+
 2. de quoi a-t-on besoin pour faire une fission?
+
+\vspace{2cm}
+
 3. combien y a-t-il de neutrons dans un noyau de magnésium 26?
+
+\vspace{1cm}
+
 4. que doit-il se produire pour qu'une réaction de fission puisse s'auto-entretenir?
+
+\vspace{4cm}
+
 5. quels noyaux permettent de créer des réactions de fission qui s'auto-entretiennent?
+
+\vspace{2cm}
+
 6. quels noyaux doit-on utiliser pour produire un noyau d'hélium par fusion?
+\vspace{1cm}
+
 7. qu'est-ce que la barrière énergétique?
+\vspace{3cm}
+
 
 ## La fission
 
@@ -203,13 +263,13 @@ Malheureusement, il n'est pas encore possible de réaliser de manière fiable et
 :::
 
 ::: {.content-visible unless-format="html"}
-![QR-code de la vidéo](figures/ff/video-iter){fig-align="center" width=40%}
+![QR-code de la vidéo](figures/ff/video-iter){fig-align="center" width=15%}
 :::
 
 La fusion nucléaire est un phénomène fondamental qui alimente le Soleil. Cette réaction est la source principale de l'énergie solaire dont nous bénéficions sur Terre. Le processus de fusion dans le Soleil est si intense qu'il entraîne une perte de masse significative : environ 4,2 millions de tonnes par seconde sont converties en énergie.
 
 Les réactions nucléaires au cœur du Soleil sont complexes et variées, formant des chaînes de réactions interconnectées. La chaîne proton-proton (PP) est la plus importante, représentant la majorité des réactions de fusion solaire. À titre d'illustration, voici les étapes principales d'une partie de la chaîne, qui débute par la fusion de deux noyaux d'hydrogène-1:
 
-![Source: <https://fr.wikipedia.org/wiki/Chaîne_proton-proton>](figures/ff/soleil.png){fig-align="center" width=60%}
+![Source: <https://fr.wikipedia.org/wiki/Chaîne_proton-proton>](figures/ff/soleil.png){fig-align="center" width=45%}
 
-Ces réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au cœur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au cœur du Soleil. 
+Ces réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au coeur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au coeur du Soleil. 

@@ -5,15 +5,22 @@ format:
   html:
     default-image-extension: svg
   pdf:
+    number-sections: true
     keep-tex: true
-    papersize: a4
-    classoption: "sans"
-    geometry:
-    - top=30mm
-    - left=20mm
-    - right=20mm
-
     default-image-extension: pdf
+    pdf-engine: latexmk
+    pdf-engine-opts:
+      - '--shell-escape'
+    header-includes: |
+      \usepackage{sansmathfonts}
+      \usepackage[utf8]{inputenc}
+      \usepackage[T1]{fontenc}
+      \renewcommand*\familydefault{\sfdefault}
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
   docx:
     default-image-extension: png
 ---
@@ -29,7 +36,7 @@ Nous allons réaliser une expérience numérique à partir de l'application suiv
 :::
 
 ::: {.content-visible unless-format="html"}
-![QR-code de l'application](figures/mru/mru-1){fig-align="center" width=40%}
+![QR-code de l'application](figures/mru/mru-1){fig-align="center" width=20%}
 :::
 
 Sur cette application, on va d'abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.
@@ -38,6 +45,7 @@ Sur cette application, on va d'abord observer le mouvement de la voiture rouge e
 
 
 Que constates-tu?
+\newpage
 
 Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre $t_0$ et $t_1$ est définie par 
 
@@ -51,6 +59,8 @@ Complétons le tableau suivant.
 ![](figures/mru/fig3){width=100%}
 
 Que constates-tu?
+
+\vspace{3cm}
 
 Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:
 
@@ -71,8 +81,7 @@ Ce modèle permet de faire deux choses importantes:
 
 Vérifions ces deux affirmations, pour les temps $t_1=\ldots\ldots$ et $t_2=\ldots\ldots$.
 
-{{< pagebreak >}}
-
+\vspace{2cm}
 ## Les caractéristiques d'un MRU
 
 ::: {#def-mru}
@@ -141,12 +150,16 @@ Revenons à la voiture rouge de l'introduction. Nous allons ajouter une voiture 
 :::
 
 ::: {.content-visible unless-format="html"}
-![QR-code de l'application](figures/mru/mru-2){fig-align="center" width=40%}
+![QR-code de l'application](figures/mru/mru-2){fig-align="center" width=20%}
 :::
 
 Tu observes qu'une voiture dépasse l'autre. Comment peux-tu donner le temps de ce dépassement à l'aide du graphique?
 
+\vspace{3cm}
+
 Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du graphique?
+
+\vspace{3cm}
 
 ### Parcours dans des sens opposés
 
@@ -158,17 +171,21 @@ Quelle voiture va le plus vite? Peux-tu l'observer à l'aide du graphique?
 
 
 ::: {.content-visible unless-format="html"}
-![QR-code de l'application](figures/mru/mru-3){fig-align="center" width=40%}
+![QR-code de l'application](figures/mru/mru-3){fig-align="center" width=20%}
 :::
 
 Tu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l'aide du graphique?
+\vspace{3cm}
+
 
 Que vaut la vitesse de la voiture bleue? 
 
+\vspace{3cm}
+
 Quelle voiture va le plus vite?
 
-{{< pagebreak >}}
-
+\vspace{3cm}
+\newpage
 ## Exercices
 
 
@@ -181,7 +198,7 @@ Parmi les graphiques ci-dessous, lequel représente la position en fonction du t
 ![](figures/mru/fig7){fig-align="center" width=100%}
 
 :::
-
+\newpage
 ::: {#exr-vapdx}
 Sur le graphique ci-dessous, tu as la position, en fonction du temps, d'un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.
 
@@ -195,7 +212,7 @@ Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repèr
 ![](figures/mru/fig9){fig-align="center" width=100%}
 
 :::
-
+\newpage
 ::: {#exr-coureur}
 Voici le graphique de la position d'un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.
 
@@ -220,21 +237,45 @@ Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué s
 Indique si les propositions suivantes sont vraies ou fausses. Justifie.
 
 1. Les trois particules se déplacent dans le même sens.
-2. La particule A est la plus rapide.
-3. A dépasse C à l'instant $t=30\text{s}$.
-4. B dépasse A à l'instant $t=60\text{s}$.
-5. A est moins rapide que B, à l'instant $t=60\text{s}$.
-6. B est plus près de A que de C, à l'instant $t=10\text{s}$.
-7. C ne croise jamais A.
-8. C croise B à deux moments.
-:::
 
+\vspace{2cm}
+
+2. La particule A est la plus rapide.
+
+\vspace{2cm}
+
+3. A dépasse C à l'instant $t=30\text{s}$.
+
+\vspace{2cm}
+
+4. B dépasse A à l'instant $t=60\text{s}$.
+
+\vspace{2cm}
+
+5. A est moins rapide que B, à l'instant $t=60\text{s}$.
+
+\vspace{2cm}
+
+6. B est plus près de A que de C, à l'instant $t=10\text{s}$.
+
+\vspace{2cm}
+
+7. C ne croise jamais A.
+
+\vspace{2cm}
+
+8. C croise B à deux moments.
+
+\vspace{2cm}
+
+:::
+\newpage
 ::: {#exr-calcul-2}
 Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour $x(t)$ et $v(t)$.
 
 ![](figures/mru/fig12){fig-align="center" width=50%}
 :::
-
+\vspace{5cm}
 ::: {#exr-calcul-1}
 Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l'entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?
 :::
