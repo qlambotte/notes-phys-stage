@@ -259,6 +259,20 @@
     "text": "Interro formative\n\nExercice 3 Soit deux corps \\(m_1\\) et \\(m_1\\) de masses respectives \\(2kg\\) et \\(5kg\\). Ces deux corps sont séparés de \\(10km\\). Calcule l’intensité de la force de gravitation exercée par \\(m_2\\) sur \\(m_1\\).\n\n\nExercice 4 Calcule la masse de Jupiter sachant que l’un de ses satellites, Callisto, effectue une révolution circulaire complète de \\(1,88\\cdot 10^6\\) km de rayon en 16,7 jours.\n\n\nExercice 5 Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente."
   },
   {
+    "objectID": "mru.html",
+    "href": "mru.html",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "mru.html#slides-du-cours",
+    "href": "mru.html#slides-du-cours",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
     "objectID": "mru.html#introduction",
     "href": "mru.html#introduction",
     "title": "Mouvement rectiligne uniforme",
@@ -285,6 +299,20 @@
     "title": "Mouvement rectiligne uniforme",
     "section": "Exercices",
     "text": "Exercices\n\nExercice 1 Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d’un corps en MRU.\n\n\n\n\n\nParmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. \n\n\nExercice 2 Sur le graphique ci-dessous, tu as la position, en fonction du temps, d’un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.\n\n\n\n\n\n\n\nExercice 3 Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).\n\n\n\n\n\n\n\nExercice 4 Voici le graphique de la position d’un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.\n\n\n\n\n\nDurant quelle(s) étape(s):\n\nsa vitesse est positive?\nsa vitesse est négative?\nsa vitesse est nulle?\nsa vitesse est la plus grande, en valeur absolue?\nla distance parcourue est la plus grande?\nla distance parcourue est la plus petite?\n\n\n\nExercice 5 Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.\n\n\n\n\n\nIndique si les propositions suivantes sont vraies ou fausses. Justifie.\n\nLes trois particules se déplacent dans le même sens.\n\n\nLa particule A est la plus rapide.\n\n\nA dépasse C à l’instant \\(t=30\\text{s}\\).\n\n\nB dépasse A à l’instant \\(t=60\\text{s}\\).\n\n\nA est moins rapide que B, à l’instant \\(t=60\\text{s}\\).\n\n\nB est plus près de A que de C, à l’instant \\(t=10\\text{s}\\).\n\n\nC ne croise jamais A.\n\n\nC croise B à deux moments.\n\n\n\nExercice 6 Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour \\(x(t)\\) et \\(v(t)\\).\n\n\n\n\n\n\n\nExercice 7 Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?"
+  },
+  {
+    "objectID": "ff.html",
+    "href": "ff.html",
+    "title": "Fusion et fission nucléaire",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "ff.html#slides-du-cours",
+    "href": "ff.html#slides-du-cours",
+    "title": "Fusion et fission nucléaire",
+    "section": "",
+    "text": "Full Screen"
   },
   {
     "objectID": "ff.html#introduction",
@@ -327,6 +355,20 @@
     "title": "Fusion et fission nucléaire",
     "section": "La fusion",
     "text": "La fusion\n\n\n\n\n\n\nFusion nucléaire\n\n\n\nLa fusion nucléaire est une réaction selon laquelle des noyaux légers fusionnent pour former des noyaux plus lourds. Cette réaction s’accompagne d’une libération importante d’énergie.\n\n\nVoici deux exemples de réactions de fusion nucléaire, faisant intervenir des isotopes de l’hydrogène:\n\nFusion deutérium-deutérium \\[\n^2_1 \\text{H}+^2_1\\text{H}\\to ^3_2\\text{He}+^1_0\\text{n}+5,24 × 10^{-13}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (75% pour le neutron et 25% pour le noyau d’hélium-3).\n\nFusion deutérium-tritium (isotope de l’hydrogène avec 2 neutrons) \\[\n^2_1\\text{H}+^3_1\\text{H}\\to ^4_2\\text{He}+^1_0\\text{n}+2,82 × 10^{-12}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (80% pour le neutron et 20% pour le noyau d’hélium-4).\nVoici un tableau comparant les différentes réactions nucléaires, pour alimenter en électricité une maison pendant un an.\n\n\n\nType de réaction\nÉléments requis\nMasse nécessaire pour 1 an\n\n\n\n\nFission\nUranium-235\n17 g\n\n\nFusion D-T\nDeutérium + Tritium\n0,04 g\n\n\nFusion D-D\nDeutérium\n0,06 g\n\n\n\nMalheureusement, il n’est pas encore possible de réaliser de manière fiable et exploitable une fusion nucléaire. Les centrales à fusion sont encore en développement et présentent de nombreux défis. Un projet mondial, exécuté en France, essaye de développer un réacteur à fusion nucléaire: c’est le projet ITER. Voici une courte vidéo qui l’explique.\n\nLa fusion nucléaire est un phénomène fondamental qui alimente le Soleil. Cette réaction est la source principale de l’énergie solaire dont nous bénéficions sur Terre. Le processus de fusion dans le Soleil est si intense qu’il entraîne une perte de masse significative : environ 4,2 millions de tonnes par seconde sont converties en énergie.\nLes réactions nucléaires au cœur du Soleil sont complexes et variées, formant des chaînes de réactions interconnectées. La chaîne proton-proton (PP) est la plus importante, représentant la majorité des réactions de fusion solaire. À titre d’illustration, voici les étapes principales d’une partie de la chaîne, qui débute par la fusion de deux noyaux d’hydrogène-1:\n\n\n\nSource: https://fr.wikipedia.org/wiki/Chaîne_proton-proton\n\n\nCes réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au coeur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au coeur du Soleil."
+  },
+  {
+    "objectID": "grav.html",
+    "href": "grav.html",
+    "title": "La gravitation universelle",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "grav.html#slides-du-cours",
+    "href": "grav.html#slides-du-cours",
+    "title": "La gravitation universelle",
+    "section": "",
+    "text": "Full Screen"
   },
   {
     "objectID": "grav.html#introduction-une-longue-histoire-en-quatre-étapes",
