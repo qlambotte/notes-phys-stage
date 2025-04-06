@@ -56,39 +56,298 @@
     "text": "Exercices\n\nExercice 1Exercice 2Exercice 3\n\n\n\n\n\nGraphique vitesse\n\n\n\n\n\n\n\nGraphique position\n\n\n\n\n\n\n\nTrajectoires oiseaux"
   },
   {
-    "objectID": "grav.html",
-    "href": "grav.html",
-    "title": "La gravitation universelle",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cours de Physique",
     "section": "",
-    "text": "Dès l’Antiquité, les savants ont observé les étoiles et ont essayé de comprendre leur mouvement.\n\n\nLes premiers modèles qui ont tenté de rendre compte du mouvement des astres étaient géocentriques : le mouvement des astres se fait par rotation autour de la Terre, qui est le centre de l’univers.\n\n\n\nLe modèle géocentrique\n\n\nCependant, ce modèle est très vite confronté à certaines difficultés. L’une d’elles concerne le mouvement de Mars autour de la Terre.\n\nTu peux observer sur l’animation ci-dessus que Mars a un mouvement rétrograde autour de la Terre. Cette observation était déjà réalisée plus de deux siècles avant Jésus-Christ, et deux savants de l’époque, Apollonius et Hipparque, ont tenté d’expliquer pourquoi Mars a un tel mouvement : ils ont mis au point les premiers modèles par épicycles. Ces modèles décrivent le mouvement de Mars (mais aussi d’autres astres) de la manière suivante : Mars se déplace le long d’un cercle, à vitesse constante, et le centre de ce cercle se déplace lui-même sur un grand cercle dont le centre est la Terre.\n\n\nCes modèles par épicycles ont été étudiés et raffinés pendant longtemps, pour aboutir au modèle de Ptolémée, qui proposa un modèle avec plusieurs épicycles pour expliquer les défauts de mesure des modèles d’Apollonius et Hipparque. Les travaux de Ptolémée furent la référence en astronomie jusqu’au XVIe siècle, avec l’arrivée du modèle héliocentrique de Copernic.\n\n\n\nMalgré la précision importante des modèles géocentriques, les astronomes du XVIe siècle n’arrivent pas à prévoir parfaitement le mouvement des astres. Copernic émit l’hypothèse que le Soleil était au centre de l’Univers et que la Terre effectue un mouvement circulaire autour de lui : c’est la naissance des modèles héliocentriques. Bien que le modèle héliocentrique de Copernic représente une révolution en astronomie, il ne permet pas une plus grande précision dans les prédictions que dans le modèle de Ptolémée. La raison est que Copernic suppose que les astres décrivent des cercles autour du Soleil.\n\n\n\nLe modèle de Copernic\n\n\nCependant, un atout du modèle de Copernic est sa simplicité par rapport au modèle avec épicycles. De plus, le mouvement rétrograde de Mars s’explique facilement comme un effet de perspective d’un observateur sur Terre.\n\n\n\nOrbite de Mars dans le modèle héliocentrique\n\n\nLe modèle de Copernic ne rencontrera pas un franc succès auprès de ses contemporains : ceux-ci étaient, entre autres, influencés par le sens commun de l’époque et les dogmes religieux.\nAu XVIIe siècle, Galilée se positionne en défenseur du modèle de Copernic : il apporta des arguments importants en faveur de ce modèle, grâce à des observations des satellites de Jupiter faites avec une lunette astronomique. Il observe que Jupiter et ses satellites forment un système planétaire miniature autour d’un centre qui n’est pas la Terre.\n\n\n\nLe modèle de Copernic place le Soleil au centre de l’Univers et suppose que les astres décrivent un mouvement circulaire dont le centre est le Soleil. Cependant, les mesures des mouvements des astres ne collent pas parfaitement aux trajectoires du modèle et Copernic fait vite appel aux épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle héliocentrique reste imparfait.\nC’est à la fin du XVIe siècle qu’une avancée majeure est réalisée pour expliquer le mouvement des astres : Johannes Kepler, sur base de mesures méticuleuses réalisées par l’astronome danois Tycho Brahe, se rend compte que les planètes ne décrivent pas des mouvements circulaires mais elliptiques, dont un des foyers est occupé par le Soleil. Il s’agit de sa première loi, parmi trois qui tentent de décrire le mouvement des planètes autour du Soleil.\n\n\n\n\n\n\nPremière loi: la loi des orbites.\n\n\n\nLa trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil.\n\n\n\n\n\nTrajectoire elliptique\n\n\n\n\n\n\n\n\nDeuxième loi: loi des aires.\n\n\n\nLe segment qui joint le Soleil à une planète balaie des secteurs d’aires égales en des durées égales, quelles que soient ces durées.\n\n\n\n\n\nLoi des aires\n\n\n\n\n\n\n\n\nTroisième loi: loi des périodes.\n\n\n\nLe quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes : \\[\n\\frac{a^3_1}{T_1^2}=\\frac{a^3_2}{T_2^2}=\\ldots\n\\]\n\n\n\nExercice 1 Complète le tableau suivant à l’aide de la 3e loi de Kepler.\n\n\n\n\n\n\n\n\n\nPlanète\n\\(a(10^9\\text{m})\\)\n\\(T(10^6\\text{s})\\)\n\\(a^3/T^3(10^{15}\\text{m}^3/\\text{s}^2)\\)\n\n\n\n\nMercure\n57,9\n\n3356\n\n\nVénus\n108,1\n19,41\n\n\n\nTerre\n149,6\n\n\n\n\nMars\n\n59,36\n3364\n\n\nJupiter\n778,4\n374,3\n\n\n\nSaturne\n1424\n928,4\n\n\n\n\n\n\n\n\nKepler a décrit avec précision le mouvement des planètes, mais il ne l’a pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour comprendre pourquoi les planètes suivent ces trajectoires elliptiques.\nNewton propose que toutes les masses s’attirent mutuellement avec une force qui dépend de certaines de leurs carctéristiques. Il va montrer ainsi que l’interaction qui fait tomber un objet sur Terre est aussi responsable du mouvement des planètes autour du Soleil. Cette idée révolutionnaire unifie les phénomènes terrestres et célestes sous une même loi.\nCette loi permet non seulement d’expliquer les trajectoires des planètes décrites par Kepler, mais aussi d’autres phénomènes tels que la chute des objets sur Terre, les marées ou encore le mouvement des satellites artificiels.\nNewton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C’est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des planètes et celui des objets terrestres."
+    "text": "Ce site web contient les notes de cours pour un stage de physique de 10h."
+  },
+  {
+    "objectID": "cover-grav.html",
+    "href": "cover-grav.html",
+    "title": "Cours de Physique",
+    "section": "",
+    "text": "coverpage: great-wave coverpage-bg-image: “_extensions/nmfs-opensci/titlepage/images/TheGreatWaveoffKanagawa.jpeg” coverpage-title: “quarto_titlepages” coverpage-footer: “Templates for title pages and covers” coverpage-theme: page-html-color: “F6D5A8” title-fontfamily: “QTDublinIrish.otf” title-fontsize: 40 title-align: “right” title-bottom: “10in” header-style: “none” author-style: “none” footer-fontsize: 20 footer-fontfamily: “QTDublinIrish.otf” footer-align: “right” footer-bottom: “9.5in” date-style: “none” bg-image-fading: “north”\ncoverpage: true\ncoverpage-bg-image: \"figures/herbig-haro.png\"\ncoverpage-title: \"La loi de la gravitation universelle\"\ncoverpage-footer: \"\"\ncoverpage-theme:\n  page-html-color: \"FFFFFF\"\n  bg-image-fading: \"north\""
+  },
+  {
+    "objectID": "grav-slides.html#introduction",
+    "href": "grav-slides.html#introduction",
+    "title": "La loi de la gravitation universelle",
+    "section": "Introduction",
+    "text": "Introduction\n\nL’histoire de la loi de la gravitation commence par l’étude\n\n\n… des corps célestes."
+  },
+  {
+    "objectID": "grav-slides.html#quest-ce-quun-corps-céleste",
+    "href": "grav-slides.html#quest-ce-quun-corps-céleste",
+    "title": "La loi de la gravitation universelle",
+    "section": "Qu’est-ce qu’un corps céleste?",
+    "text": "Qu’est-ce qu’un corps céleste?\n\nCorps céleste = tout objet de l’univers.\n\n\nDes exemples?"
+  },
+  {
+    "objectID": "grav-slides.html#les-photographes-de-lunivers-hubble-et-webb",
+    "href": "grav-slides.html#les-photographes-de-lunivers-hubble-et-webb",
+    "title": "La loi de la gravitation universelle",
+    "section": "Les photographes de l’univers: Hubble et Webb",
+    "text": "Les photographes de l’univers: Hubble et Webb\n\nHubble: https://esahubble.org/images/\nWebb: https://webbtelescope.org/news/first-images/gallery"
+  },
+  {
+    "objectID": "grav-slides.html#le-système-solaire",
+    "href": "grav-slides.html#le-système-solaire",
+    "title": "La loi de la gravitation universelle",
+    "section": "Le système solaire",
+    "text": "Le système solaire\nNous allons nous concentrer sur le système solaire, et plus précisément sur le mouvement des astres autour du soleil."
+  },
+  {
+    "objectID": "grav-slides.html#les-lois-de-kepler-fin-xvie-siècle",
+    "href": "grav-slides.html#les-lois-de-kepler-fin-xvie-siècle",
+    "title": "La loi de la gravitation universelle",
+    "section": "Les lois de Kepler (fin XVIe siècle)",
+    "text": "Les lois de Kepler (fin XVIe siècle)\n\nLa première personne qui est parvenue a décrire précisément le mouvement des astres autour du soleil est le physicien Kepler, qui a énoncé 3 lois.\n\n\nLa première décrit la trajectoire des astres.\nLa deuxième décrit la vitesse avec laquelle les astres se déplacent.\nLa troisième met en évidence une régularité commune à toutes les trajectoires des astres."
+  },
+  {
+    "objectID": "grav-slides.html#la-première-loi-de-kepler",
+    "href": "grav-slides.html#la-première-loi-de-kepler",
+    "title": "La loi de la gravitation universelle",
+    "section": "La première loi de Kepler",
+    "text": "La première loi de Kepler\n\n\n\n\n\n\n\n\nPremière loi: la loi des orbites.\n\n\nLa trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil."
+  },
+  {
+    "objectID": "grav-slides.html#la-deuxième-loi-de-kepler",
+    "href": "grav-slides.html#la-deuxième-loi-de-kepler",
+    "title": "La loi de la gravitation universelle",
+    "section": "La deuxième loi de Kepler",
+    "text": "La deuxième loi de Kepler\n\n\n\n\n\n\n\n\nDeuxième loi: loi des aires.\n\n\nLe segment qui joint le Soleil à une planète balaie des secteurs d’aires égales en des durées égales, quelles que soient ces durées."
+  },
+  {
+    "objectID": "grav-slides.html#la-troisième-loi-de-kepler",
+    "href": "grav-slides.html#la-troisième-loi-de-kepler",
+    "title": "La loi de la gravitation universelle",
+    "section": "La troisième loi de Kepler",
+    "text": "La troisième loi de Kepler\n\n\n\n\n\n\n\n\nTroisième loi: loi des périodes.\n\n\nLe quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes : \\[\n\\frac{a^3_1}{T_1^2}=\\frac{a^3_2}{T_2^2}=\\ldots\n\\]\n\n\n\n\n\n\n\nExercice 1 Complète le tableau suivant à l’aide de la 3e loi de Kepler.\n\n\n\n\n\n\n\n\n\nPlanète\n\\(a(10^9\\text{m})\\)\n\\(T(10^6\\text{s})\\)\n\\(a^3/T^3(10^{15}\\text{m}^3/\\text{s}^2)\\)\n\n\n\n\nVénus\n108,1\n19,41\n\n\n\nTerre\n149,6\n\n\n\n\nMars\n\n59,36\n3364"
+  },
+  {
+    "objectID": "grav-slides.html#la-loi-de-la-gravitation-universelle-la-démarche-de-newton-xviie-siècle",
+    "href": "grav-slides.html#la-loi-de-la-gravitation-universelle-la-démarche-de-newton-xviie-siècle",
+    "title": "La loi de la gravitation universelle",
+    "section": "La loi de la gravitation universelle: la démarche de Newton (XVIIe siècle)",
+    "text": "La loi de la gravitation universelle: la démarche de Newton (XVIIe siècle)\n\nC’est Newton qui a développé la loi de la gravitation universelle. Nous allons suivre sa démarche pour arriver a formuler sa loi.\n\n\nTout commence par l’étude du mouvement de la Lune autour de la Terre."
+  },
+  {
+    "objectID": "grav-slides.html#mouvement-de-la-lune",
+    "href": "grav-slides.html#mouvement-de-la-lune",
+    "title": "La loi de la gravitation universelle",
+    "section": "Mouvement de la Lune",
+    "text": "Mouvement de la Lune\n\nMouvement de la Lune = . . . chute libre"
+  },
+  {
+    "objectID": "grav-slides.html#ce-quen-déduit-newton",
+    "href": "grav-slides.html#ce-quen-déduit-newton",
+    "title": "La loi de la gravitation universelle",
+    "section": "Ce qu’en déduit Newton",
+    "text": "Ce qu’en déduit Newton\nNewton pense que la force \\(\\overrightarrow{F}_{T/P}\\) exercée par la Terre sur la pomme a la même nature que la force \\(\\overrightarrow{F}_{T/L}\\) exercée par la Terre sur la Lune.\nIl va donc essayer de dégager les paramètres qui influencent cette force, que nous appellerons force d’attraction terrestre. Nous allons les découvrir pas à pas."
+  },
+  {
+    "objectID": "grav-slides.html#rappels-sur-le-mcu",
+    "href": "grav-slides.html#rappels-sur-le-mcu",
+    "title": "La loi de la gravitation universelle",
+    "section": "Rappels sur le MCU",
+    "text": "Rappels sur le MCU\n\n\n\n\n\n\n\n\n\n\\(v=\\dfrac{2\\pi R}{T}=\\omega R\\)\n\n\n\\(a=\\dfrac{v^2}{R}=\\omega^2R\\)"
+  },
+  {
+    "objectID": "grav-slides.html#exercice",
+    "href": "grav-slides.html#exercice",
+    "title": "La loi de la gravitation universelle",
+    "section": "Exercice",
+    "text": "Exercice\nLa Lune est essentiellement en MCU autour de la Terre. On peut donc supposer qu’elle est en MCU et qu’elle possède une accélération centripète \\(a_L\\). Nous allons comparer cette accélération à celle que subit une pomme à la surface de la Terre."
+  },
+  {
+    "objectID": "grav-slides.html#section",
+    "href": "grav-slides.html#section",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Exercice 2  \n\nCalculer \\(\\dfrac{g}{a_L}\\).\nCalculer \\(\\dfrac{R}{R_0}\\).\nDéduire que \\(\\dfrac{g}{a_L} \\simeq \\left(\\dfrac{R}{R_0}\\right)^2\\).\n\n\nPour rappel :\n\nLe rayon Terre-Lune est \\(R = 385 000\\) km\nLe rayon de la Terre est \\(R_0 = 6370\\) km"
+  },
+  {
+    "objectID": "grav-slides.html#que-peut-on-en-déduire",
+    "href": "grav-slides.html#que-peut-on-en-déduire",
+    "title": "La loi de la gravitation universelle",
+    "section": "Que peut-on en déduire?",
+    "text": "Que peut-on en déduire?\nGrâce aux calculs précédents on peut observer que l’accélération de la pomme est plus grande que l’accélération de la Lune: \\(g\\) est environ 3600 fois plus grande que \\(a_L\\).\n\nNewton en déduit que la force que la Terre exerce sur la pomme ou sur la Lune dépend de la distance qui les sépare de la Terre. Plus précisément:\n\n\n\n\n\n\n\n\n\nDépendance de la distance\n\n\nL’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre."
+  },
+  {
+    "objectID": "grav-slides.html#deux-autres-paramètres-influencent-la-force-dattraction-terrestre",
+    "href": "grav-slides.html#deux-autres-paramètres-influencent-la-force-dattraction-terrestre",
+    "title": "La loi de la gravitation universelle",
+    "section": "Deux autres paramètres influencent la force d’attraction terrestre",
+    "text": "Deux autres paramètres influencent la force d’attraction terrestre\nLa force d’attraction terrestre \\(\\overrightarrow{F}_{T/L}\\) est incluencée par deux autres paramètres: la masse de la Terre et la masse de la Lune."
+  },
+  {
+    "objectID": "grav-slides.html#section-1",
+    "href": "grav-slides.html#section-1",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "En effet,\n\nPar la 2e Loi de Newton: \\(\\overrightarrow{F}_{T/L}=m_L\\overrightarrow{a}_{L}\\)\n\n\n\n\n\n\n\n\n\n\nPar la loi des actions réciproques: \\(\\overrightarrow{F}_{T/L}=-\\overrightarrow{F}_{L/T}=m_T\\overrightarrow{a}_{L}\\)."
+  },
+  {
+    "objectID": "grav-slides.html#énoncé-de-la-loi",
+    "href": "grav-slides.html#énoncé-de-la-loi",
+    "title": "La loi de la gravitation universelle",
+    "section": "Énoncé de la loi",
+    "text": "Énoncé de la loi\nEn résumé, la force \\(\\overrightarrow{F}_{\\text{T/L}}\\) est :\n\nproportionnelle aux masses \\(m_L\\) et \\(m_T\\),\ninversement proportionnelle au carré de la distance \\(R\\) entre les deux corps.\n\n\nLe génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature."
+  },
+  {
+    "objectID": "grav-slides.html#énoncé-de-la-loi-1",
+    "href": "grav-slides.html#énoncé-de-la-loi-1",
+    "title": "La loi de la gravitation universelle",
+    "section": "Énoncé de la loi",
+    "text": "Énoncé de la loi\n\n\n\n\n\n\n\nLoi de la gravitation universelle\n\n\nDeux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :\n\\[\nF_{m_1/m_2}=F_{m_2/m_1} = k_g \\dfrac{m_1 m_2}{d^2}.\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\\(k_g = 6,67 \\times 10^{-11} \\dfrac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}.\\)"
+  },
+  {
+    "objectID": "grav-slides.html#exercices",
+    "href": "grav-slides.html#exercices",
+    "title": "La loi de la gravitation universelle",
+    "section": "Exercices",
+    "text": "Exercices"
+  },
+  {
+    "objectID": "grav-slides.html#applications",
+    "href": "grav-slides.html#applications",
+    "title": "La loi de la gravitation universelle",
+    "section": "Applications",
+    "text": "Applications\nPréciser hypothese des orbites circulaires. Enoncer principe de base."
+  },
+  {
+    "objectID": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
+    "href": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
+    "title": "La loi de la gravitation universelle",
+    "section": "Mouvement des astres dans le système solaire",
+    "text": "Mouvement des astres dans le système solaire"
+  },
+  {
+    "objectID": "grav-slides.html#masse-des-astres",
+    "href": "grav-slides.html#masse-des-astres",
+    "title": "La loi de la gravitation universelle",
+    "section": "Masse des astres",
+    "text": "Masse des astres"
+  },
+  {
+    "objectID": "grav-slides.html#la-gravité-autour-de-la-terre",
+    "href": "grav-slides.html#la-gravité-autour-de-la-terre",
+    "title": "La loi de la gravitation universelle",
+    "section": "La gravité autour de la Terre",
+    "text": "La gravité autour de la Terre"
+  },
+  {
+    "objectID": "grav-slides.html#le-champ-gravitationnel",
+    "href": "grav-slides.html#le-champ-gravitationnel",
+    "title": "La loi de la gravitation universelle",
+    "section": "Le champ gravitationnel",
+    "text": "Le champ gravitationnel"
+  },
+  {
+    "objectID": "grav-slides.html#orbite-géostationnaire-et-satellites",
+    "href": "grav-slides.html#orbite-géostationnaire-et-satellites",
+    "title": "La loi de la gravitation universelle",
+    "section": "Orbite géostationnaire et satellites",
+    "text": "Orbite géostationnaire et satellites"
+  },
+  {
+    "objectID": "grav-slides.html#interro-formative",
+    "href": "grav-slides.html#interro-formative",
+    "title": "La loi de la gravitation universelle",
+    "section": "Interro formative",
+    "text": "Interro formative\n\nExercice 3 Soit deux corps \\(m_1\\) et \\(m_1\\) de masses respectives \\(2kg\\) et \\(5kg\\). Ces deux corps sont séparés de \\(10km\\). Calcule l’intensité de la force de gravitation exercée par \\(m_2\\) sur \\(m_1\\).\n\n\nExercice 4 Calcule la masse de Jupiter sachant que l’un de ses satellites, Callisto, effectue une révolution circulaire complète de \\(1,88\\cdot 10^6\\) km de rayon en 16,7 jours.\n\n\nExercice 5 Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente."
+  },
+  {
+    "objectID": "mru.html#introduction",
+    "href": "mru.html#introduction",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Introduction",
+    "text": "Introduction\nNous allons réaliser une expérience numérique à partir de l’application suivante.\n\n\nSur cette application, on va d’abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.\n\nQue constates-tu? \nCalculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est définie par\n\\[\nv_{\\text{m}}=\\dfrac{\\Delta x}{\\Delta t}=\\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.\n\\] Autrement dit, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est la distance parcourue entre \\(t_0\\) et \\(t_1\\) divisée par la durée \\(t_1-t_0\\).\nComplétons le tableau suivant.\n\nQue constates-tu?\nNous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:\n\nla vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici \\(v=\\)\nla position \\(x(t)\\) de la voiture en fonction du temps est une fonction du premier degré, du type \\(x(t)=m\\cdot t+p\\). De plus,\n\nl’ordonnée à l’origine est la position initiale: \\(x(0)=x_0=\\)\nle taux d’accroissement (=pente de la droite qui représente \\(x(t)\\)) est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:\n\n\\[\nx(t)=v\\cdot t+x_0=\n\\]\n\nCe modèle permet de faire deux choses importantes:\n\ninterpoler: grâce à ce modèle, on peut calculer toutes les positions entre le moment de départ et le moment où on a arrêté le chronomètre.\nextrapoler: grâce à ce modèle, on peut faire des prédictions. Autrement dit, on peut à l’avance connaître la position de la voiture à des instants qui sont au delà du temps où on a arrêté le chronomètre, pour autant que l’on suppose que la voiture continue sa trajectoire sous les mêmes conditions.\n\nVérifions ces deux affirmations, pour les temps \\(t_1=\\ldots\\ldots\\) et \\(t_2=\\ldots\\ldots\\)."
+  },
+  {
+    "objectID": "mru.html#les-caractéristiques-dun-mru",
+    "href": "mru.html#les-caractéristiques-dun-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Les caractéristiques d’un MRU",
+    "text": "Les caractéristiques d’un MRU\n\nDéfinition 1 Un corps est en mouvement rectiligne uniforme s’il parcourt une ligne droite à vitesse constante, sans changer de sens.\n\nLes MRU ont les caractéristiques suivantes:\n\nCaractéristiques graphiques\n\n\n\n\n\n\n\n\nPosition\nLa représentation de la position en fonction du temps est une droite oblique: la fonction \\(x(t)\\) est une fonction du premier degré. \n\n\n\n \n\n\n\nVitesse\nLa représentation de la vitesse en fonction du temps est une droite horizontale: la fonction \\(v(t)\\) est une fonction constante. \n\n\n\n\n\nCaractéristiques analytiques\n\n\n\n\n\n\n\n\nPosition\nLa position en fonction du temps est donnée par \\[\nx(t)=v\\cdot t+x_0,\n\\] où \\(v\\) est la vitesse du corps en MRU et \\(x_0\\) sa position initiale.\n\n\n\n \n\n\n\nVitesse\nLa vitesse en fonction du temps est donnée par \\[\nv(t)=v_{\\text{m}}=\\text{constante}.\n\\]"
+  },
+  {
+    "objectID": "mru.html#comparaisons-de-deux-mru",
+    "href": "mru.html#comparaisons-de-deux-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Comparaisons de deux MRU",
+    "text": "Comparaisons de deux MRU\nRevenons à la voiture rouge de l’introduction. Nous allons ajouter une voiture bleue et observer leurs mouvements, dans deux situations: lorsqu’elles parcourent la route dans le même sens et lorsqu’elles parcourent la route dans des sens opposés.\n\nParcours dans le même sens\n\n\nTu observes qu’une voiture dépasse l’autre. Comment peux-tu donner le temps de ce dépassement à l’aide du graphique?\nQuelle voiture va le plus vite? Peux-tu l’observer à l’aide du graphique?\n\n\nParcours dans des sens opposés\n\n\nTu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l’aide du graphique? \nQue vaut la vitesse de la voiture bleue?\nQuelle voiture va le plus vite?"
+  },
+  {
+    "objectID": "mru.html#exercices",
+    "href": "mru.html#exercices",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercices",
+    "text": "Exercices\n\nExercice 1 Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d’un corps en MRU.\n\n\n\n\n\nParmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. \n\n\nExercice 2 Sur le graphique ci-dessous, tu as la position, en fonction du temps, d’un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.\n\n\n\n\n\n\n\nExercice 3 Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).\n\n\n\n\n\n\n\nExercice 4 Voici le graphique de la position d’un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.\n\n\n\n\n\nDurant quelle(s) étape(s):\n\nsa vitesse est positive?\nsa vitesse est négative?\nsa vitesse est nulle?\nsa vitesse est la plus grande, en valeur absolue?\nla distance parcourue est la plus grande?\nla distance parcourue est la plus petite?\n\n\n\nExercice 5 Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.\n\n\n\n\n\nIndique si les propositions suivantes sont vraies ou fausses. Justifie.\n\nLes trois particules se déplacent dans le même sens.\n\n\nLa particule A est la plus rapide.\n\n\nA dépasse C à l’instant \\(t=30\\text{s}\\).\n\n\nB dépasse A à l’instant \\(t=60\\text{s}\\).\n\n\nA est moins rapide que B, à l’instant \\(t=60\\text{s}\\).\n\n\nB est plus près de A que de C, à l’instant \\(t=10\\text{s}\\).\n\n\nC ne croise jamais A.\n\n\nC croise B à deux moments.\n\n\n\nExercice 6 Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour \\(x(t)\\) et \\(v(t)\\).\n\n\n\n\n\n\n\nExercice 7 Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?"
+  },
+  {
+    "objectID": "ff.html#introduction",
+    "href": "ff.html#introduction",
+    "title": "Fusion et fission nucléaire",
+    "section": "Introduction",
+    "text": "Introduction\nRegardons la vidéo suivante de ScienceEtonnante:\n\nRéponds aux questions suivantes:\n\nQuelle est l’équation la plus connue de la physique?\n\n\nComment devrait-on écrie cette équation?\n\n\nQuelles quantités varient simultanément?\n\n\nDans l’équation d’Einstein, que représente \\(m\\)?\n\n\nDans l’équation d’Einstein, que représente \\(E\\)?\n\n\nPourquoi dit-on qu’il y a une perte de masse dans un atome d’hydrogène?\n\n\nDe quoi est composé un noyau d’hélium?\n\n\nPeut-on dire qu’il est possible de transformer de la masse en énergie?"
+  },
+  {
+    "objectID": "ff.html#la-relation-deinstein-1",
+    "href": "ff.html#la-relation-deinstein-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "La relation d’Einstein",
+    "text": "La relation d’Einstein\nC’est en 1905 qu’Einstein publia l’équation \\(E=mc^2\\), sur base de nombreux travaux d’autres scientifiques qui avaient déjà observé un lien entre l’énergie et la masse dans des situations particulières.\nDécortiquons cette équation:\n\ncette équation parle de deux attributs \\(E\\) et \\(m\\) d’un corps supposé au repos;\nla lettre \\(m\\) fait référence à la masse de ce corps (au repos!), exprimée en kilogrammes \\(\\text{kg}\\);\nla lettre \\(E\\) fait référence à l’énergie totale de ce corps (au repos!), exprimée en joules \\(J\\);\nla lettre \\(c\\) fait référence à la vitesse de la lumière dans le vide, qui est une constante universelle et vaut environ \\(300 000\\text{km/s}=3\\cdot 10^8\\text{m/s}\\).\n\nDans cette équation, la masse est une mesure de la résistance du corps à se mettre en mouvement et n’est donc pas une mesure de la quantité de matière.\nComment interpréter cette équation? Elle nous dit qu’une variation de l’énergie d’un corps au repos correspond à une variation de la masse de ce corps. De plus, le facteur \\(c^2\\) qui lie ces variations entre énergie et masse fait qu’une variation de l’énergie correspond à une variation sensiblement plus petite de la masse (une variation environ \\(10^{17}\\) fois plus petite).\nVoici un tableau donnant différentes variations d’énergie et la variation de masse correspondante:\n\n\n\n\n\n\n\n\n\nÉnergie (J)\nExemple\nMasse (kg)\nExemple\n\n\n\n\n\\(2,11 \\cdot 10^{18}\\)\nConsommation totale d’énergie de la Belgique en 1 an\n\\(23,5\\)\nun enfant de 8 ans\n\n\n\\(9 \\cdot 10^{10}\\)\nÉnergie consommée par une personne en un an\n\\(1 \\cdot 10^{-6}\\)\nun moustique\n\n\n\\(3,8 \\cdot 10^{26}\\)\nÉnergie émise par le Soleil en une seconde\n\\(4,2 \\cdot 10^9\\)\nla grande pyramide de Gizeh\n\n\n\\(1 \\cdot 10^6\\)\nÉnergie cinétique d’une voiture à 100 km/h\n\\(1,11 \\cdot 10^{-11}\\)\ndix cellules\n\n\n\\(8,368 \\cdot 10^6\\)\nÉnergie d’un repas de 2000 kcal\n\\(9,3 \\cdot 10^{-11}\\)\nun dixième de grain de sable\n\n\n\\(1\\)\nÉnergie pour soulever une pomme d’un mètre\n\\(1,11 \\cdot 10^{-17}\\)\nune bactérie\n\n\n\\(2,9288 \\cdot 10^6\\)\nÉnergie dépensée lors d’une course de 10 km\n\\(3,26 \\cdot 10^{-11}\\)\n30 cellules"
+  },
+  {
+    "objectID": "ff.html#le-défaut-de-masse-dans-la-formation-de-noyaux",
+    "href": "ff.html#le-défaut-de-masse-dans-la-formation-de-noyaux",
+    "title": "Fusion et fission nucléaire",
+    "section": "Le défaut de masse dans la formation de noyaux",
+    "text": "Le défaut de masse dans la formation de noyaux\nNous avons vu dans la vidéo que la masse d’un noyau d’hélium n’est pas égale à la somme des masses des 4 nucléons qui le compose, à cause de l’énergie nécessaire pour la création de ce noyau. Analysons un autre exemple: celui du noyau d’un isotope de l’hydrogène, le deutérium.\nLe noyau de cet isotope contient un proton et un neutron.\n\n\n\nReprésentation des noyaux de deuterium et de l’hydrogène\n\n\nVoici un tableau résummant les valeurs des masses et du défaut de masse, ainsi que l’énergie correspondant à ce défaut.\n\n\n\n\n\n\n\nÉlément\nValeur\n\n\n\n\nMasse du proton (p)\n\\(1.67262 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse du neutron (n)\n\\(1.67493 \\times 10^{-27}\\text{kg}\\)\n\n\nSomme des masses (p + n)\n\\(3.34755 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse réelle du deutérium\n\\(3.34449 \\times 10^{-27}\\text{kg}\\)\n\n\nDéfaut de masse\n\\(3.06 \\times 10^{-30}\\text{kg}\\)\n\n\nÉnergie de liaison\n\\(2.75 \\times 10^{-13}\\) J\n\n\n\nUn noyau de deutérium est créé à partir d’hydrogène lorsqu’un proton capture un neutron. Ce processus peut se produire naturellement, mais à un taux très faible, ou être provoqué artificiellement dans des réacteurs nucléaires. L’équation de formation du deutérium peut s’écrire :\n\\[\n^1_1\\text{H} + ^1_0\\text{n} \\rightarrow ^2_1\\text{H} + \\gamma\n\\]\nCette réaction libère de l’énergie sous forme de rayonnement gamma, correspondant au défaut de masse."
+  },
+  {
+    "objectID": "ff.html#introduction-1",
+    "href": "ff.html#introduction-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "Introduction",
+    "text": "Introduction\nRegardons la vidéo suivante de ScienceEtonnante:\n\nRéponds aux questions suivantes:\n\npeut-on produire de l’énergie?\n\n\nde quoi a-t-on besoin pour faire une fission?\n\n\ncombien y a-t-il de neutrons dans un noyau de magnésium 26?\n\n\nque doit-il se produire pour qu’une réaction de fission puisse s’auto-entretenir?\n\n\nquels noyaux permettent de créer des réactions de fission qui s’auto-entretiennent?\n\n\nquels noyaux doit-on utiliser pour produire un noyau d’hélium par fusion? \nqu’est-ce que la barrière énergétique?"
+  },
+  {
+    "objectID": "ff.html#la-fission",
+    "href": "ff.html#la-fission",
+    "title": "Fusion et fission nucléaire",
+    "section": "La fission",
+    "text": "La fission\n\n\n\n\n\n\nFission nucléaire\n\n\n\nLa fission nucléaire est une réaction selon laquelle un noyau lourd se sépare en deux autres noyaux, plus légers, sous l’impact d’un neutron lent. Cette réaction est accompagnée par l’émission de plusieurs neutrons (en général 2 ou 3) et d’un dégagement d’énergie.\n\n\nDans les centrales nucléaires, les réactions de fission sont causée par bombardement d’un noyau lourd par un neutron. Voici deux exemples de réaction par fission:\n\\[\n^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{236}_{92}\\text{U}\\rightarrow ^{95}_{38}\\text{Sr} + ^{139}_54\\text{Xe} + 2 ^1_0\\text{n} + 3,2 \\cdot 10^{-11}\\text{J}\n\\]\n\\[\n^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{236}_{92}\\text{U}\\rightarrow ^{92}_{36}\\text{Kr} + ^{141}_{56}\\text{Ba} + 3 ^1_0\\text{n} + 3,2 \\cdot 10^{-11}\\text{J}\n\\]\nPour chacune de ces deux réactions, l’énergie correspond au défaut de masse entre les produits de fission et le noyau de départ. Pour la réaction de fission de l’uranium-235, l’énérgie totale dégagée en moyenne est de \\(3,2 \\cdot 10^{-11}\\text{J}\\). Cette énergie se décompose de la manière suivante:\n\n\n\nÉnergie d’une réaction de fission de l’uranium-235\n\n\nL’énergie récupérable par une centrale nucléaire est de l’ordre de \\(95\\%\\), c’est-à-dire environ \\(3,04 \\cdot 10^{-11}\\text{J}\\). Ce nombre semble ridiculement petit mais est en fait énorme à grande échelle. Voici un tableau comparant les différentes manière de produire l’électricité nécessaire pour alimenter une maison pendant un an:\n\n\n\nSource d’énergie\nQuantité nécessaire pour 1 an\n\n\n\n\nUranium (fission)\n17 g\n\n\nCharbon (combustion)\n330 kg\n\n\nGaz naturel (combustion)\n300 m³\n\n\nPétrole (combustion)\n270 litres\n\n\nPanneaux solaires\nenvirion 15 panneaux solaires"
+  },
+  {
+    "objectID": "ff.html#la-fusion",
+    "href": "ff.html#la-fusion",
+    "title": "Fusion et fission nucléaire",
+    "section": "La fusion",
+    "text": "La fusion\n\n\n\n\n\n\nFusion nucléaire\n\n\n\nLa fusion nucléaire est une réaction selon laquelle des noyaux légers fusionnent pour former des noyaux plus lourds. Cette réaction s’accompagne d’une libération importante d’énergie.\n\n\nVoici deux exemples de réactions de fusion nucléaire, faisant intervenir des isotopes de l’hydrogène:\n\nFusion deutérium-deutérium \\[\n^2_1 \\text{H}+^2_1\\text{H}\\to ^3_2\\text{He}+^1_0\\text{n}+5,24 × 10^{-13}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (75% pour le neutron et 25% pour le noyau d’hélium-3).\n\nFusion deutérium-tritium (isotope de l’hydrogène avec 2 neutrons) \\[\n^2_1\\text{H}+^3_1\\text{H}\\to ^4_2\\text{He}+^1_0\\text{n}+2,82 × 10^{-12}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (80% pour le neutron et 20% pour le noyau d’hélium-4).\nVoici un tableau comparant les différentes réactions nucléaires, pour alimenter en électricité une maison pendant un an.\n\n\n\nType de réaction\nÉléments requis\nMasse nécessaire pour 1 an\n\n\n\n\nFission\nUranium-235\n17 g\n\n\nFusion D-T\nDeutérium + Tritium\n0,04 g\n\n\nFusion D-D\nDeutérium\n0,06 g\n\n\n\nMalheureusement, il n’est pas encore possible de réaliser de manière fiable et exploitable une fusion nucléaire. Les centrales à fusion sont encore en développement et présentent de nombreux défis. Un projet mondial, exécuté en France, essaye de développer un réacteur à fusion nucléaire: c’est le projet ITER. Voici une courte vidéo qui l’explique.\n\nLa fusion nucléaire est un phénomène fondamental qui alimente le Soleil. Cette réaction est la source principale de l’énergie solaire dont nous bénéficions sur Terre. Le processus de fusion dans le Soleil est si intense qu’il entraîne une perte de masse significative : environ 4,2 millions de tonnes par seconde sont converties en énergie.\nLes réactions nucléaires au cœur du Soleil sont complexes et variées, formant des chaînes de réactions interconnectées. La chaîne proton-proton (PP) est la plus importante, représentant la majorité des réactions de fusion solaire. À titre d’illustration, voici les étapes principales d’une partie de la chaîne, qui débute par la fusion de deux noyaux d’hydrogène-1:\n\n\n\nSource: https://fr.wikipedia.org/wiki/Chaîne_proton-proton\n\n\nCes réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au coeur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au coeur du Soleil."
   },
   {
     "objectID": "grav.html#introduction-une-longue-histoire-en-quatre-étapes",
     "href": "grav.html#introduction-une-longue-histoire-en-quatre-étapes",
     "title": "La gravitation universelle",
-    "section": "",
-    "text": "Dès l’Antiquité, les savants ont observé les étoiles et ont essayé de comprendre leur mouvement.\n\n\nLes premiers modèles qui ont tenté de rendre compte du mouvement des astres étaient géocentriques : le mouvement des astres se fait par rotation autour de la Terre, qui est le centre de l’univers.\n\n\n\nLe modèle géocentrique\n\n\nCependant, ce modèle est très vite confronté à certaines difficultés. L’une d’elles concerne le mouvement de Mars autour de la Terre.\n\nTu peux observer sur l’animation ci-dessus que Mars a un mouvement rétrograde autour de la Terre. Cette observation était déjà réalisée plus de deux siècles avant Jésus-Christ, et deux savants de l’époque, Apollonius et Hipparque, ont tenté d’expliquer pourquoi Mars a un tel mouvement : ils ont mis au point les premiers modèles par épicycles. Ces modèles décrivent le mouvement de Mars (mais aussi d’autres astres) de la manière suivante : Mars se déplace le long d’un cercle, à vitesse constante, et le centre de ce cercle se déplace lui-même sur un grand cercle dont le centre est la Terre.\n\n\nCes modèles par épicycles ont été étudiés et raffinés pendant longtemps, pour aboutir au modèle de Ptolémée, qui proposa un modèle avec plusieurs épicycles pour expliquer les défauts de mesure des modèles d’Apollonius et Hipparque. Les travaux de Ptolémée furent la référence en astronomie jusqu’au XVIe siècle, avec l’arrivée du modèle héliocentrique de Copernic.\n\n\n\nMalgré la précision importante des modèles géocentriques, les astronomes du XVIe siècle n’arrivent pas à prévoir parfaitement le mouvement des astres. Copernic émit l’hypothèse que le Soleil était au centre de l’Univers et que la Terre effectue un mouvement circulaire autour de lui : c’est la naissance des modèles héliocentriques. Bien que le modèle héliocentrique de Copernic représente une révolution en astronomie, il ne permet pas une plus grande précision dans les prédictions que dans le modèle de Ptolémée. La raison est que Copernic suppose que les astres décrivent des cercles autour du Soleil.\n\n\n\nLe modèle de Copernic\n\n\nCependant, un atout du modèle de Copernic est sa simplicité par rapport au modèle avec épicycles. De plus, le mouvement rétrograde de Mars s’explique facilement comme un effet de perspective d’un observateur sur Terre.\n\n\n\nOrbite de Mars dans le modèle héliocentrique\n\n\nLe modèle de Copernic ne rencontrera pas un franc succès auprès de ses contemporains : ceux-ci étaient, entre autres, influencés par le sens commun de l’époque et les dogmes religieux.\nAu XVIIe siècle, Galilée se positionne en défenseur du modèle de Copernic : il apporta des arguments importants en faveur de ce modèle, grâce à des observations des satellites de Jupiter faites avec une lunette astronomique. Il observe que Jupiter et ses satellites forment un système planétaire miniature autour d’un centre qui n’est pas la Terre.\n\n\n\nLe modèle de Copernic place le Soleil au centre de l’Univers et suppose que les astres décrivent un mouvement circulaire dont le centre est le Soleil. Cependant, les mesures des mouvements des astres ne collent pas parfaitement aux trajectoires du modèle et Copernic fait vite appel aux épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle héliocentrique reste imparfait.\nC’est à la fin du XVIe siècle qu’une avancée majeure est réalisée pour expliquer le mouvement des astres : Johannes Kepler, sur base de mesures méticuleuses réalisées par l’astronome danois Tycho Brahe, se rend compte que les planètes ne décrivent pas des mouvements circulaires mais elliptiques, dont un des foyers est occupé par le Soleil. Il s’agit de sa première loi, parmi trois qui tentent de décrire le mouvement des planètes autour du Soleil.\n\n\n\n\n\n\nPremière loi: la loi des orbites.\n\n\n\nLa trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil.\n\n\n\n\n\nTrajectoire elliptique\n\n\n\n\n\n\n\n\nDeuxième loi: loi des aires.\n\n\n\nLe segment qui joint le Soleil à une planète balaie des secteurs d’aires égales en des durées égales, quelles que soient ces durées.\n\n\n\n\n\nLoi des aires\n\n\n\n\n\n\n\n\nTroisième loi: loi des périodes.\n\n\n\nLe quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes : \\[\n\\frac{a^3_1}{T_1^2}=\\frac{a^3_2}{T_2^2}=\\ldots\n\\]\n\n\n\nExercice 1 Complète le tableau suivant à l’aide de la 3e loi de Kepler.\n\n\n\n\n\n\n\n\n\nPlanète\n\\(a(10^9\\text{m})\\)\n\\(T(10^6\\text{s})\\)\n\\(a^3/T^3(10^{15}\\text{m}^3/\\text{s}^2)\\)\n\n\n\n\nMercure\n57,9\n\n3356\n\n\nVénus\n108,1\n19,41\n\n\n\nTerre\n149,6\n\n\n\n\nMars\n\n59,36\n3364\n\n\nJupiter\n778,4\n374,3\n\n\n\nSaturne\n1424\n928,4\n\n\n\n\n\n\n\n\nKepler a décrit avec précision le mouvement des planètes, mais il ne l’a pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour comprendre pourquoi les planètes suivent ces trajectoires elliptiques.\nNewton propose que toutes les masses s’attirent mutuellement avec une force qui dépend de certaines de leurs carctéristiques. Il va montrer ainsi que l’interaction qui fait tomber un objet sur Terre est aussi responsable du mouvement des planètes autour du Soleil. Cette idée révolutionnaire unifie les phénomènes terrestres et célestes sous une même loi.\nCette loi permet non seulement d’expliquer les trajectoires des planètes décrites par Kepler, mais aussi d’autres phénomènes tels que la chute des objets sur Terre, les marées ou encore le mouvement des satellites artificiels.\nNewton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C’est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des planètes et celui des objets terrestres."
+    "section": "Introduction: une longue histoire en quatre étapes",
+    "text": "Introduction: une longue histoire en quatre étapes\nL’observation et l’étude des corps célestes est à l’origine de la loi de la gravitation universelle.\n\n\n\nLa Voie Lactée\n\n\n\nLes modèles géocentriques\nDès l’Antiquité, les savants ont observé les étoiles et ont essayé de comprendre leur mouvement.\n\n\nLes premiers modèles qui ont tenté de rendre compte du mouvement des astres étaient géocentriques : le mouvement des astres se fait par rotation autour de la Terre, qui est le centre de l’univers.\n\n\n\nLe modèle géocentrique\n\n\nCependant, ce modèle est très vite confronté à certaines difficultés. L’une d’elles concerne le mouvement de Mars autour de la Terre.\n\nTu peux observer sur l’animation ci-dessus que Mars a un mouvement rétrograde autour de la Terre. Cette observation était déjà réalisée plus de deux siècles avant Jésus-Christ, et deux savants de l’époque, Apollonius et Hipparque, ont tenté d’expliquer pourquoi Mars a un tel mouvement : ils ont mis au point les premiers modèles par épicycles. Ces modèles décrivent le mouvement de Mars (mais aussi d’autres astres) de la manière suivante : Mars se déplace le long d’un cercle, à vitesse constante, et le centre de ce cercle se déplace lui-même sur un grand cercle dont le centre est la Terre.\n\n\nCes modèles par épicycles ont été étudiés et raffinés pendant longtemps, pour aboutir au modèle de Ptolémée, qui proposa un modèle avec plusieurs épicycles pour expliquer les défauts de mesure des modèles d’Apollonius et Hipparque. Les travaux de Ptolémée furent la référence en astronomie jusqu’au XVIe siècle, avec l’arrivée du modèle héliocentrique de Copernic.\n\n\nLes modèles héliocentriques\nMalgré la précision importante des modèles géocentriques, les astronomes du XVIe siècle n’arrivent pas à prévoir parfaitement le mouvement des astres. Copernic émit l’hypothèse que le Soleil était au centre de l’Univers et que la Terre effectue un mouvement circulaire autour de lui : c’est la naissance des modèles héliocentriques. Bien que le modèle héliocentrique de Copernic représente une révolution en astronomie, il ne permet pas une plus grande précision dans les prédictions que dans le modèle de Ptolémée. La raison est que Copernic suppose que les astres décrivent des cercles autour du Soleil.\n\n\n\nLe modèle de Copernic\n\n\nCependant, un atout du modèle de Copernic est sa simplicité par rapport au modèle avec épicycles. De plus, le mouvement rétrograde de Mars s’explique facilement comme un effet de perspective d’un observateur sur Terre.\n\n\n\nOrbite de Mars dans le modèle héliocentrique\n\n\nLe modèle de Copernic ne rencontrera pas un franc succès auprès de ses contemporains : ceux-ci étaient, entre autres, influencés par le sens commun de l’époque et les dogmes religieux.\nAu XVIIe siècle, Galilée se positionne en défenseur du modèle de Copernic : il apporta des arguments importants en faveur de ce modèle, grâce à des observations des satellites de Jupiter faites avec une lunette astronomique. Il observe que Jupiter et ses satellites forment un système planétaire miniature autour d’un centre qui n’est pas la Terre.\n\n\nLes lois de Kepler\nLe modèle de Copernic place le Soleil au centre de l’Univers et suppose que les astres décrivent un mouvement circulaire dont le centre est le Soleil. Cependant, les mesures des mouvements des astres ne collent pas parfaitement aux trajectoires du modèle et Copernic fait vite appel aux épicycles pour améliorer son modèle. Malgré ces améliorations, le modèle héliocentrique reste imparfait.\n\n\n\nLe soleil\n\n\nC’est à la fin du XVIe siècle qu’une avancée majeure est réalisée pour expliquer le mouvement des astres : Johannes Kepler, sur base de mesures méticuleuses réalisées par l’astronome danois Tycho Brahe, se rend compte que les planètes ne décrivent pas des mouvements circulaires mais elliptiques, dont un des foyers est occupé par le Soleil. Il s’agit de sa première loi, parmi trois qui tentent de décrire le mouvement des planètes autour du Soleil.\n\n\n\n\n\n\nPremière loi: la loi des orbites.\n\n\n\nLa trajectoire de chaque planète est une ellipse dont un foyer est occupé par le Soleil.\n\n\n\n\n\nTrajectoire elliptique\n\n\n\n\n\n\n\n\nDeuxième loi: loi des aires.\n\n\n\nLe segment qui joint le Soleil à une planète balaie des secteurs d’aires égales en des durées égales, quelles que soient ces durées.\n\n\n\n\n\nLoi des aires\n\n\n\n\n\n\n\n\nTroisième loi: loi des périodes.\n\n\n\nLe quotient du cube du demi-grand axe par le carré de la période de révolution est le même pour toutes les planètes : \\[\n\\frac{a^3_1}{T_1^2}=\\frac{a^3_2}{T_2^2}=\\ldots\n\\]\n\n\n\nExercice 1 Complète le tableau suivant à l’aide de la 3e loi de Kepler.\n\n\n\n\n\n\n\n\n\nPlanète\n\\(a(10^9\\text{m})\\)\n\\(T(10^6\\text{s})\\)\n\\(a^3/T^3(10^{15}\\text{m}^3/\\text{s}^2)\\)\n\n\n\n\nMercure\n57,9\n\n3356\n\n\nVénus\n108,1\n19,41\n\n\n\nTerre\n149,6\n\n\n\n\nMars\n\n59,36\n3364\n\n\nJupiter\n778,4\n374,3\n\n\n\nSaturne\n1424\n928,4\n\n\n\n\n\n\n\nLa loi de la gravitation universelle\nKepler a décrit avec précision le mouvement des planètes, mais il ne l’a pas expliqué. Il faut attendre le XVIIe siècle et Isaac Newton pour comprendre pourquoi les planètes suivent ces trajectoires elliptiques.\n\n\n\nLa terre vue de la Lune\n\n\nNewton propose que toutes les masses s’attirent mutuellement avec une force qui dépend de certaines de leurs carctéristiques. Il va montrer ainsi que l’interaction qui fait tomber un objet sur Terre est aussi responsable du mouvement des planètes autour du Soleil. Cette idée révolutionnaire unifie les phénomènes terrestres et célestes sous une même loi.\nCette loi permet non seulement d’expliquer les trajectoires des planètes décrites par Kepler, mais aussi d’autres phénomènes tels que la chute des objets sur Terre, les marées ou encore le mouvement des satellites artificiels.\nNewton montre que les lois de Kepler sont une conséquence directe de la gravitation universelle : en appliquant ses lois du mouvement et la force gravitationnelle, il retrouve les trajectoires elliptiques des planètes. C’est ainsi que la physique moderne voit le jour : un même principe explique à la fois le mouvement des corps célestes et celui des objets terrestres.\n\n\n\nLa galaxie du sombrero"
   },
   {
     "objectID": "grav.html#la-loi-de-la-gravitation-universelle-1",
     "href": "grav.html#la-loi-de-la-gravitation-universelle-1",
     "title": "La gravitation universelle",
     "section": "La loi de la gravitation universelle",
-    "text": "La loi de la gravitation universelle\n\nLa démarche de Newton\nNous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.\nLa première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :\n\n\nTout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité \\(g = 9,81\\text{ m/s}^2\\). Si vous lâchez cette pomme, elle tombe. Si vous la lancez verticalement, elle suit une trajectoire parabolique avant de retomber.\nEn s’appuyant sur cette idée, Newton a imaginé un tir oblique où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.\nLes observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète \\(a_L\\), que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.\n\n\n\nLa Pomme de Newton et la Lune\n\n\nPour rappel :\n\n\\(a_L = \\omega^2 R = \\dfrac{4\\pi^2 R}{T^2}\\)\nLe rayon Terre-Lune est \\(R = 385 000\\) km\nLe rayon de la Terre est \\(R_0 = 6370\\) km\n\n\nExercice 2  \n\nCalculer \\(\\dfrac{g}{a_L}\\).\nCalculer \\(\\dfrac{R}{R_0}\\).\nDéduire que \\(\\dfrac{g}{a_L} \\simeq \\left(\\dfrac{R}{R_0}\\right)^2\\).\n\n\nNewton en déduit que la force exercée par la Terre sur la pomme, \\(\\overrightarrow{F}_{\\text{T/P}}\\), est de même nature que celle exercée sur la Lune, \\(\\overrightarrow{F}_{\\text{T/L}}\\). Les résultats de l’exercice précédent montrent que cette force est proportionnelle à \\(\\dfrac{1}{R^2}\\).\n\n\n\n\n\n\nDépendance de la distance\n\n\n\nAutrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.\n\n\n\nD’après la deuxième loi de Newton, la force gravitationnelle \\(\\overrightarrow{F}_{\\text{T/L}}\\) est reliée à l’accélération de la Lune par :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = m_L \\overrightarrow{a}_L.\n\\]\nOn en déduit que cette force dépend de la masse de la Lune, \\(m_L\\).\nUn autre paramètre intervient : la masse de la Terre, \\(m_T\\). En effet, selon la loi des actions réciproques, la Lune exerce également une force sur la Terre, \\(\\overrightarrow{F}_{\\text{L/T}}\\). Ces deux forces sont opposées mais de même intensité :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = -\\overrightarrow{F}_{\\text{L/T}}.\n\\]\nD’après la deuxième loi de Newton, \\(\\overrightarrow{F}_{\\text{T/L}}\\) dépend donc aussi de la masse de la Terre.\n\n\n\nL’attraction de la Lune par la Terre\n\n\n\n\nL’énoncé de la loi de la gravitation universelle\nEn résumé, la force \\(\\overrightarrow{F}_{\\text{T/L}}\\) est :\n\nproportionnelle aux masses \\(m_L\\) et \\(m_T\\),\ninversement proportionnelle au carré de la distance \\(R\\) entre les deux corps.\n\nLe génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature :\n\n\n\n\n\n\nLoi de la gravitation universelle\n\n\n\nDeux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :\n\\[\nF_{m_1/m_2}=F_{m_2/m_1} = k_g \\dfrac{m_1 m_2}{d^2}.\n\\]\n\n\n\n\n\n\n\nLa constante \\(k_g\\) est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :\n\\[\nk_g = 6,67 \\times 10^{-11} \\dfrac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}.\n\\]\nCette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.\nOn choisi deux masses \\(m_1=m_2=m\\) de sorte à ce que \\(k_gm^2=1\\). Ceci permet d’écrire que \\(F_{m_1/m_2}=\\dfrac{1}{d^2}\\). Voici une représentation graphique de \\(F_{m_1/m_2}\\) en fonction de la distance entre les objets.\n\n\n\nIntensité de la force en fonction de la distance\n\n\n\nExercice 3  \n\nSi la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?\nUn astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?\nLe poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.\n\n\n\nExercice 4 Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.\n\n\n\nApplications\nPour les exercices qui suivent, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)\n\n\n\n\n\nMouvement des astres dans le système solaire\nLa première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:\n\n\nTu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.\nVoyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.\n\nExemple 1 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.\nExplicitons ce que dit l’énoncé de l’exmple:\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\)\n\\(R_N=30R_T\\)\n\nD’après la deuxième loi de Newton, on a que \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète.\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\). Comme \\(R_N=30 R_T=30\\cdot 6,37\\cdot 10^6\\text{m}\\), on a que\n\\[\nv^2=k_g\\dfrac{m_S}{R_N}=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{6,37\\cdot 10^6}=\\dfrac{6,67\\cdot 1,99}{6,37}\\cdot 10^{13}=2,08\\cdot 10^{13} \\text{m}^2/\\text{s}^2\n\\]\nDonc \\(v\\simeq 4,5\\cdot 10^6 \\text{m/s}=4,5\\text{km/s}\\).\n\n\nExercice 5 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.\n\nExprime le rayon de son orbite en fonction du rayon terrestre.\nCalcule sa vitesse orbitale en supposant que \\(R_T = 6,37 \\times 10^6\\) m.\nDonne la période de révolution du satellite.\n\n\n\nExercice 6 La station spaciale internationnale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l’ISS."
-  },
-  {
-    "objectID": "grav.html#détermination-de-la-masse-des-corps-célestes",
-    "href": "grav.html#détermination-de-la-masse-des-corps-célestes",
-    "title": "La gravitation universelle",
-    "section": "Détermination de la masse des corps célestes",
-    "text": "Détermination de la masse des corps célestes\nLa loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres.\nPrenons l’exemple de la Terre. Comment peut-on déterminer sa masse sans avoir à la “peser” directement ?\nL’idée repose sur la relation entre la force gravitationnelle et l’accélération gravitationnelle \\(g\\).\nNous savons que tout objet de masse \\(m\\) situé près de la surface terrestre subit une accélération \\(g = 9,81\\) m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.\nEn appliquant la deuxième loi de Newton :\n\\[\nm g =  k_g\\frac{m m_T}{R_T^2}\n\\]\nOn peut simplifier :\n\\[\ng = k_g\\frac{ m_T}{R_T^2}\n\\]\nD’où :\n\\[\nm_T = \\frac{g R_T^2}{k_g}\\simeq 5,97\\cdot 10^{24}\\text{kg}.\n\\]\nCe raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.\n\nExercice 7 En utilisant \\(g_M = 3,71\\) m/s² et \\(R_M = 3,39 \\times 10^6\\) m, calcule la masse de Mars.\n\n\nExercice 8 Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.\n\nCalcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut \\(150\\) millions de km.\nDéduis-en la masse du Soleil."
+    "text": "La loi de la gravitation universelle\n\nLa démarche de Newton\nNous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.\nLa première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :\n\n\nTout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité \\(g = 9,81\\text{ m/s}^2\\). Si vous lâchez cette pomme, elle tombe. Si vous la lancez horizontalement, elle suit une trajectoire parabolique.\nEn s’appuyant sur cette idée, Newton a imaginé un tir horizontal où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.\nLes observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète \\(a_L\\), que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.\n\n\n\nLa Pomme de Newton et la Lune\n\n\nPour rappel :\n\n\\(a_L = \\omega^2 R = \\dfrac{4\\pi^2 R}{T^2}\\)\nLe rayon Terre-Lune est \\(R = 385 000\\) km\nLe rayon de la Terre est \\(R_0 = 6370\\) km\n\n\nExercice 2  \n\nCalculer \\(\\dfrac{g}{a_L}\\).\nCalculer \\(\\dfrac{R}{R_0}\\).\nDéduire que \\(\\dfrac{g}{a_L} \\simeq \\left(\\dfrac{R}{R_0}\\right)^2\\).\n\n\nNewton en déduit que la force exercée par la Terre sur la pomme, \\(\\overrightarrow{F}_{\\text{T/P}}\\), est de même nature que celle exercée sur la Lune, \\(\\overrightarrow{F}_{\\text{T/L}}\\). Les résultats de l’exercice précédent montrent que cette force est proportionnelle à \\(\\dfrac{1}{R^2}\\).\n\n\n\n\n\n\nDépendance de la distance\n\n\n\nAutrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.\n\n\n\nD’après la deuxième loi de Newton, la force gravitationnelle \\(\\overrightarrow{F}_{\\text{T/L}}\\) est reliée à l’accélération de la Lune par :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = m_L \\overrightarrow{a}_L.\n\\]\nOn en déduit que cette force dépend de la masse de la Lune, \\(m_L\\).\nUn autre paramètre intervient : la masse de la Terre, \\(m_T\\). En effet, selon la loi des actions réciproques, la Lune exerce également une force sur la Terre, \\(\\overrightarrow{F}_{\\text{L/T}}\\). Ces deux forces sont opposées mais de même intensité :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = -\\overrightarrow{F}_{\\text{L/T}}.\n\\]\nD’après la deuxième loi de Newton, \\(\\overrightarrow{F}_{\\text{T/L}}\\) dépend donc aussi de la masse de la Terre.\n\n\n\nL’attraction de la Lune par la Terre\n\n\n\n\nL’énoncé de la loi de la gravitation universelle\nEn résumé, la force \\(\\overrightarrow{F}_{\\text{T/L}}\\) est :\n\nproportionnelle aux masses \\(m_L\\) et \\(m_T\\),\ninversement proportionnelle au carré de la distance \\(R\\) entre les deux corps.\n\nLe génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature.\n\n\n\n\n\n\nLoi de la gravitation universelle\n\n\n\nDeux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :\n\\[\nF_{m_1/m_2}=F_{m_2/m_1} = k_g \\dfrac{m_1 m_2}{d^2}.\n\\]\n\n\n\n\n\n\n\nLa constante \\(k_g\\) est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :\n\\[\nk_g = 6,67 \\times 10^{-11} \\dfrac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}.\n\\]\nCette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.\nOn choisi deux masses \\(m_1=m_2=m\\) de sorte à ce que \\(k_gm^2=1\\). Ceci permet d’écrire que \\(F_{m_1/m_2}=\\dfrac{1}{d^2}\\). Voici une représentation graphique de \\(F_{m_1/m_2}\\) en fonction de la distance entre les objets.\n\n\n\nIntensité de la force en fonction de la distance\n\n\n\nExercice 3  \n\nSi la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?\nUn astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?\nLe poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.\n\n\n\nExercice 4 Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.\n\n\n\nApplications\nPour les exercices qui suivent, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)\n\n\n\n\n\nMouvement des astres dans le système solaire\nLa première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:\n\n\nTu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.\nVoyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.\n\nExemple 1 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.\nExplicitons ce que dit l’énoncé de l’exemple:\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\)\n\\(R_N=30R_T\\)\n\nD’après la deuxième loi de Newton, on a que \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète.\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\). Comme \\(R_N=30 R_T=30\\cdot 6,37\\cdot 10^6\\text{m}\\), on a que\n\\[\nv^2=k_g\\dfrac{m_S}{R_N}=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{6,37\\cdot 10^6}=\\dfrac{6,67\\cdot 1,99}{6,37}\\cdot 10^{13}=2,08\\cdot 10^{13} \\text{m}^2/\\text{s}^2\n\\]\nDonc \\(v\\simeq 4,5\\cdot 10^6 \\text{m/s}=4,5\\text{km/s}\\).\n\n\nExercice 5 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.\n\nExprime le rayon de son orbite en fonction du rayon terrestre.\nCalcule sa vitesse orbitale en supposant que \\(R_T = 6,37 \\times 10^6\\) m.\nDonne la période de révolution du satellite.\n\n\n\nExercice 6 La station spaciale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l’ISS.\n\nfig-align=“center” width=40%} ## Détermination de la masse des corps célestes\nLa loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres.\nPrenons l’exemple de la Terre. Comment peut-on déterminer sa masse sans avoir à la “peser” directement ?\nL’idée repose sur la relation entre la force gravitationnelle et l’accélération gravitationnelle \\(g\\).\nNous savons que tout objet de masse \\(m\\) situé près de la surface terrestre subit une accélération \\(g = 9,81\\) m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.\nEn appliquant la deuxième loi de Newton :\n\\[\nm g =  k_g\\frac{m m_T}{R_T^2}\n\\]\nOn peut simplifier :\n\\[\ng = k_g\\frac{ m_T}{R_T^2}\n\\]\nD’où :\n\\[\nm_T = \\frac{g R_T^2}{k_g}\\simeq 5,97\\cdot 10^{24}\\text{kg}.\n\\]\nCe raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.\n\nExercice 7 En utilisant \\(g_M = 3,71\\) m/s² et \\(R_M = 3,39 \\times 10^6\\) m, calcule la masse de Mars.\n\n\nExercice 8 Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.\n\nCalcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut \\(150\\) millions de km.\nDéduis-en la masse du Soleil."
   },
   {
     "objectID": "grav.html#la-gravité-autour-de-la-terre",
     "href": "grav.html#la-gravité-autour-de-la-terre",
     "title": "La gravitation universelle",
     "section": "La gravité autour de la Terre",
-    "text": "La gravité autour de la Terre\nL’accélération gravitationnelle varie avec l’altitude.\n\nExercice 9 Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:\n\nelle est à 10m au dessus de la surface de la Terre.\nelle est à 10km au dessus de la surface de la Terre.\nelle est dans la Station Spaciale Internationnale (400km d’altitude).\n\n\nLes calculs réalisés dans l’exercice précédent peuvent se généraliser pour un objet de masse \\(m\\) à une altitude \\(h\\):\n\n\n\nAccélération gravitationnelle en fonction de l’altitude\n\n\nPour cet object, s’il est à la surface de la Terre, nous avons \\(g = \\frac{k_g m_T}{R_T^2}=9,81 \\text{m/s}^2\\). Mais si l’objet est à une altitude \\(h\\), la distance qui le sépare du centre de la Terre devient \\(R_T + h\\). En notant \\(g_h\\) son accélération centripète, on obtient:\n\\[\nmg_h=k_g\\dfrac{m_Tm}{(R_T+h)^2}.\n\\]\nLa nouvelle accélération gravitationnelle est donc :\n\\[\ng_h = \\frac{k_g m_T}{(R_T + h)^2}\n\\]\nAinsi on constate à nouveau que plus on s’éloigne de la Terre, plus l’intensité de la force de gravité terrestre diminue.\n\nExercice 10  \n\nCalcule la gravité ressentie par un astronaute à bord de l’ISS, située à 400 km d’altitude.\nCompare cette valeur avec \\(g = 9,81\\) m/s²."
+    "text": "La gravité autour de la Terre\nL’accélération gravitationnelle varie avec l’altitude.\n\nExercice 9 Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:\n\nelle est à 10m au dessus de la surface de la Terre.\nelle est à 10km au dessus de la surface de la Terre.\nelle est dans la Station Spaciale Internationale (400km d’altitude).\n\n\nLes calculs réalisés dans l’exercice précédent peuvent se généraliser pour un objet de masse \\(m\\) à une altitude \\(h\\):\n\n\n\nAccélération gravitationnelle en fonction de l’altitude\n\n\nPour cet objet, s’il est à la surface de la Terre, nous avons \\(g = \\frac{k_g m_T}{R_T^2}=9,81 \\text{m/s}^2\\). Mais si l’objet est à une altitude \\(h\\), la distance qui le sépare du centre de la Terre devient \\(R_T + h\\). En notant \\(g_h\\) son accélération centripète, on obtient:\n\\[\nmg_h=k_g\\dfrac{m_Tm}{(R_T+h)^2}.\n\\]\nLa nouvelle accélération gravitationnelle est donc :\n\\[\ng_h = \\frac{k_g m_T}{(R_T + h)^2}\n\\]\nAinsi on constate à nouveau que plus on s’éloigne de la Terre, plus l’intensité de la force de gravité terrestre diminue.\n\nExercice 10  \n\nCalcule la gravité ressentie par un astronaute à bord de l’ISS, située à 400 km d’altitude.\nCompare cette valeur avec \\(g = 9,81\\) m/s²."
   },
   {
     "objectID": "grav.html#le-champ-gravitationnel",
@@ -105,94 +364,213 @@
     "text": "Orbite géostationnaire et satellites\nUn satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en exactement 24h.\n\nExercice 12  \n\nEcris une formule qui lie la période d’un satellite et la force de gravitation que celui-ci subit par la Terre.\nDéduis-en l’altitude de ce satellite si celui-ci est en orbite géostationnaire."
   },
   {
-    "objectID": "mru.html",
-    "href": "mru.html",
-    "title": "Mouvement rectiligne uniforme",
-    "section": "",
-    "text": "Nous allons réaliser une expérience numérique à partir de l’application suivante.\n\n\nSur cette application, on va d’abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.\n\nQue constates-tu?\nCalculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est définie par\n\\[\nv_{\\text{m}}=\\dfrac{\\Delta x}{\\Delta t}=\\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.\n\\] Autrement dit, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est la distance parcourue entre \\(t_0\\) et \\(t_1\\) divisée par la durée \\(t_1-t_0\\).\nComplétons le tableau suivant.\n\nQue constates-tu?\nNous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:\n\nla vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici \\(v=\\)\nla position \\(x(t)\\) de la voiture en fonction du temps est une fonction du premier degré, du type \\(x(t)=m\\cdot t+p\\). De plus,\n\nl’ordonnée à l’origine est la position initiale: \\(x(0)=x_0=\\)\nle taux d’accroissement (=pente de la droite qui représente \\(x(t)\\)) est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:\n\n\\[\nx(t)=v\\cdot t+x_0=\n\\]\n\nCe modèle permet de faire deux choses importantes:\n\ninterpoler: grâce à ce modèle, on peut calculer toutes les positions entre le moment de départ et le moment où on a arrêté le chronomètre.\nextrapoler: grâce à ce modèle, on peut faire des prédictions. Autrement dit, on peut à l’avance connaître la position de la voiture à des instants qui sont au delà du temps où on a arrêté le chronomètre, pour autant que l’on suppose que la voiture continue sa trajectoire sous les mêmes conditions.\n\nVérifions ces deux affirmations, pour les temps \\(t_1=\\ldots\\ldots\\) et \\(t_2=\\ldots\\ldots\\)."
-  },
-  {
-    "objectID": "mru.html#introduction",
-    "href": "mru.html#introduction",
-    "title": "Mouvement rectiligne uniforme",
-    "section": "",
-    "text": "Nous allons réaliser une expérience numérique à partir de l’application suivante.\n\n\nSur cette application, on va d’abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.\n\nQue constates-tu?\nCalculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est définie par\n\\[\nv_{\\text{m}}=\\dfrac{\\Delta x}{\\Delta t}=\\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.\n\\] Autrement dit, la vitesse moyenne entre \\(t_0\\) et \\(t_1\\) est la distance parcourue entre \\(t_0\\) et \\(t_1\\) divisée par la durée \\(t_1-t_0\\).\nComplétons le tableau suivant.\n\nQue constates-tu?\nNous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:\n\nla vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici \\(v=\\)\nla position \\(x(t)\\) de la voiture en fonction du temps est une fonction du premier degré, du type \\(x(t)=m\\cdot t+p\\). De plus,\n\nl’ordonnée à l’origine est la position initiale: \\(x(0)=x_0=\\)\nle taux d’accroissement (=pente de la droite qui représente \\(x(t)\\)) est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:\n\n\\[\nx(t)=v\\cdot t+x_0=\n\\]\n\nCe modèle permet de faire deux choses importantes:\n\ninterpoler: grâce à ce modèle, on peut calculer toutes les positions entre le moment de départ et le moment où on a arrêté le chronomètre.\nextrapoler: grâce à ce modèle, on peut faire des prédictions. Autrement dit, on peut à l’avance connaître la position de la voiture à des instants qui sont au delà du temps où on a arrêté le chronomètre, pour autant que l’on suppose que la voiture continue sa trajectoire sous les mêmes conditions.\n\nVérifions ces deux affirmations, pour les temps \\(t_1=\\ldots\\ldots\\) et \\(t_2=\\ldots\\ldots\\)."
-  },
-  {
-    "objectID": "mru.html#les-caractéristiques-dun-mru",
-    "href": "mru.html#les-caractéristiques-dun-mru",
-    "title": "Mouvement rectiligne uniforme",
-    "section": "Les caractéristiques d’un MRU",
-    "text": "Les caractéristiques d’un MRU\n\nDéfinition 1 Un corps est en mouvement rectiligne uniforme s’il parcourt une ligne droite à vitesse constante, sans changer de sens.\n\nLes MRU ont les caractéristiques suivantes:\n\nCaractéristiques graphiques\n\n\n\n\n\n\n\n\nPosition\nLa représentation de la position en fonction du temps est une droite oblique: la fonction \\(x(t)\\) est une fonction du premier degré. \n\n\n\n \n\n\n\nVitesse\nLa représentation de la vitesse en fonction du temps est une droite horizontale: la fonction \\(v(t)\\) est une fonction constante. \n\n\n\n\n\nCaractéristiques analytiques\n\n\n\n\n\n\n\n\nPosition\nLa position en fonction du temps est donnée par \\[\nx(t)=v\\cdot t+x_0,\n\\] où \\(v\\) est la vitesse du corps en MRU et \\(x_0\\) sa position initiale.\n\n\n\n \n\n\n\nVitesse\nLa vitesse en fonction du temps est donnée par \\[\nv(t)=v_{\\text{m}}=\\text{constante}.\n\\]"
-  },
-  {
-    "objectID": "mru.html#comparaisons-de-deux-mru",
-    "href": "mru.html#comparaisons-de-deux-mru",
-    "title": "Mouvement rectiligne uniforme",
-    "section": "Comparaisons de deux MRU",
-    "text": "Comparaisons de deux MRU\nRevenons à la voiture rouge de l’introduction. Nous allons ajouter une voiture bleue et observer leurs mouvements, dans deux situations: lorsqu’elles parcourent la route dans le même sens et lorsqu’elles parcourent la route dans des sens opposés.\n\nParcours dans le même sens\n\n\nTu observes qu’une voiture dépasse l’autre. Comment peux-tu donner le temps de ce dépassement à l’aide du graphique?\nQuelle voiture va le plus vite? Peux-tu l’observer à l’aide du graphique?\n\n\nParcours dans des sens opposés\n\n\nTu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l’aide du graphique?\nQue vaut la vitesse de la voiture bleue?\nQuelle voiture va le plus vite?"
-  },
-  {
-    "objectID": "mru.html#exercices",
-    "href": "mru.html#exercices",
-    "title": "Mouvement rectiligne uniforme",
-    "section": "Exercices",
-    "text": "Exercices\n\nExercice 1 Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d’un corps en MRU.\n\n\n\n\n\nParmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. \n\n\nExercice 2 Sur le graphique ci-dessous, tu as la position, en fonction du temps, d’un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.\n\n\n\n\n\n\n\nExercice 3 Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).\n\n\n\n\n\n\n\nExercice 4 Voici le graphique de la position d’un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.\n\n\n\n\n\nDurant quelle(s) étape(s):\n\nsa vitesse est positive?\nsa vitesse est négative?\nsa vitesse est nulle?\nsa vitesse est la plus grande, en valeur absolue?\nla distance parcourue est la plus grande?\nla distance parcourue est la plus petite?\n\n\n\nExercice 5 Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.\n\n\n\n\n\nIndique si les propositions suivantes sont vraies ou fausses. Justifie.\n\nLes trois particules se déplacent dans le même sens.\nLa particule A est la plus rapide.\nA dépasse C à l’instant \\(t=30\\text{s}\\).\nB dépasse A à l’instant \\(t=60\\text{s}\\).\nA est moins rapide que B, à l’instant \\(t=60\\text{s}\\).\nB est plus près de A que de C, à l’instant \\(t=10\\text{s}\\).\nC ne croise jamais A.\nC croise B à deux moments.\n\n\n\nExercice 6 Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour \\(x(t)\\) et \\(v(t)\\).\n\n\n\n\n\n\n\nExercice 7 Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?"
-  },
-  {
-    "objectID": "ff.html",
-    "href": "ff.html",
-    "title": "Fusion et fission nucléaire",
-    "section": "",
-    "text": "Regardons la vidéo suivante de ScienceEtonnante:\n\nRéponds aux questions suivantes:\n\nQuelle est l’équation la plus connue de la physique?\nComment devrait-on écrie cette équation?\nQuelles quantités varient simultanément?\nDans l’équation d’Einstein, que représente \\(m\\)?\nDans l’équation d’Einstein, que représente \\(E\\)?\nPourquoi dit-on qu’il y a une perte de masse dans un atome d’hydrogène?\nDe quoi est composé un noyau d’hélium?\nPeut-on dire qu’il est possible de transformer de la masse en énergie?\n\n\n\n\nC’est en 1905 qu’Einstein publia l’équation \\(E=mc^2\\), sur base de nombreux travaux d’autres scientifiques qui avaient déjà observé un lien entre l’énergie et la masse dans des situations particulières.\nDécortiquons cette équation:\n\ncette équation parle de deux attributs \\(E\\) et \\(m\\) d’un corps supposé au repos;\nla lettre \\(m\\) fait référence à la masse de ce corps (au repos!), exprimée en kilogrammes \\(\\text{kg}\\);\nla lettre \\(E\\) fait référence à l’énergie totale de ce corps (au repos!), exprimée en joules \\(J\\);\nla lettre \\(c\\) fait référence à la vitesse de la lumière dans le vide, qui est une constante universelle et vaut environ \\(300 000\\text{km/s}=3\\cdot 10^8\\text{m/s}\\).\n\nDans cette équation, la masse est une mesure de la résistance du corps à se mettre en mouvement et n’est donc pas une mesure de la quantité de matière.\nComment interpréter cette équation? Elle nous dit qu’une variation de l’énergie d’un corps au repos correspond à une variation de la masse de ce corps. De plus, le facteur \\(c^2\\) qui lie ces variations entre énergie et masse fait qu’une variation de l’énergie correspond à une variation sensiblement plus petite de la masse (une variation environ \\(10^{17}\\) fois plus petite).\nVoici un tableau donnant différentes variations d’énergie et la variation de masse correspondante:\n\n\n\n\n\n\n\n\n\nÉnergie (J)\nExemple\nMasse (kg)\nExemple\n\n\n\n\n\\(2,11 \\cdot 10^{18}\\)\nConsommation totale d’énergie de la Belgique en 1 an\n\\(23,5\\)\nun enfant de 8 ans\n\n\n\\(9 \\cdot 10^{10}\\)\nÉnergie consommée par une personne en un an\n\\(1 \\cdot 10^{-6}\\)\nun moustique\n\n\n\\(3,8 \\cdot 10^{26}\\)\nÉnergie émise par le Soleil en une seconde\n\\(4,2 \\cdot 10^9\\)\nla grande pyramide de Gizeh\n\n\n\\(1 \\cdot 10^6\\)\nÉnergie cinétique d’une voiture à 100 km/h\n\\(1,11 \\cdot 10^{-11}\\)\ndix cellules\n\n\n\\(8,368 \\cdot 10^6\\)\nÉnergie d’un repas de 2000 kcal\n\\(9,3 \\cdot 10^{-11}\\)\nun dixième de grain de sable\n\n\n\\(1\\)\nÉnergie pour soulever une pomme d’un mètre\n\\(1,11 \\cdot 10^{-17}\\)\nune bactérie\n\n\n\\(2,9288 \\cdot 10^6\\)\nÉnergie dépensée lors d’une course de 10 km\n\\(3,26 \\cdot 10^{-11}\\)\n30 cellules\n\n\n\n\n\n\nNous avons vu dans la vidéo que la masse d’un noyau d’hélium n’est pas égale à la somme des masses des 4 nucléons qui le compose, à cause de l’énergie nécessaire pour la création de ce noyau. Analysons un autre exemple: celui du noyau d’un isotope de l’hydrogène, le deutérium.\nLe noyau de cet isotope contient un proton et un neutron.\n\n\n\nReprésentation des noyaux de deuterium et de l’hydrogène\n\n\nVoici un tableau résummant les valeurs des masses et du défaut de masse, ainsi que l’énergie correspondant à ce défaut.\n\n\n\n\n\n\n\nÉlément\nValeur\n\n\n\n\nMasse du proton (p)\n\\(1.67262 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse du neutron (n)\n\\(1.67493 \\times 10^{-27}\\text{kg}\\)\n\n\nSomme des masses (p + n)\n\\(3.34755 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse réelle du deutérium\n\\(3.34449 \\times 10^{-27}\\text{kg}\\)\n\n\nDéfaut de masse\n\\(3.06 \\times 10^{-30}\\text{kg}\\)\n\n\nÉnergie de liaison\n\\(2.75 \\times 10^{-13}\\) J\n\n\n\nUn noyau de deutérium est créé à partir d’hydrogène lorsqu’un proton capture un neutron. Ce processus peut se produire naturellement, mais à un taux très faible, ou être provoqué artificiellement dans des réacteurs nucléaires. L’équation de formation du deutérium peut s’écrire :\n\\[\n^1_1\\text{H} + ^1_0\\text{n} \\rightarrow ^2_1\\text{H} + \\gamma\n\\]\nCette réaction libère de l’énergie sous forme de rayonnement gamma, correspondant au défaut de masse."
-  },
-  {
-    "objectID": "ff.html#introduction",
-    "href": "ff.html#introduction",
-    "title": "Fusion et fission nucléaire",
-    "section": "",
-    "text": "Regardons la vidéo suivante de ScienceEtonnante:\n\nRéponds aux questions suivantes:\n\nQuelle est l’équation la plus connue de la physique?\nComment devrait-on écrie cette équation?\nQuelles quantités varient simultanément?\nDans l’équation d’Einstein, que représente \\(m\\)?\nDans l’équation d’Einstein, que représente \\(E\\)?\nPourquoi dit-on qu’il y a une perte de masse dans un atome d’hydrogène?\nDe quoi est composé un noyau d’hélium?\nPeut-on dire qu’il est possible de transformer de la masse en énergie?"
-  },
-  {
-    "objectID": "ff.html#la-relation-deinstein-1",
-    "href": "ff.html#la-relation-deinstein-1",
-    "title": "Fusion et fission nucléaire",
-    "section": "",
-    "text": "C’est en 1905 qu’Einstein publia l’équation \\(E=mc^2\\), sur base de nombreux travaux d’autres scientifiques qui avaient déjà observé un lien entre l’énergie et la masse dans des situations particulières.\nDécortiquons cette équation:\n\ncette équation parle de deux attributs \\(E\\) et \\(m\\) d’un corps supposé au repos;\nla lettre \\(m\\) fait référence à la masse de ce corps (au repos!), exprimée en kilogrammes \\(\\text{kg}\\);\nla lettre \\(E\\) fait référence à l’énergie totale de ce corps (au repos!), exprimée en joules \\(J\\);\nla lettre \\(c\\) fait référence à la vitesse de la lumière dans le vide, qui est une constante universelle et vaut environ \\(300 000\\text{km/s}=3\\cdot 10^8\\text{m/s}\\).\n\nDans cette équation, la masse est une mesure de la résistance du corps à se mettre en mouvement et n’est donc pas une mesure de la quantité de matière.\nComment interpréter cette équation? Elle nous dit qu’une variation de l’énergie d’un corps au repos correspond à une variation de la masse de ce corps. De plus, le facteur \\(c^2\\) qui lie ces variations entre énergie et masse fait qu’une variation de l’énergie correspond à une variation sensiblement plus petite de la masse (une variation environ \\(10^{17}\\) fois plus petite).\nVoici un tableau donnant différentes variations d’énergie et la variation de masse correspondante:\n\n\n\n\n\n\n\n\n\nÉnergie (J)\nExemple\nMasse (kg)\nExemple\n\n\n\n\n\\(2,11 \\cdot 10^{18}\\)\nConsommation totale d’énergie de la Belgique en 1 an\n\\(23,5\\)\nun enfant de 8 ans\n\n\n\\(9 \\cdot 10^{10}\\)\nÉnergie consommée par une personne en un an\n\\(1 \\cdot 10^{-6}\\)\nun moustique\n\n\n\\(3,8 \\cdot 10^{26}\\)\nÉnergie émise par le Soleil en une seconde\n\\(4,2 \\cdot 10^9\\)\nla grande pyramide de Gizeh\n\n\n\\(1 \\cdot 10^6\\)\nÉnergie cinétique d’une voiture à 100 km/h\n\\(1,11 \\cdot 10^{-11}\\)\ndix cellules\n\n\n\\(8,368 \\cdot 10^6\\)\nÉnergie d’un repas de 2000 kcal\n\\(9,3 \\cdot 10^{-11}\\)\nun dixième de grain de sable\n\n\n\\(1\\)\nÉnergie pour soulever une pomme d’un mètre\n\\(1,11 \\cdot 10^{-17}\\)\nune bactérie\n\n\n\\(2,9288 \\cdot 10^6\\)\nÉnergie dépensée lors d’une course de 10 km\n\\(3,26 \\cdot 10^{-11}\\)\n30 cellules"
-  },
-  {
-    "objectID": "ff.html#le-défaut-de-masse-dans-la-formation-de-noyaux",
-    "href": "ff.html#le-défaut-de-masse-dans-la-formation-de-noyaux",
-    "title": "Fusion et fission nucléaire",
-    "section": "",
-    "text": "Nous avons vu dans la vidéo que la masse d’un noyau d’hélium n’est pas égale à la somme des masses des 4 nucléons qui le compose, à cause de l’énergie nécessaire pour la création de ce noyau. Analysons un autre exemple: celui du noyau d’un isotope de l’hydrogène, le deutérium.\nLe noyau de cet isotope contient un proton et un neutron.\n\n\n\nReprésentation des noyaux de deuterium et de l’hydrogène\n\n\nVoici un tableau résummant les valeurs des masses et du défaut de masse, ainsi que l’énergie correspondant à ce défaut.\n\n\n\n\n\n\n\nÉlément\nValeur\n\n\n\n\nMasse du proton (p)\n\\(1.67262 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse du neutron (n)\n\\(1.67493 \\times 10^{-27}\\text{kg}\\)\n\n\nSomme des masses (p + n)\n\\(3.34755 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse réelle du deutérium\n\\(3.34449 \\times 10^{-27}\\text{kg}\\)\n\n\nDéfaut de masse\n\\(3.06 \\times 10^{-30}\\text{kg}\\)\n\n\nÉnergie de liaison\n\\(2.75 \\times 10^{-13}\\) J\n\n\n\nUn noyau de deutérium est créé à partir d’hydrogène lorsqu’un proton capture un neutron. Ce processus peut se produire naturellement, mais à un taux très faible, ou être provoqué artificiellement dans des réacteurs nucléaires. L’équation de formation du deutérium peut s’écrire :\n\\[\n^1_1\\text{H} + ^1_0\\text{n} \\rightarrow ^2_1\\text{H} + \\gamma\n\\]\nCette réaction libère de l’énergie sous forme de rayonnement gamma, correspondant au défaut de masse."
-  },
-  {
-    "objectID": "ff.html#introduction-1",
-    "href": "ff.html#introduction-1",
+    "objectID": "ff-slides.html#introduction",
+    "href": "ff-slides.html#introduction",
     "title": "Fusion et fission nucléaire",
     "section": "Introduction",
-    "text": "Introduction\nRegardons la vidéo suivante de ScienceEtonnante:\n\nRéponds aux questions suivantes:\n\npeut-on produire de l’énergie?\nde quoi a-t-on besoin pour faire une fission?\ncombien y a-t-il de neutrons dans un noyau de magnésium 26?\nque doit-il se produire pour qu’une réaction de fission puisse s’auto-entretenir?\nquels noyaux permettent de créer des réactions de fission qui s’auto-entretiennent?\nquels noyaux doit-on utiliser pour produire un noyau d’hélium par fusion?\nqu’est-ce que la barrière énergétique?"
+    "text": "Introduction"
   },
   {
-    "objectID": "ff.html#la-fission",
-    "href": "ff.html#la-fission",
+    "objectID": "ff-slides.html#questions-sur-la-vidéo",
+    "href": "ff-slides.html#questions-sur-la-vidéo",
     "title": "Fusion et fission nucléaire",
-    "section": "La fission",
-    "text": "La fission\n\n\n\n\n\n\nFission nucléaire\n\n\n\nLa fission nucléaire est une réaction selon laquelle un noyau lourd se sépare en deux autres noyaux, plus légers, sous l’impact d’un neutron lent. Cette réaction est accompagnée par l’émission de plusieurs neutrons (en général 2 ou 3) et d’un dégagement d’énergie.\n\n\nDans les centrales nucléaires, les réactions de fission sont causée par bombardement d’un noyau lourd par un neutron. Voici deux exemples de réaction par fission:\n\\[\n^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{236}_{92}\\text{U}\\rightarrow ^{95}_{38}\\text{Sr} + ^{139}_54\\text{Xe} + 2 ^1_0\\text{n} + 3,2 \\cdot 10^{-11}\\text{J}\n\\]\n\\[\n^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{236}_{92}\\text{U}\\rightarrow ^{92}_{36}\\text{Kr} + ^{141}_{56}\\text{Ba} + 3 ^1_0\\text{n} + 3,2 \\cdot 10^{-11}\\text{J}\n\\]\nPour chacune de ces deux réactions, l’énergie correspond au défaut de masse entre les produits de fission et le noyau de départ. Pour la réaction de fission de l’uranium-235, l’énérgie totale dégagée en moyenne est de \\(3,2 \\cdot 10^{-11}\\text{J}\\). Cette énergie se décompose de la manière suivante:\n\n\n\nÉnergie d’une réaction de fission de l’uranium-235\n\n\nL’énergie récupérable par une centrale nucléaire est de l’ordre de \\(95\\%\\), c’est-à-dire environ \\(3,04 \\cdot 10^{-11}\\text{J}\\). Ce nombre semble ridiculement petit mais est en fait énorme à grande échelle. Voici un tableau comparant les différentes manière de produire l’électricité nécessaire pour alimenter une maison pendant un an:\n\n\n\nSource d’énergie\nQuantité nécessaire pour 1 an\n\n\n\n\nUranium (fission)\n17 g\n\n\nCharbon (combustion)\n330 kg\n\n\nGaz naturel (combustion)\n300 m³\n\n\nPétrole (combustion)\n270 litres\n\n\nPanneaux solaires\nenvirion 15 panneaux solaires"
+    "section": "Questions sur la vidéo",
+    "text": "Questions sur la vidéo\n\nQuelle est l’équation la plus connue de la physique?\n\n\n\\(E=mc^2\\)\n\n\n\nComment devrait-on écrie cette équation?\n\n\n\n\\(m=\\dfrac{E}{c^2}\\)\n\n\n\nQuelles quantités varient simultanément?\n\n\n\nLa masse et l’énergie."
   },
   {
-    "objectID": "ff.html#la-fusion",
-    "href": "ff.html#la-fusion",
+    "objectID": "ff-slides.html#section",
+    "href": "ff-slides.html#section",
     "title": "Fusion et fission nucléaire",
-    "section": "La fusion",
-    "text": "La fusion\n\n\n\n\n\n\nFusion nucléaire\n\n\n\nLa fusion nucléaire est une réaction selon laquelle des noyaux légers fusionnent pour former des noyaux plus lourds. Cette réaction s’accompagne d’une libération importante d’énergie.\n\n\nVoici deux exemples de réactions de fusion nucléaire, faisant intervenir des isotopes de l’hydrogène:\n\nFusion deutérium-deutérium \\[\n^2_1 \\text{H}+^2_1\\text{H}\\to ^3_2\\text{He}+^1_0\\text{n}+5,24 × 10^{-13}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (75% pour le neutron et 25% pour le noyau d’hélium-3).\n\nFusion deutérium-tritium (isotope de l’hydrogène avec 2 neutrons) \\[\n^2_1\\text{H}+^3_1\\text{H}\\to ^4_2\\text{He}+^1_0\\text{n}+2,82 × 10^{-12}\\text{J}\n\\]\n\nDans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (80% pour le neutron et 20% pour le noyau d’hélium-4).\nVoici un tableau comparant les différentes réactions nucléaires, pour alimenter en électricité une maison pendant un an.\n\n\n\nType de réaction\nÉléments requis\nMasse nécessaire pour 1 an\n\n\n\n\nFission\nUranium-235\n17 g\n\n\nFusion D-T\nDeutérium + Tritium\n0,04 g\n\n\nFusion D-D\nDeutérium\n0,06 g\n\n\n\nMalheureusement, il n’est pas encore possible de réaliser de manière fiable et exploitable une fusion nucléaire. Les centrales à fusion sont encore en développement et présentent de nombreux défis. Un projet mondial, exécuté en France, essaye de développer un réacteur à fusion nucléaire: c’est le projet ITER. Voici une courte vidéo qui l’explique.\n\nLa fusion nucléaire est un phénomène fondamental qui alimente le Soleil. Cette réaction est la source principale de l’énergie solaire dont nous bénéficions sur Terre. Le processus de fusion dans le Soleil est si intense qu’il entraîne une perte de masse significative : environ 4,2 millions de tonnes par seconde sont converties en énergie.\nLes réactions nucléaires au cœur du Soleil sont complexes et variées, formant des chaînes de réactions interconnectées. La chaîne proton-proton (PP) est la plus importante, représentant la majorité des réactions de fusion solaire. À titre d’illustration, voici les étapes principales d’une partie de la chaîne, qui débute par la fusion de deux noyaux d’hydrogène-1:\n\n\n\nSource: https://fr.wikipedia.org/wiki/Chaîne_proton-proton\n\n\nCes réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au cœur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au cœur du Soleil."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cours de Physique",
     "section": "",
-    "text": "Ce site web contient les notes de cours pour un stage de physique de 10h."
+    "text": "Dans l’équation d’Einstein, que représente \\(m\\)?\n\n\n\\(m\\) représente la masse intertielle, au repos.\n\n\n\nDans l’équation d’Einstein, que représente \\(E\\)?\n\n\n\n\\(E\\) représente l’énergie, au repos.\n\n\n\nPourquoi dit-on qu’il y a une perte de masse dans un atome d’hydrogène?\n\n\n\nLorsqu’un proton et un électron s’associent pour former un atome d’hydrogène, il y a un dégamenent d’énergie qui est associé à une perte de masse."
+  },
+  {
+    "objectID": "ff-slides.html#section-1",
+    "href": "ff-slides.html#section-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "",
+    "text": "De quoi est composé un noyau d’hélium?\n\n\nDeux protons et deux neutrons\n\n\n\nPeut-on dire qu’il est possible de transformer de la masse en énergie?\n\n\n\nPas vraiment. Dans le cas du noyau d’hélium, lorsque le noyau se forme, l’énergie du système diminue: comme l’énergie est conservée, il y a une libération de l’énergie. Et en conséquent, une baisse de la masse, puisqu’elle “mesure” la quantité d’énergie d’un système"
+  },
+  {
+    "objectID": "ff-slides.html#la-relation-deinstein-1",
+    "href": "ff-slides.html#la-relation-deinstein-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "La relation d’Einstein",
+    "text": "La relation d’Einstein\n\\[E=mc^2\\]\nDans cette équation:\n\n\\(m\\) est la masse du corps au repos. La masse est exprimée en kg.\n\\(E\\) est l’énergie totale du corps au repos. L’énergie est exprimée en joules J.\n\\(c\\) est la vitesse de la lumière dans le vide. Cette constante est exprimée en \\(m/s\\).\n\nIci, la masse est une mesure de la résistance d’un corps à se mettre en mouvement. Ce n’est pas la même chose que la quantité de matière."
+  },
+  {
+    "objectID": "ff-slides.html#interprétation-de-la-relation-deinstein",
+    "href": "ff-slides.html#interprétation-de-la-relation-deinstein",
+    "title": "Fusion et fission nucléaire",
+    "section": "Interprétation de la relation d’Einstein",
+    "text": "Interprétation de la relation d’Einstein\n\\(E=mc^2\\) nous dit\n\nune variation de l’énergie d’un corps au repos correspond à une variation de la masse de ce corps.\nune variation de l’énergie correspond à une variation sensiblement plus petite de la masse (une variation environ \\(10^{17}\\) fois plus petite)."
+  },
+  {
+    "objectID": "ff-slides.html#quelques-exemples",
+    "href": "ff-slides.html#quelques-exemples",
+    "title": "Fusion et fission nucléaire",
+    "section": "Quelques exemples",
+    "text": "Quelques exemples\n\n\n\n\n\n\n\n\n\nÉnergie (J)\nExemple\nMasse (kg)\nExemple\n\n\n\n\n\\(2,11 \\cdot 10^{18}\\)\nConsommation totale d’énergie de la Belgique en 1 an\n\\(23,5\\)\nun enfant de 8 ans\n\n\n\\(9 \\cdot 10^{10}\\)\nÉnergie consommée par une personne en un an\n\\(1 \\cdot 10^{-6}\\)\nun moustique\n\n\n\\(3,8 \\cdot 10^{26}\\)\nÉnergie émise par le Soleil en une seconde\n\\(4,2 \\cdot 10^9\\)\nla grande pyramide de Gizeh\n\n\n\\(1 \\cdot 10^6\\)\nÉnergie cinétique d’une voiture à 100 km/h\n\\(1,11 \\cdot 10^{-11}\\)\ndix cellules\n\n\n\\(8,368 \\cdot 10^6\\)\nÉnergie d’un repas de 2000 kcal\n\\(9,3 \\cdot 10^{-11}\\)\nun dixième de grain de sable\n\n\n\\(1\\)\nÉnergie pour soulever une pomme d’un mètre\n\\(1,11 \\cdot 10^{-17}\\)\nune bactérie\n\n\n\\(2,9288 \\cdot 10^6\\)\nÉnergie dépensée lors d’une course de 10 km\n\\(3,26 \\cdot 10^{-11}\\)\n30 cellules"
+  },
+  {
+    "objectID": "ff-slides.html#le-défaut-de-masse",
+    "href": "ff-slides.html#le-défaut-de-masse",
+    "title": "Fusion et fission nucléaire",
+    "section": "Le défaut de masse",
+    "text": "Le défaut de masse\nLors de la formation d’un noyau, il y a une perte de masse…"
+  },
+  {
+    "objectID": "ff-slides.html#le-défaut-de-masse-1",
+    "href": "ff-slides.html#le-défaut-de-masse-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "Le défaut de masse",
+    "text": "Le défaut de masse\nLors de la formation d’un noyau, il y a une perte de masse…\n\n\n\n\n\n\n\n\n\nLa formation d’un noyau coûte de l’énergie (= énergie de liaison). En conséquence, il y a une perte de masse.\n\n\n\n\n\n\n\n\n\n\nÉlément\nValeur\n\n\n\n\nMasse du proton (p)\n\\(1.67262 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse du neutron (n)\n\\(1.67493 \\times 10^{-27}\\text{kg}\\)\n\n\nSomme des masses (p + n)\n\\(3.34755 \\times 10^{-27}\\text{kg}\\)\n\n\nMasse réelle du deutérium\n\\(3.34449 \\times 10^{-27}\\text{kg}\\)\n\n\nDéfaut de masse\n\\(3.06 \\times 10^{-30}\\text{kg}\\)\n\n\nÉnergie de liaison\n\\(2.75 \\times 10^{-13}\\) J"
+  },
+  {
+    "objectID": "ff-slides.html#comment-se-crée-le-deutérium",
+    "href": "ff-slides.html#comment-se-crée-le-deutérium",
+    "title": "Fusion et fission nucléaire",
+    "section": "Comment se crée le deutérium?",
+    "text": "Comment se crée le deutérium?\n\n\n\n\n\n\n\n\nLa formation d’un noyau de deuterium se réalise lorsqu’un proton capture un neutron.\n\n\\[\n^1_1\\text{H} + ^1_0\\text{n} \\rightarrow ^2_1\\text{H} + \\gamma\n\\]\nCe procédé peut se faire naturellement mais est rare. La création d’un noyau de deuterium peut se faire artificiellement dans un réacteur nucléaire. La production industrielle du deuterium se fait par distillation de l’eau de mer."
+  },
+  {
+    "objectID": "ff-slides.html#introduction-1",
+    "href": "ff-slides.html#introduction-1",
+    "title": "Fusion et fission nucléaire",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "mru-slides.html#introduction",
+    "href": "mru-slides.html#introduction",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "mru-slides.html#etude-de-la-position",
+    "href": "mru-slides.html#etude-de-la-position",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Etude de la position",
+    "text": "Etude de la position\n\nQue constatez-vous?"
+  },
+  {
+    "objectID": "mru-slides.html#etude-de-la-vitesse-moyenne",
+    "href": "mru-slides.html#etude-de-la-vitesse-moyenne",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Etude de la vitesse moyenne",
+    "text": "Etude de la vitesse moyenne\n\nQue constatez-vous ?"
+  },
+  {
+    "objectID": "mru-slides.html#modèle-du-mru",
+    "href": "mru-slides.html#modèle-du-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Modèle du MRU",
+    "text": "Modèle du MRU\n\nVitesse constante : \\(v = \\text{constante}\\)\nPosition : \\(x(t)\\) est une fonction du premier degré\n\noào \\(=x_0\\)\npente \\(=v\\)\n\\(x(t)=v\\cdot t+x_0\\)\n\nUtilité : interpolation et extrapolation"
+  },
+  {
+    "objectID": "mru-slides.html#définition-et-caractéristiques-du-mru",
+    "href": "mru-slides.html#définition-et-caractéristiques-du-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Définition et caractéristiques du MRU",
+    "text": "Définition et caractéristiques du MRU\n\nDéfinition 1 Un corps est en mouvement rectiligne uniforme s’il parcourt une ligne droite à vitesse constante, sans changer de sens."
+  },
+  {
+    "objectID": "mru-slides.html#caractéristiques-graphiques",
+    "href": "mru-slides.html#caractéristiques-graphiques",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Caractéristiques graphiques",
+    "text": "Caractéristiques graphiques\n\n\n\n\n\n\nPosition \\(x(t)\\)\nFonction du premier degré (droite oblique).\n\n\n\n \n\n\nVitesse \\(v(t)\\)\nFonction constante (droite horizontale)."
+  },
+  {
+    "objectID": "mru-slides.html#caractéristiques-analytiques",
+    "href": "mru-slides.html#caractéristiques-analytiques",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Caractéristiques analytiques",
+    "text": "Caractéristiques analytiques\n\n\n\n\n\n\nPosition\nLa position en fonction du temps est donnée par \\[\nx(t)=v\\cdot t+x_0.\n\\]\n\n\n \n\n\nVitesse\nLa vitesse en fonction du temps est donnée par \\[\nv(t)=v_{\\text{m}}=\\text{constante}.\n\\]"
+  },
+  {
+    "objectID": "mru-slides.html#exercice-1",
+    "href": "mru-slides.html#exercice-1",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 1",
+    "text": "Exercice 1\n\n\n\n\n\nQuel graphique représente la position ?"
+  },
+  {
+    "objectID": "mru-slides.html#exercice-1-1",
+    "href": "mru-slides.html#exercice-1-1",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 1",
+    "text": "Exercice 1"
+  },
+  {
+    "objectID": "mru-slides.html#exercice-2",
+    "href": "mru-slides.html#exercice-2",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 2",
+    "text": "Exercice 2\nTracer le graphique de la vitesse."
+  },
+  {
+    "objectID": "mru-slides.html#exercice-6",
+    "href": "mru-slides.html#exercice-6",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 6",
+    "text": "Exercice 6\n\n\n\n\n\\(v=\\)\n\\(x_0=\\)\n\\(x(t)=\\)\n\\(v(t)=\\)"
+  },
+  {
+    "objectID": "mru-slides.html#exercice-7",
+    "href": "mru-slides.html#exercice-7",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 7",
+    "text": "Exercice 7\nUn élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?"
+  },
+  {
+    "objectID": "mru-slides.html#comparaison-même-sens",
+    "href": "mru-slides.html#comparaison-même-sens",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Comparaison: même sens",
+    "text": "Comparaison: même sens"
+  },
+  {
+    "objectID": "mru-slides.html#questions",
+    "href": "mru-slides.html#questions",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Questions",
+    "text": "Questions\n\nUne des deux voitures dépasse l’autre. Quand est-ce le cas et comment l’observer sur le graphique?\nQuelle voiture est la plus rapide ?"
+  },
+  {
+    "objectID": "mru-slides.html#comparaison-sens-opposés",
+    "href": "mru-slides.html#comparaison-sens-opposés",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Comparaison: sens opposés",
+    "text": "Comparaison: sens opposés"
+  },
+  {
+    "objectID": "mru-slides.html#questions-1",
+    "href": "mru-slides.html#questions-1",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Questions",
+    "text": "Questions\n\nQuand se croisent-elles ?\nVitesses respectives ? Quelle voiture est la plus rapide ?"
+  },
+  {
+    "objectID": "mru-slides.html#exr-ois",
+    "href": "mru-slides.html#exr-ois",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 3 : Les oiseaux",
+    "text": "Exercice 3 : Les oiseaux\nDécrire chaque mouvement."
+  },
+  {
+    "objectID": "mru-slides.html#exr-coureur",
+    "href": "mru-slides.html#exr-coureur",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 4 : Le coureur",
+    "text": "Exercice 4 : Le coureur\n\nPendant quelle(s) étape(s) :\n\n\\(v &gt; 0\\) ?\n\\(v &lt; 0\\) ?\n\\(v = 0\\) ?\n\\(|v|\\) est max ?\nDistance max ?\nDistance min ?"
+  },
+  {
+    "objectID": "mru-slides.html#exr-croisement",
+    "href": "mru-slides.html#exr-croisement",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercice 5 : Croisement",
+    "text": "Exercice 5 : Croisement\n\nVrai ou faux (justifier) :\n\nMême sens ?\nA est plus rapide ?\nA dépasse C à \\(t=30\\) s ?\nB dépasse A à \\(t=60\\) s ?\n\\(v_A &lt; v_B\\) à \\(t=60\\) s ?\nB plus proche de A que de C à \\(t=10\\) s ?\nC ne croise jamais A ?\nC croise B deux fois ?"
   }
 ]
