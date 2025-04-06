@@ -4,13 +4,23 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  a4,
+  letterpaper,
   DIV=11,
   numbers=noendperiod]{scrartcl}
+
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
-
-\ifPDFTeX\else
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
     % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -23,14 +33,14 @@
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
     \usepackage{parskip}
-d  }{% else
+  }{% else
     \setlength{\parindent}{0pt}
     \setlength{\parskip}{6pt plus 2pt minus 1pt}}
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[top=20mm,left=15mm,right=15mm,bottom=20mm]{geometry}
+\usepackage[top=20mm,left=20mm,right=20mm,bottom=20mm]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -158,10 +168,6 @@ d  }{% else
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-\usepackage{amssymb}
-\renewcommand*\familydefault{\sfdefault}
-\usepackage{sansmath}
-\sansmath
 
 \ifLuaTeX
 \usepackage[bidi=basic]{babel}
@@ -195,27 +201,29 @@ d  }{% else
 \date{}
 
 \begin{document}
+\maketitle
+
 
 \begin{titlepage}
     \centering
-
+    
     % Espace au-dessus du titre
-    \vspace*{2cm}
-
+    \vspace*{2cm} 
+    
     % Titre principal en grand
     {\fontsize{24pt}{28pt}\selectfont\textbf{La loi de la gravitation universelle}\par}
-
+    
     % Espace entre le titre et l'image
-    \vspace*{1cm}
-
+    \vspace*{1cm} 
+    
     % Insertion de l'image
     \includegraphics[width=\textwidth]{./figures/grav/nebula.png} % Ajustez width selon vos besoins
+    
 
-
-
+    
     % Espacement pour aligner le bas
     \vfill
-
+    
 \end{titlepage}
 
 \section{Introduction: une longue histoire en quatre
@@ -334,7 +342,7 @@ Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.7\textwidth,height=\textheight]{figures/grav/mars-2.pdf}
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{figures/grav/mars-2.pdf}
 
 }
 
@@ -363,7 +371,7 @@ héliocentrique reste imparfait.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/soleil.pdf}
+{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/soleil.pdf}
 
 }
 
@@ -379,7 +387,7 @@ elliptiques, dont un des foyers est occupé par le Soleil. Il s'agit de
 sa première loi, parmi trois qui tentent de décrire le mouvement des
 planètes autour du Soleil.
 
-\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toprule=.15mm, colback=white, arc=.35mm, opacityback=0, rightrule=.15mm, bottomrule=.15mm, breakable, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -395,13 +403,15 @@ occupé par le Soleil.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig1.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig1.pdf}
 
 }
 
+\caption{Trajectoire elliptique}
+
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toprule=.15mm, colback=white, arc=.35mm, opacityback=0, rightrule=.15mm, bottomrule=.15mm, breakable, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -417,7 +427,7 @@ Le segment qui joint le Soleil à une planète balaie des secteurs d'aires
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/aires.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/aires.pdf}
 
 }
 
@@ -425,7 +435,7 @@ Le segment qui joint le Soleil à une planète balaie des secteurs d'aires
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toprule=.15mm, colback=white, arc=.35mm, opacityback=0, rightrule=.15mm, bottomrule=.15mm, breakable, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -551,7 +561,7 @@ vous la lancez horizontalement, elle suit une trajectoire parabolique.
 En s'appuyant sur cette idée, Newton a imaginé un tir horizontal où la
 vitesse initiale est si grande que l'objet ne retombe jamais au sol. La
 Lune, selon cette vision, est en perpétuelle chute libre autour de la
-Terre, mais sa vitesse lui permet de ``manquer'' la Terre en permanence.
+Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.
 
 Les observations montrent que la trajectoire de la Lune est
 approximativement circulaire. Nous allons donc supposer dans la suite
@@ -562,7 +572,7 @@ comparer à l'accélération d'un objet en chute libre sur Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.3\textwidth,height=\textheight]{figures/grav/fig3.pdf}
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/fig3.pdf}
 
 }
 
@@ -606,7 +616,7 @@ exercée sur la Lune, \(\overrightarrow{F}_{\text{T/L}}\). Les résultats
 de l'exercice précédent montrent que cette force est proportionnelle à
 \(\dfrac{1}{R^2}\).
 
-\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-important-color-frame, left=2mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, leftrule=.75mm, toprule=.15mm, colback=white, arc=.35mm, opacityback=0, rightrule=.15mm, bottomrule=.15mm, breakable, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-important-color}{\faExclamation}
 \end{minipage}%
@@ -644,7 +654,7 @@ dépend donc aussi de la masse de la Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig4.pdf}
+{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig4.pdf}
 
 }
 
@@ -671,7 +681,7 @@ Le génie de Newton a été d'étendre ce raisonnement à tous les astres du
 système solaire, puis à tous les corps matériels. Il en a déduit une loi
 fondamentale de la nature.
 
-\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, breakable, colback=white, arc=.35mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, left=2mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toprule=.15mm, colback=white, arc=.35mm, opacityback=0, rightrule=.15mm, bottomrule=.15mm, breakable, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -699,7 +709,7 @@ La constante \(k_g\) est universelle. Elle a été estimée par Newton et
 mesurée avec précision par Cavendish en 1798 :
 
 \[
-k_g = 6,67 \cdot 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
+k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
 \]
 
 Cette valeur montre que la force gravitationnelle est généralement
@@ -714,7 +724,7 @@ entre les objets.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig02.pdf}
+{\centering \includegraphics[width=0.6\textwidth,height=\textheight]{figures/grav/fig02.pdf}
 
 }
 
@@ -768,10 +778,10 @@ Valeur
 \bottomrule\noalign{}
 \endlastfoot
 Constante gravitationnelle \(k_g\) &
-\(6,67 \cdot 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}\) \\
+\(6,67 \times 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}\) \\
 Accélération terrestre \(g\) & \(9,81 \text{ m/s}^2\) \\
-Masse de la Terre \(m_T\) & \(5,97 \cdot 10^{24} \text{ kg}\) \\
-Masse du Soleil \(m_S\) & \(1,99 \cdot 10^{30} \text{ kg}\) \\
+Masse de la Terre \(m_T\) & \(5,97 \times 10^{24} \text{ kg}\) \\
+Masse du Soleil \(m_S\) & \(1,99 \times 10^{30} \text{ kg}\) \\
 \end{longtable}
 
 \subsection{Mouvement des astres dans le système
@@ -783,7 +793,7 @@ trajectoires:
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/grav/orbites.pdf}
+{\centering \includegraphics[width=0.2\textwidth,height=\textheight]{figures/grav/orbites.pdf}
 
 }
 
@@ -805,16 +815,6 @@ révolution d'un astre.
 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en
 sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois
 plus grande que le rayon de l'orbite de la Terre autour du soleil.
-
-\begin{figure}[H]
-
-{\centering \includegraphics[width=0.3\textwidth,height=\textheight]{figures/grav/neptune.png}
-
-}
-
-\caption{Neptune}
-
-\end{figure}%
 
 Explicitons ce que dit l'énoncé de l'exemple:
 
@@ -853,7 +853,7 @@ km.
   Exprime le rayon de son orbite en fonction du rayon terrestre.
 \item
   Calcule sa vitesse orbitale en supposant que
-  \(R_T = 6,37 \cdot 10^6\) m.
+  \(R_T = 6,37 \times 10^6\) m.
 \item
   Donne la période de révolution du satellite.
 \end{enumerate}
@@ -866,16 +866,9 @@ La station spaciale internationale (ISS) est en orbite circulaire autour
 de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
 
 \end{exercise}
-\begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/iss.pdf}
-
-}
-
-\caption{L'ISS}
-
-\end{figure}%
-\subsection{Détermination de la masse des corps célestes}
+\includegraphics{figures/grav/iss.pdf}fig-align=``center'' width=40\%\}
+\#\# Détermination de la masse des corps célestes
 
 La loi de la gravitation est une des seules manières dont nous pouvons
 mesurer la masse des astres.
@@ -887,7 +880,7 @@ L'idée repose sur la relation entre la force gravitationnelle et
 l'accélération gravitationnelle \(g\).
 
 Nous savons que tout objet de masse \(m\) situé près de la surface
-terrestre subit une accélération \(g = 9,81\) m/s$^{2}$. Cette accélération
+terrestre subit une accélération \(g = 9,81\) m/s². Cette accélération
 est due à la force gravitationnelle exercée par la Terre.
 
 En appliquant la deuxième loi de Newton :
@@ -914,7 +907,7 @@ autour de lui ou à sa surface.
 
 \begin{exercise}[]\protect\hypertarget{exr-masse-terre}{}\label{exr-masse-terre}
 
-En utilisant \(g_M = 3,71\) m/s$^{2}$ et \(R_M = 3,39 \cdot 10^6\) m,
+En utilisant \(g_M = 3,71\) m/s² et \(R_M = 3,39 \times 10^6\) m,
 calcule la masse de Mars.
 
 \end{exercise}
@@ -964,7 +957,7 @@ pour un objet de masse \(m\) à une altitude \(h\):
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig5.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig5.pdf}
 
 }
 
@@ -1002,7 +995,7 @@ l'intensité de la force de gravité terrestre diminue.
   Calcule la gravité ressentie par un astronaute à bord de l'ISS, située
   à 400 km d'altitude.
 \item
-  Compare cette valeur avec \(g = 9,81\) m/s$^{2}$.
+  Compare cette valeur avec \(g = 9,81\) m/s².
 \end{enumerate}
 
 \end{exercise}
@@ -1022,7 +1015,7 @@ altitudes, autour de la Terre.
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=0.4\textwidth,height=\textheight]{figures/grav/fig6.pdf}
+{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/grav/fig6.pdf}
 
 }
 
