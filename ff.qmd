@@ -30,7 +30,7 @@ format:
 ::: {.content-visible when-format="html"}
 ## Slides du cours
 
-[Full Screen](materials/ff-slides.qmd)
+[Full Screen](ff-slides.qmd)
 
 <iframe class="slide-deck" src="_site/ff-slides.html"></iframe>
 :::
