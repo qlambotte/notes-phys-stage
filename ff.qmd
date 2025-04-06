@@ -27,6 +27,10 @@ format:
 \includegraphics[width=\textwidth]{./figures/ff/sun.png}
 \newpage
 ```
+::: {.content-visible when-format="html"}
+## Slides du cours
+<iframe class="slide-deck" src="_site/ff-slides.html"></iframe>
+:::
 # La relation d'Einstein
 
 ## Introduction

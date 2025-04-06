@@ -46,6 +46,11 @@ format:
     
 \end{titlepage}
 ```
+::: {.content-visible when-format="html"}
+## Slides du cours
+<iframe class="slide-deck" src="_site/grav-slides.html"></iframe>
+:::
+
 ## Introduction: une longue histoire en quatre étapes
 
 L'observation et l'étude des corps célestes est à l'origine de la loi de la gravitation universelle. 

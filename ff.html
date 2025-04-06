@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.5.57" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+
+<title>Fusion et fission nucléaire – Cours de Physique</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<!-- htmldependencies:E3FAD763 -->
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="/index.html">
+    <span class="navbar-title">Cours de Physique</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="/mru.html"> 
+<span class="menu-text">Mouvement rectiligne uniforme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/ff.html"> 
+<span class="menu-text">Fusion et fission nucléaires</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/grav.html"> 
+<span class="menu-text">La gravitation universelle</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <div id="quarto-toc-target"></div>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Fusion et fission nucléaire</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#slides-du-cours" id="toc-slides-du-cours">Slides du cours</a></li>
+  <li><a href="#la-relation-deinstein" id="toc-la-relation-deinstein">La relation d’Einstein</a>
+  <ul>
+  <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+  <li><a href="#la-relation-deinstein-1" id="toc-la-relation-deinstein-1">La relation d’Einstein</a></li>
+  <li><a href="#le-défaut-de-masse-dans-la-formation-de-noyaux" id="toc-le-défaut-de-masse-dans-la-formation-de-noyaux">Le défaut de masse dans la formation de noyaux</a></li>
+  </ul></li>
+  <li><a href="#les-réactions-nucléaires" id="toc-les-réactions-nucléaires">Les réactions nucléaires</a>
+  <ul>
+  <li><a href="#introduction-1" id="toc-introduction-1">Introduction</a></li>
+  <li><a href="#la-fission" id="toc-la-fission">La fission</a></li>
+  <li><a href="#la-fusion" id="toc-la-fusion">La fusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+<section id="slides-du-cours" class="level2">
+<h2>Slides du cours</h2>
+<iframe class="slide-deck" src="_site/ff-slides.html">
+</iframe>
+</section>
+<section id="la-relation-deinstein" class="level1">
+<h1>La relation d’Einstein</h1>
+<section id="introduction" class="level2">
+<h2>Introduction</h2>
+<p>Regardons la vidéo suivante de ScienceEtonnante:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KIGfevsoS8Q?si=ishcr8K4T5XYULiy&start=22&end=541" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>Réponds aux questions suivantes:</p>
+<ol type="1">
+<li>Quelle est l’équation la plus connue de la physique?</li>
+</ol>
+<ol start="2" type="1">
+<li>Comment devrait-on écrie cette équation?</li>
+</ol>
+<ol start="3" type="1">
+<li>Quelles quantités varient simultanément?</li>
+</ol>
+<ol start="6" type="1">
+<li>Dans l’équation d’Einstein, que représente <span class="math inline">\(m\)</span>?</li>
+</ol>
+<ol start="6" type="1">
+<li>Dans l’équation d’Einstein, que représente <span class="math inline">\(E\)</span>?</li>
+</ol>
+<ol start="7" type="1">
+<li>Pourquoi dit-on qu’il y a une perte de masse dans un atome d’hydrogène?</li>
+</ol>
+<ol start="8" type="1">
+<li>De quoi est composé un noyau d’hélium?</li>
+</ol>
+<ol start="9" type="1">
+<li>Peut-on dire qu’il est possible de transformer de la masse en énergie?</li>
+</ol>
+</section>
+<section id="la-relation-deinstein-1" class="level2">
+<h2>La relation d’Einstein</h2>
+<p>C’est en 1905 qu’Einstein publia l’équation <span class="math inline">\(E=mc^2\)</span>, sur base de nombreux travaux d’autres scientifiques qui avaient déjà observé un lien entre l’énergie et la masse dans des situations particulières.</p>
+<p>Décortiquons cette équation:</p>
+<ul>
+<li>cette équation parle de deux attributs <span class="math inline">\(E\)</span> et <span class="math inline">\(m\)</span> d’un corps supposé au repos;</li>
+<li>la lettre <span class="math inline">\(m\)</span> fait référence à la masse de ce corps (au repos!), exprimée en kilogrammes <span class="math inline">\(\text{kg}\)</span>;</li>
+<li>la lettre <span class="math inline">\(E\)</span> fait référence à l’énergie totale de ce corps (au repos!), exprimée en joules <span class="math inline">\(J\)</span>;</li>
+<li>la lettre <span class="math inline">\(c\)</span> fait référence à la vitesse de la lumière dans le vide, qui est une constante universelle et vaut environ <span class="math inline">\(300 000\text{km/s}=3\cdot 10^8\text{m/s}\)</span>.</li>
+</ul>
+<p>Dans cette équation, la masse est une mesure de la résistance du corps à se mettre en mouvement et n’est donc pas une mesure de la quantité de matière.</p>
+<p>Comment interpréter cette équation? Elle nous dit qu’une variation de l’énergie d’un corps au repos correspond à une variation de la masse de ce corps. De plus, le facteur <span class="math inline">\(c^2\)</span> qui lie ces variations entre énergie et masse fait qu’une variation de l’énergie correspond à une variation sensiblement plus petite de la masse (une variation environ <span class="math inline">\(10^{17}\)</span> fois plus petite).</p>
+<p>Voici un tableau donnant différentes variations d’énergie et la variation de masse correspondante:</p>
+<table class="table-bordered caption-top">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 30%" />
+<col style="width: 20%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Énergie (J)</th>
+<th>Exemple</th>
+<th>Masse (kg)</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(2,11 \cdot 10^{18}\)</span></td>
+<td>Consommation totale d’énergie de la Belgique en 1 an</td>
+<td><span class="math inline">\(23,5\)</span></td>
+<td>un enfant de 8 ans</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(9 \cdot 10^{10}\)</span></td>
+<td>Énergie consommée par une personne en un an</td>
+<td><span class="math inline">\(1 \cdot 10^{-6}\)</span></td>
+<td>un moustique</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(3,8 \cdot 10^{26}\)</span></td>
+<td>Énergie émise par le Soleil en une seconde</td>
+<td><span class="math inline">\(4,2 \cdot 10^9\)</span></td>
+<td>la grande pyramide de Gizeh</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(1 \cdot 10^6\)</span></td>
+<td>Énergie cinétique d’une voiture à 100 km/h</td>
+<td><span class="math inline">\(1,11 \cdot 10^{-11}\)</span></td>
+<td>dix cellules</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(8,368 \cdot 10^6\)</span></td>
+<td>Énergie d’un repas de 2000 kcal</td>
+<td><span class="math inline">\(9,3 \cdot 10^{-11}\)</span></td>
+<td>un dixième de grain de sable</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(1\)</span></td>
+<td>Énergie pour soulever une pomme d’un mètre</td>
+<td><span class="math inline">\(1,11 \cdot 10^{-17}\)</span></td>
+<td>une bactérie</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(2,9288 \cdot 10^6\)</span></td>
+<td>Énergie dépensée lors d’une course de 10 km</td>
+<td><span class="math inline">\(3,26 \cdot 10^{-11}\)</span></td>
+<td>30 cellules</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="le-défaut-de-masse-dans-la-formation-de-noyaux" class="level2">
+<h2>Le défaut de masse dans la formation de noyaux</h2>
+<p>Nous avons vu dans la vidéo que la masse d’un noyau d’hélium n’est pas égale à la somme des masses des 4 nucléons qui le compose, à cause de l’énergie nécessaire pour la création de ce noyau. Analysons un autre exemple: celui du noyau d’un isotope de l’hydrogène, le deutérium.</p>
+<p>Le noyau de cet isotope contient un proton et un neutron.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="figures/ff/fig1.svg" class="img-fluid" style="width:60.0%" /></p>
+<figcaption>Représentation des noyaux de deuterium et de l’hydrogène</figcaption>
+</figure>
+</div>
+<p>Voici un tableau résummant les valeurs des masses et du défaut de masse, ainsi que l’énergie correspondant à ce défaut.</p>
+<table class="table-bordered caption-top">
+<colgroup>
+<col style="width: 70%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Élément</th>
+<th>Valeur</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Masse du proton (p)</td>
+<td><span class="math inline">\(1.67262 \times 10^{-27}\text{kg}\)</span></td>
+</tr>
+<tr class="even">
+<td>Masse du neutron (n)</td>
+<td><span class="math inline">\(1.67493 \times 10^{-27}\text{kg}\)</span></td>
+</tr>
+<tr class="odd">
+<td>Somme des masses (p + n)</td>
+<td><span class="math inline">\(3.34755 \times 10^{-27}\text{kg}\)</span></td>
+</tr>
+<tr class="even">
+<td>Masse réelle du deutérium</td>
+<td><span class="math inline">\(3.34449 \times 10^{-27}\text{kg}\)</span></td>
+</tr>
+<tr class="odd">
+<td>Défaut de masse</td>
+<td><span class="math inline">\(3.06 \times 10^{-30}\text{kg}\)</span></td>
+</tr>
+<tr class="even">
+<td>Énergie de liaison</td>
+<td><span class="math inline">\(2.75 \times 10^{-13}\)</span> J</td>
+</tr>
+</tbody>
+</table>
+<p>Un noyau de deutérium est créé à partir d’hydrogène lorsqu’un proton capture un neutron. Ce processus peut se produire naturellement, mais à un taux très faible, ou être provoqué artificiellement dans des réacteurs nucléaires. L’équation de formation du deutérium peut s’écrire :</p>
+<p><span class="math display">\[
+^1_1\text{H} + ^1_0\text{n} \rightarrow ^2_1\text{H} + \gamma
+\]</span></p>
+<p>Cette réaction libère de l’énergie sous forme de rayonnement gamma, correspondant au défaut de masse.</p>
+</section>
+</section>
+<section id="les-réactions-nucléaires" class="level1">
+<h1>Les réactions nucléaires</h1>
+<section id="introduction-1" class="level2">
+<h2>Introduction</h2>
+<p>Regardons la vidéo suivante de ScienceEtonnante:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1MUcizMqVAc?si=YT-dqN8a_BvxUQrr&start=0&end=484" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>Réponds aux questions suivantes:</p>
+<ol type="1">
+<li>peut-on produire de l’énergie?</li>
+</ol>
+<ol start="2" type="1">
+<li>de quoi a-t-on besoin pour faire une fission?</li>
+</ol>
+<ol start="3" type="1">
+<li>combien y a-t-il de neutrons dans un noyau de magnésium 26?</li>
+</ol>
+<ol start="4" type="1">
+<li>que doit-il se produire pour qu’une réaction de fission puisse s’auto-entretenir?</li>
+</ol>
+<ol start="5" type="1">
+<li>quels noyaux permettent de créer des réactions de fission qui s’auto-entretiennent?</li>
+</ol>
+<ol start="6" type="1">
+<li><p>quels noyaux doit-on utiliser pour produire un noyau d’hélium par fusion? </p></li>
+<li><p>qu’est-ce que la barrière énergétique? </p></li>
+</ol>
+</section>
+<section id="la-fission" class="level2">
+<h2>La fission</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon no-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fission nucléaire
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La fission nucléaire est une réaction selon laquelle un noyau lourd se sépare en deux autres noyaux, plus légers, sous l’impact d’un neutron lent. Cette réaction est accompagnée par l’émission de plusieurs neutrons (en général 2 ou 3) et d’un dégagement d’énergie.</p>
+</div>
+</div>
+<p>Dans les centrales nucléaires, les réactions de fission sont causée par bombardement d’un noyau lourd par un neutron. Voici deux exemples de réaction par fission:</p>
+<p><span class="math display">\[
+^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{236}_{92}\text{U}\rightarrow ^{95}_{38}\text{Sr} + ^{139}_54\text{Xe} + 2 ^1_0\text{n} + 3,2 \cdot 10^{-11}\text{J}
+\]</span></p>
+<p><span class="math display">\[
+^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{236}_{92}\text{U}\rightarrow ^{92}_{36}\text{Kr} + ^{141}_{56}\text{Ba} + 3 ^1_0\text{n} + 3,2 \cdot 10^{-11}\text{J}
+\]</span></p>
+<p>Pour chacune de ces deux réactions, l’énergie correspond au défaut de masse entre les produits de fission et le noyau de départ. Pour la réaction de fission de l’uranium-235, l’énérgie totale dégagée en moyenne est de <span class="math inline">\(3,2 \cdot 10^{-11}\text{J}\)</span>. Cette énergie se décompose de la manière suivante:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="figures/ff/fig2.svg" class="img-fluid" style="width:80.0%" /></p>
+<figcaption>Énergie d’une réaction de fission de l’uranium-235</figcaption>
+</figure>
+</div>
+<p>L’énergie récupérable par une centrale nucléaire est de l’ordre de <span class="math inline">\(95\%\)</span>, c’est-à-dire environ <span class="math inline">\(3,04 \cdot 10^{-11}\text{J}\)</span>. Ce nombre semble ridiculement petit mais est en fait énorme à grande échelle. Voici un tableau comparant les différentes manière de produire l’électricité nécessaire pour alimenter une maison pendant un an:</p>
+<table class="table-bordered caption-top">
+<thead>
+<tr class="header">
+<th>Source d’énergie</th>
+<th>Quantité nécessaire pour 1 an</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Uranium (fission)</td>
+<td>17 g</td>
+</tr>
+<tr class="even">
+<td>Charbon (combustion)</td>
+<td>330 kg</td>
+</tr>
+<tr class="odd">
+<td>Gaz naturel (combustion)</td>
+<td>300 m³</td>
+</tr>
+<tr class="even">
+<td>Pétrole (combustion)</td>
+<td>270 litres</td>
+</tr>
+<tr class="odd">
+<td>Panneaux solaires</td>
+<td>envirion 15 panneaux solaires</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="la-fusion" class="level2">
+<h2>La fusion</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class='callout-icon no-icon'></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fusion nucléaire
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La fusion nucléaire est une réaction selon laquelle des noyaux légers fusionnent pour former des noyaux plus lourds. Cette réaction s’accompagne d’une libération importante d’énergie.</p>
+</div>
+</div>
+<p>Voici deux exemples de réactions de fusion nucléaire, faisant intervenir des isotopes de l’hydrogène:</p>
+<ol type="1">
+<li>Fusion deutérium-deutérium <span class="math display">\[
+^2_1 \text{H}+^2_1\text{H}\to ^3_2\text{He}+^1_0\text{n}+5,24 × 10^{-13}\text{J}
+\]</span></li>
+</ol>
+<p>Dans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (75% pour le neutron et 25% pour le noyau d’hélium-3).</p>
+<ol start="2" type="1">
+<li>Fusion deutérium-tritium (isotope de l’hydrogène avec 2 neutrons) <span class="math display">\[
+^2_1\text{H}+^3_1\text{H}\to ^4_2\text{He}+^1_0\text{n}+2,82 × 10^{-12}\text{J}
+\]</span></li>
+</ol>
+<p>Dans cette réaction, l’énergie dégagée correspond aux énergies cinétiques des produits (80% pour le neutron et 20% pour le noyau d’hélium-4).</p>
+<p>Voici un tableau comparant les différentes réactions nucléaires, pour alimenter en électricité une maison pendant un an.</p>
+<table class="table-bordered caption-top">
+<thead>
+<tr class="header">
+<th>Type de réaction</th>
+<th>Éléments requis</th>
+<th>Masse nécessaire pour 1 an</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fission</strong></td>
+<td>Uranium-235</td>
+<td>17 g</td>
+</tr>
+<tr class="even">
+<td><strong>Fusion D-T</strong></td>
+<td>Deutérium + Tritium</td>
+<td>0,04 g</td>
+</tr>
+<tr class="odd">
+<td><strong>Fusion D-D</strong></td>
+<td>Deutérium</td>
+<td>0,06 g</td>
+</tr>
+</tbody>
+</table>
+<p>Malheureusement, il n’est pas encore possible de réaliser de manière fiable et exploitable une fusion nucléaire. Les centrales à fusion sont encore en développement et présentent de nombreux défis. Un projet mondial, exécuté en France, essaye de développer un réacteur à fusion nucléaire: c’est le projet ITER. Voici une courte vidéo qui l’explique.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QP3INfzVIWI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>La fusion nucléaire est un phénomène fondamental qui alimente le Soleil. Cette réaction est la source principale de l’énergie solaire dont nous bénéficions sur Terre. Le processus de fusion dans le Soleil est si intense qu’il entraîne une perte de masse significative : environ 4,2 millions de tonnes par seconde sont converties en énergie.</p>
+<p>Les réactions nucléaires au cœur du Soleil sont complexes et variées, formant des chaînes de réactions interconnectées. La chaîne proton-proton (PP) est la plus importante, représentant la majorité des réactions de fusion solaire. À titre d’illustration, voici les étapes principales d’une partie de la chaîne, qui débute par la fusion de deux noyaux d’hydrogène-1:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="figures/ff/soleil.png" class="img-fluid" style="width:45.0%" /></p>
+<figcaption>Source: <a href="https://fr.wikipedia.org/wiki/Chaîne_proton-proton" class="uri">https://fr.wikipedia.org/wiki/Chaîne_proton-proton</a></figcaption>
+</figure>
+</div>
+<p>Ces réactions se produisent dans des conditions extrêmes de température (environ 15 millions de degrés Celsius) et de pression (la pression au coeur du Soleil est égale à 200 milliards de fois la pression atmosphérique terrestre) au coeur du Soleil.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Mouvement rectiligne uniforme">Mouvement rectiligne uniforme</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/mru.html">/mru.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Fusion et fission nucléaires">Fusion et fission nucléaires</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/ff.html">/ff.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:La gravitation universelle">La gravitation universelle</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/grav.html">/grav.html</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Fusion et fission nucléaire – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Fusion et fission nucléaire – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Fusion et fission nucléaire – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+</body>
+
+</html>

@@ -25,6 +25,11 @@ format:
     default-image-extension: png
 ---
 
+::: {.content-visible when-format="html"}
+## Slides du cours
+<iframe class="slide-deck" src="_site/mru-slides.html"></iframe>
+:::
+
 ## Introduction
 
 Nous allons réaliser une expérience numérique à partir de l'application suivante.

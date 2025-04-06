@@ -15,12 +15,12 @@
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  %\usepackage{unicode-math}
-%\defaultfontfeatures{Scale=MatchLowercase}
- % \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-%\usepackage{lmodern}
-\ifPDFTeX\else
+\usepackage{lmodern}
+\ifPDFTeX\else  
     % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -504,7 +504,7 @@ Réponds aux questions suivantes:
 
 \subsection{La fission}\label{la-fission}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colframe=quarto-callout-note-color-frame, breakable, coltitle=black, opacityback=0, bottomrule=.15mm, colback=white, title={Fission nucléaire}, toptitle=1mm, bottomtitle=1mm, titlerule=0mm, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, arc=.35mm, rightrule=.15mm, toprule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, leftrule=.75mm, titlerule=0mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, bottomrule=.15mm, bottomtitle=1mm, title={Fission nucléaire}, colframe=quarto-callout-note-color-frame, rightrule=.15mm, coltitle=black, toptitle=1mm, opacitybacktitle=0.6, left=2mm, opacityback=0]
 
 La fission nucléaire est une réaction selon laquelle un noyau lourd se
 sépare en deux autres noyaux, plus légers, sous l'impact d'un neutron
@@ -518,7 +518,7 @@ bombardement d'un noyau lourd par un neutron. Voici deux exemples de
 réaction par fission:
 
 \[
- ^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{236}_{92}\text{U}\rightarrow ^{95}_{38}\text{Sr} + ^{139}_{54}\text{Xe} + 2 ^1_0\text{n} + 3,2 \cdot 10^{-11}\text{J}
+ ^{235}_{92}\text{U} + ^1_0\text{n} \rightarrow ^{236}_{92}\text{U}\rightarrow ^{95}_{38}\text{Sr} + ^{139}_54\text{Xe} + 2 ^1_0\text{n} + 3,2 \cdot 10^{-11}\text{J}
  \]
 
 \[
@@ -563,7 +563,7 @@ Panneaux solaires & envirion 15 panneaux solaires \\
 
 \subsection{La fusion}\label{la-fusion}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, colframe=quarto-callout-note-color-frame, breakable, coltitle=black, opacityback=0, bottomrule=.15mm, colback=white, title={Fusion nucléaire}, toptitle=1mm, bottomtitle=1mm, titlerule=0mm, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, arc=.35mm, rightrule=.15mm, toprule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, leftrule=.75mm, titlerule=0mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, bottomrule=.15mm, bottomtitle=1mm, title={Fusion nucléaire}, colframe=quarto-callout-note-color-frame, rightrule=.15mm, coltitle=black, toptitle=1mm, opacitybacktitle=0.6, left=2mm, opacityback=0]
 
 La fusion nucléaire est une réaction selon laquelle des noyaux légers
 fusionnent pour former des noyaux plus lourds. Cette réaction
@@ -638,7 +638,7 @@ bénéficions sur Terre. Le processus de fusion dans le Soleil est si
 intense qu'il entraîne une perte de masse significative : environ 4,2
 millions de tonnes par seconde sont converties en énergie.
 
-Les réactions nucléaires au coeur du Soleil sont complexes et variées,
+Les réactions nucléaires au cœur du Soleil sont complexes et variées,
 formant des chaînes de réactions interconnectées. La chaîne
 proton-proton (PP) est la plus importante, représentant la majorité des
 réactions de fusion solaire. À titre d'illustration, voici les étapes
