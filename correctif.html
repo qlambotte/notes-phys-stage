@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
 
-<title>Mouvement rectiligne uniforme – Cours de Physique</title>
+<title>Correctif de l’interro – Cours de Physique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,7 +136,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mouvement rectiligne uniforme</h1>
+<h1 class="title">Correctif de l’interro</h1>
 </div>
 
 
@@ -152,234 +152,24 @@ window.Quarto = {
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-  <li><a href="#les-caractéristiques-dun-mru" id="toc-les-caractéristiques-dun-mru">Les caractéristiques d’un MRU</a>
-  <ul>
-  <li><a href="#caractéristiques-graphiques" id="toc-caractéristiques-graphiques">Caractéristiques graphiques</a></li>
-  <li><a href="#caractéristiques-analytiques" id="toc-caractéristiques-analytiques">Caractéristiques analytiques</a></li>
-  </ul></li>
-  <li><a href="#comparaisons-de-deux-mru" id="toc-comparaisons-de-deux-mru">Comparaisons de deux MRU</a>
-  <ul>
-  <li><a href="#parcours-dans-le-même-sens" id="toc-parcours-dans-le-même-sens">Parcours dans le même sens</a></li>
-  <li><a href="#parcours-dans-des-sens-opposés" id="toc-parcours-dans-des-sens-opposés">Parcours dans des sens opposés</a></li>
-  </ul></li>
-  <li><a href="#exercices" id="toc-exercices">Exercices</a></li>
-  </ul>
-</nav>
-<section id="introduction" class="level2">
-<h2>Introduction</h2>
-<p>Nous allons réaliser une expérience numérique à partir de l’application suivante.</p>
-<iframe src="https://www.desmos.com/calculator/fiy6sraekn?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
-</iframe>
-<p>Sur cette application, on va d’abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.</p>
-<p><img src="figures/mru/fig2.svg" class="img-fluid" style="width:100.0%" /></p>
-<p>Que constates-tu? </p>
-<p>Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est définie par</p>
-<p><span class="math display">\[
-v_{\text{m}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
-\]</span> Autrement dit, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est la distance parcourue entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> divisée par la durée <span class="math inline">\(t_1-t_0\)</span>.</p>
-<p>Complétons le tableau suivant.</p>
-<p><img src="figures/mru/fig3.svg" class="img-fluid" style="width:100.0%" /></p>
-<p>Que constates-tu?</p>
-<p>Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:</p>
-<ol type="1">
-<li>la vitesse de la voiture est constante, pour chaque intervalle de temps, la vitesse moyenne. Ici <span class="math inline">\(v=\)</span></li>
-<li>la position <span class="math inline">\(x(t)\)</span> de la voiture en fonction du temps est une fonction du premier degré, du type <span class="math inline">\(x(t)=m\cdot t+p\)</span>. De plus,
-<ul>
-<li>l’ordonnée à l’origine est la position initiale: <span class="math inline">\(x(0)=x_0=\)</span></li>
-<li>le taux d’accroissement (=pente de la droite qui représente <span class="math inline">\(x(t)\)</span>) est égal à la vitesse de la voiture. Ainsi, on dispose d’une formule pour calculer et représenter la position en fonction du temps:</li>
-</ul>
-<span class="math display">\[
-x(t)=v\cdot t+x_0=
-\]</span></li>
-</ol>
-<p>Ce modèle permet de faire deux choses importantes:</p>
-<ol type="1">
-<li>interpoler: grâce à ce modèle, on peut calculer toutes les positions entre le moment de départ et le moment où on a arrêté le chronomètre.</li>
-<li>extrapoler: grâce à ce modèle, on peut faire des prédictions. Autrement dit, on peut à l’avance connaître la position de la voiture à des instants qui sont au delà du temps où on a arrêté le chronomètre, pour autant que l’on suppose que la voiture continue sa trajectoire sous les mêmes conditions.</li>
-</ol>
-<p>Vérifions ces deux affirmations, pour les temps <span class="math inline">\(t_1=\ldots\ldots\)</span> et <span class="math inline">\(t_2=\ldots\ldots\)</span>.</p>
-</section>
-<section id="les-caractéristiques-dun-mru" class="level2">
-<h2>Les caractéristiques d’un MRU</h2>
-<div id="def-mru" class="theorem definition">
-<p><span class="theorem-title"><strong>Définition 1</strong></span> Un corps est en <em>mouvement rectiligne uniforme</em> s’il parcourt une ligne droite à vitesse constante, sans changer de sens.</p>
-</div>
-<p>Les MRU ont les caractéristiques suivantes:</p>
-<section id="caractéristiques-graphiques" class="level3">
-<h3>Caractéristiques graphiques</h3>
-<div>
 
-</div>
-</section>
-<div class="quarto-layout-panel" data-layout="[0.475,-0.05,0.475]">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div id="leftcol" class="quarto-layout-cell" style="flex-basis: 47.5%;justify-content: flex-start;">
-<section id="position" class="level3">
-<h3>Position</h3>
-<p>La représentation de la position en fonction du temps est une droite oblique: la fonction <span class="math inline">\(x(t)\)</span> est une fonction du premier degré. <img src="figures/mru/fig4.svg" class="img-fluid" style="width:100.0%" /></p>
-</section>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.0%;justify-content: flex-start;">
-<p> </p>
-</div>
-<div id="rightcol" class="quarto-layout-cell" style="flex-basis: 47.5%;justify-content: flex-start;">
-<section id="vitesse" class="level3">
-<h3>Vitesse</h3>
-<p>La représentation de la vitesse en fonction du temps est une droite horizontale: la fonction <span class="math inline">\(v(t)\)</span> est une fonction constante. <img src="figures/mru/fig5.svg" class="img-fluid" style="width:100.0%" /></p>
-</section>
-</div>
-</div>
-</div>
-<section id="caractéristiques-analytiques" class="level3">
-<h3>Caractéristiques analytiques</h3>
-<div>
-
-</div>
-</section>
-<div class="quarto-layout-panel" data-layout="[0.55,-0.05,0.55]">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div id="leftcol" class="quarto-layout-cell" style="flex-basis: 47.8%;justify-content: flex-start;">
-<section id="position-1" class="level3">
-<h3>Position</h3>
-<p>La position en fonction du temps est donnée par <span class="math display">\[
-x(t)=v\cdot t+x_0,
-\]</span> où <span class="math inline">\(v\)</span> est la vitesse du corps en MRU et <span class="math inline">\(x_0\)</span> sa position initiale.</p>
-</section>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.4%;justify-content: flex-start;">
-<p> </p>
-</div>
-<div id="rightcol" class="quarto-layout-cell" style="flex-basis: 47.8%;justify-content: flex-start;">
-<section id="vitesse-1" class="level3">
-<h3>Vitesse</h3>
-<p>La vitesse en fonction du temps est donnée par <span class="math display">\[
-v(t)=v_{\text{m}}=\text{constante}.
-\]</span></p>
-</section>
-</div>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</section>
-<section id="comparaisons-de-deux-mru" class="level2">
-<h2>Comparaisons de deux MRU</h2>
-<p>Revenons à la voiture rouge de l’introduction. Nous allons ajouter une voiture bleue et observer leurs mouvements, dans deux situations: lorsqu’elles parcourent la route dans le même sens et lorsqu’elles parcourent la route dans des sens opposés.</p>
-<section id="parcours-dans-le-même-sens" class="level3">
-<h3>Parcours dans le même sens</h3>
-<iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
-</iframe>
-<p>Tu observes qu’une voiture dépasse l’autre. Comment peux-tu donner le temps de ce dépassement à l’aide du graphique?</p>
-<p>Quelle voiture va le plus vite? Peux-tu l’observer à l’aide du graphique?</p>
-</section>
-<section id="parcours-dans-des-sens-opposés" class="level3">
-<h3>Parcours dans des sens opposés</h3>
-<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
-</iframe>
-<p>Tu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l’aide du graphique? </p>
-<p>Que vaut la vitesse de la voiture bleue?</p>
-<p>Quelle voiture va le plus vite?</p>
-</section>
-</section>
-<section id="exercices" class="level2">
-<h2>Exercices</h2>
-<div id="exr-xapdv" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 1</strong></span> Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d’un corps en MRU.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig6.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:40.0%" /></p>
-</figure>
-</div>
-<p>Parmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. <img src="figures/mru/fig7.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" /></p>
-</div>
-<div id="exr-vapdx" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 2</strong></span> Sur le graphique ci-dessous, tu as la position, en fonction du temps, d’un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig8.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:40.0%" /></p>
-</figure>
-</div>
-</div>
-<div id="exr-ois" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 3</strong></span> Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig9.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" /></p>
-</figure>
-</div>
-</div>
-<div id="exr-coureur" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 4</strong></span> Voici le graphique de la position d’un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig10.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
-</figure>
-</div>
-<p>Durant quelle(s) étape(s):</p>
-<ol type="1">
-<li>sa vitesse est positive?</li>
-<li>sa vitesse est négative?</li>
-<li>sa vitesse est nulle?</li>
-<li>sa vitesse est la plus grande, en valeur absolue?</li>
-<li>la distance parcourue est la plus grande?</li>
-<li>la distance parcourue est la plus petite?</li>
-</ol>
-</div>
-<div id="exr-croisement" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 5</strong></span> Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig11.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
-</figure>
-</div>
-<p>Indique si les propositions suivantes sont vraies ou fausses. Justifie.</p>
-<ol type="1">
-<li>Les trois particules se déplacent dans le même sens.</li>
-</ol>
-<ol start="2" type="1">
-<li>La particule A est la plus rapide.</li>
-</ol>
-<ol start="3" type="1">
-<li>A dépasse C à l’instant <span class="math inline">\(t=30\text{s}\)</span>.</li>
-</ol>
-<ol start="4" type="1">
-<li>B dépasse A à l’instant <span class="math inline">\(t=60\text{s}\)</span>.</li>
-</ol>
-<ol start="5" type="1">
-<li>A est moins rapide que B, à l’instant <span class="math inline">\(t=60\text{s}\)</span>.</li>
-</ol>
-<ol start="6" type="1">
-<li>B est plus près de A que de C, à l’instant <span class="math inline">\(t=10\text{s}\)</span>.</li>
-</ol>
-<ol start="7" type="1">
-<li>C ne croise jamais A.</li>
-</ol>
-<ol start="8" type="1">
-<li>C croise B à deux moments.</li>
-</ol>
-</div>
-<div id="exr-calcul-2" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 6</strong></span> Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour <span class="math inline">\(x(t)\)</span> et <span class="math inline">\(v(t)\)</span>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig12.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
-</figure>
-</div>
-</div>
-<div id="exr-calcul-1" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercice 7</strong></span> Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?</p>
-</div>
+<p><strong>Exercice 1.</strong> Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente.</p>
+<p><strong>Réponse</strong>: L’accélération est bien croissante. En effet, Mercure attire l’objet avec une force gravitationnelle dont l’intensité est <span class="math inline">\(F_{M/O}=k_g\dfrac{m_Mm_O}{d^2}\)</span>, où <span class="math inline">\(m_M\)</span> est la masse de Mercure, <span class="math inline">\(m_O\)</span> la masse de l’objet et <span class="math inline">\(d\)</span> est la distance qui sépare l’objet du centre de Mercure. Par la 2e loi de Newton appliquée à l’objet, on a <span class="math inline">\(F_{M/O}= m_O a_O\)</span>, où <span class="math inline">\(a_O\)</span> est l’accélération de l’objet.</p>
+<p>Donc <span class="math inline">\(a_O=k_g\dfrac{m_M}{d^2}\)</span>. Puisque l’objet est en chute libre, <span class="math inline">\(d\)</span> diminue. Donc <span class="math inline">\(a_O\)</span> augmente, puisque <span class="math inline">\(a_O\)</span> est inversement proportionnelle au carré de <span class="math inline">\(d\)</span>.</p>
+<p><strong>Exercice 2.</strong> Calcule la masse de Jupiter sachant que l’un de ses satellites, Callisto, effectue une révolution circulaire complète de <span class="math inline">\(1,88\cdot 10^6\)</span> km de rayon en 16,7 jours.</p>
+<p><strong>Réponse</strong>: Jupiter attire Callisto avec une force gravitationnelle dont l’intensité est <span class="math inline">\(F_{J/C}=k_g\dfrac{m_Jm_C}{d^2}\)</span>, où <span class="math inline">\(m_J\)</span> est la masse de Jupiter, <span class="math inline">\(m_C\)</span> la masse de Callisto et <span class="math inline">\(d\)</span> est la distance qui les sépare. Par la 2e loi de Newton appliquée à Callisto, on a <span class="math inline">\(F_{J/C}= m_C a_C\)</span>, où <span class="math inline">\(a_C\)</span> est l’accélération de l’objet.</p>
+<p>Donc <span class="math inline">\(a_C=k_g\dfrac{m_J}{d^2}\)</span>. Comme Callisto est en orbite circulaire autour de Jupiter, on sait que son accélération est centripète: <span class="math inline">\(a_C=\dfrac{v^2}{d}\)</span>. Ainsi, en isolant <span class="math inline">\(m_J\)</span> dans l’équation <span class="math inline">\(\dfrac{v^2}{d}=k_g\dfrac{m_J}{d^2}\)</span>, on obtient</p>
+<p><span class="math display">\[ m_J = \dfrac{v^2d}{k_g}.\]</span></p>
+<p>Puisque <span class="math inline">\(v=\dfrac{2\pi d}{T}\)</span>, <span class="math inline">\(v^2=\dfrac{4\pi^2 d^2}{T^2}\)</span>. Donc</p>
+<p><span class="math display">\[ m_J = \dfrac{v^2d}{k_g}=\dfrac{4\pi^2 d^3}{k_g T^2}.\]</span></p>
+<p>Or <span class="math inline">\(d=1,88\cdot 10^6\)</span> km<span class="math inline">\(=1,88\cdot 10^9\)</span> m. De plus, <span class="math inline">\(T=16,7\text{ jours}=1442880\text{s}\)</span>. Donc</p>
+<p><span class="math display">\[ m_J= \dfrac{4\pi^2 d^3}{k_g T^2}=\dfrac{4\pi^2(1,88\cdot 10^9)^3}{6,67\cdot 10^{-11}(1442880)^2}\simeq 1,89\cdot 10^{27}\text{kg}.\]</span></p>
 <div id="quarto-navigation-envelope" class="hidden">
 <p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Mouvement rectiligne uniforme">Mouvement rectiligne uniforme</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/mru.html">/mru.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Fusion et fission nucléaires">Fusion et fission nucléaires</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/ff.html">/ff.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:La gravitation universelle">La gravitation universelle</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/grav.html">/grav.html</span></p>
 </div>
 <div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Correctif de l’interro – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Correctif de l’interro – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Correctif de l’interro – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
 </div>
-</section>
 
 </main> <!-- /main -->
 <script id = "quarto-html-after-body" type="application/javascript">
