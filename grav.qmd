@@ -350,7 +350,7 @@ Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.
 :::
 
 ::: {#exr-iss}
-La station spaciale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
+La station spatiale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l'ISS.
 :::
 
 ![L'ISS](figures/grav/iss){fig-align="center" width=40%}
