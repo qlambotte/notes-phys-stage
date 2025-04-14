@@ -123,6 +123,13 @@ Complète le tableau suivant à l'aide de la 3e loi de Kepler.
 
 :::
 
+## Retour sur le cours d'hier
+
+- Exoplanète= planète hors du système solaire 
+- Photographie d'un trou noir (Sagittarius A*, Voie Lactée):
+
+![](figures/trou-noir.jpg){width="60%"}
+
 ## La loi de la gravitation universelle: la démarche de Newton (XVIIe siècle)
 
 . . .
@@ -304,11 +311,75 @@ $k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.$
 
 ## Exercices
 
+::: {#exr-refl}
+
+1. Si la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?
+2. Un astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?
+3. Le poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.
+:::
+
+##
+1. Si la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?
+
+. . .
+
+![](figures/grav/fig02.svg){ width=40%}
+
+
+##
+2. Un astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?
+
+##
+3. Le poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.
+
+
+##
+
+::: {#exr-appl}
+Calcule la force d'attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n'est pas collé à ton voisin.
+:::
+
 ## Applications
 
-Préciser hypothese des orbites circulaires. Enoncer principe de base.
+Pour les applications, on va travailler sous l'hypothèse des orbites circulaires.
+
+<iframe src="https://www.desmos.com/calculator/xduxbk3ok3?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+##
+
+La conséquence des cette hypothèse sur les orbites circulaire est que, conformément à la loi des aires, les objets en orbite seront en MCU: on pourra donc utiliser la théorie du MCU pour résoudre des exercices an parallèle avec la loi de la gravitation.
+
+##
+
+Pour les exercices, les constantes suivantes seront utilisées.
+
+| Constante | Valeur |
+|-----------|--------|
+| Constante gravitationnelle $k_g$ | $6,67 \times 10^{-11} \frac{\text{N} \cdot \text{m}^2}{\text{kg}^2}$ |
+| Accélération terrestre $g$ | $9,81 \text{ m/s}^2$ |
+| Masse de la Terre $m_T$ | $5,97 \times 10^{24} \text{ kg}$ |
+| Masse du Soleil $m_S$ | $1,99 \times 10^{30} \text{ kg}$ |
 
 ## Mouvement des astres dans le système solaire
+
+Nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l'orbite de la Terre autour du soleil.
+
+1. $F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}$
+2. $R_N=30R_T$
+
+Par la 2e loi de Newton, $F_{S/N}=m_Na_N$ , où $a_N=\dfrac{v^2}{R_N}$ est l'accélération centripète.
+
+##
+
+Ainsi, $m_Na_N=k_g\dfrac{m_Sm_N}{R_N^2}$. En simplifiant par $m_N$, on obtient $a_N=k_g\dfrac{m_S}{R_N^2}$.
+
+On a donc $v^2=k_g\dfrac{m_S}{R_N}$. 
+
+En insérant les données, on peut calculer $v^2$:
+
+$v^2=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2$.
+
+Donc $v\simeq 4,5\cdot 10^6 \text{m/s}= 1,62\cdot 10^7 \text{km/h}$.
 
 ## Masse des astres
 
@@ -331,3 +402,56 @@ Calcule la masse de Jupiter sachant que l'un de ses satellites, Callisto, effect
 :::{#exr-refl}
 Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente.
 :::
+
+## Correction: chute libre sur Mercure
+
+Oui, l'accélération de l'objet augmente pendant sa chute.  
+Mercure attire l'objet avec une force gravitationnelle :
+
+$$
+F_{M/O} = k_g \frac{m_M m_O}{d^2}
+$$
+
+Par la 2ᵉ loi de Newton appliquée à l'objet:
+
+$$
+F_{M/O} = m_O a_O \Rightarrow a_O = k_g \frac{m_M}{d^2}
+$$
+
+Or, pendant la chute, la distance $d$ diminue, donc l'accélération $a_O$ augmente, puisque $a_0$ est inversement proportionnelle à $d^2$.  
+$\Rightarrow$ **L'accélération est croissante.**
+
+## Correction: masse de Jupiter
+
+Force gravitationnelle exercée par Jupiter :
+
+$$
+F_{J/C} = k_g \frac{m_J m_C}{d^2}
+$$
+
+Par la 2ᵉ loi de Newton (appliquée à Callisto) :
+
+$$
+F_{J/C} = m_C a_C \Rightarrow a_C = \frac{k_g m_J}{d^2}
+$$
+
+Or $a_C = \frac{v^2}{d}$, où $v = \frac{2\pi d}{T}$. 
+Ainsi :
+
+$$
+\frac{v^2}{d} = \frac{k_g m_J}{d^2} \Rightarrow m_J = \frac{v^2 d}{k_g} = \frac{4\pi^2 d^3}{k_g T^2}
+$$
+
+
+##
+
+$$ m_J = \dfrac{v^2d}{k_g}=\dfrac{4\pi^2 d^3}{k_g T^2}.$$
+
+
+Or $d=1,88\cdot 10^6$ km$=1,88\cdot 10^9$ m. 
+
+De plus, $T=16,7\text{ jours}=1442880\text{s}$. 
+
+Donc
+
+$$ m_J= \dfrac{4\pi^2 d^3}{k_g T^2}=\dfrac{4\pi^2(1,88\cdot 10^9)^3}{6,67\cdot 10^{-11}(1442880)^2}\simeq 1,89\cdot 10^{27}\text{kg}.$$

@@ -1,0 +1,222 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=20mm,left=20mm,right=20mm,bottom=20mm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\usepackage{sansmathfonts}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table des matières}
+\else
+  \newcommand\contentsname{Table des matières}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Liste des Figures}
+\else
+  \newcommand\listfigurename{Liste des Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Liste des Tables}
+\else
+  \newcommand\listtablename{Liste des Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Liste des Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{french}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Correctif de l'interro},
+  pdflang={fr},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Correctif de l'interro}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\textbf{Exercice 1.} Un objet en chute libre sur Mercure possède-t-il
+une accélération croissante? Argumente.
+
+\textbf{Réponse}: L'accélération est bien croissante. En effet, Mercure
+attire l'objet avec une force gravitationnelle dont l'intensité est
+\(F_{M/O}=k_g\dfrac{m_Mm_O}{d^2}\), où \(m_M\) est la masse de Mercure,
+\(m_O\) la masse de l'objet et \(d\) est la distance qui sépare l'objet
+du centre de Mercure. Par la 2e loi de Newton appliquée à l'objet, on a
+\(F_{M/O}= m_O a_O\), où \(a_O\) est l'accélération de l'objet.
+
+Donc \(a_O=k_g\dfrac{m_M}{d^2}\). Puisque l'objet est en chute libre,
+\(d\) diminue. Donc \(a_O\) augmente, puisque \(a_O\) est inversement
+proportionnelle au carré de \(d\).
+
+\textbf{Exercice 2.} Calcule la masse de Jupiter sachant que l'un de ses
+satellites, Callisto, effectue une révolution circulaire complète de
+\(1,88\cdot 10^6\) km de rayon en 16,7 jours.
+
+\textbf{Réponse}: Jupiter attire Callisto avec une force
+gravitationnelle dont l'intensité est
+\(F_{J/C}=k_g\dfrac{m_Jm_C}{d^2}\), où \(m_J\) est la masse de Jupiter,
+\(m_C\) la masse de Callisto et \(d\) est la distance qui les sépare.
+Par la 2e loi de Newton appliquée à Callisto, on a \(F_{J/C}= m_C a_C\),
+où \(a_C\) est l'accélération de l'objet.
+
+Donc \(a_C=k_g\dfrac{m_J}{d^2}\). Comme Callisto est en orbite
+circulaire autour de Jupiter, on sait que son accélération est
+centripète: \(a_C=\dfrac{v^2}{d}\). Ainsi, en isolant \(m_J\) dans
+l'équation \(\dfrac{v^2}{d}=k_g\dfrac{m_J}{d^2}\), on obtient
+
+\[ m_J = \dfrac{v^2d}{k_g}.\]
+
+Puisque \(v=\dfrac{2\pi d}{T}\), \(v^2=\dfrac{4\pi^2 d^2}{T^2}\). Donc
+
+\[ m_J = \dfrac{v^2d}{k_g}=\dfrac{4\pi^2 d^3}{k_g T^2}.\]
+
+Or \(d=1,88\cdot 10^6\) km\(=1,88\cdot 10^9\) m. De plus,
+\(T=16,7\text{ jours}=1442880\text{s}\). Donc
+
+\[ m_J= \dfrac{4\pi^2 d^3}{k_g T^2}=\dfrac{4\pi^2(1,88\cdot 10^9)^3}{6,67\cdot 10^{-11}(1442880)^2}\simeq 1,89\cdot 10^{27}\text{kg}.\]
+
+
+
+
+\end{document}

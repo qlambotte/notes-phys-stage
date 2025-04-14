@@ -1,0 +1,50 @@
+---
+title: Correctif de l'interro
+lang: fr    
+format:
+  html:
+    default-image-extension: svg
+  pdf:
+    keep-tex: true
+    pdf-engine: latexmk
+    default-image-extension: pdf
+    pdf-engine-opts:
+      - '--shell-escape'
+    header-includes: |
+      \usepackage{sansmathfonts}
+      \usepackage[utf8]{inputenc}
+      \usepackage[T1]{fontenc}
+      \renewcommand*\familydefault{\sfdefault}
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
+  docx:
+    default-image-extension: png
+---
+
+**Exercice 1.** Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente.
+
+**Réponse**: L'accélération est bien croissante. En effet, Mercure attire l'objet avec une force gravitationnelle dont l'intensité est $F_{M/O}=k_g\dfrac{m_Mm_O}{d^2}$, où $m_M$ est la masse de Mercure, $m_O$ la masse de l'objet et $d$ est la distance qui sépare l'objet du centre de Mercure. Par la 2e loi de Newton appliquée à l'objet, on a $F_{M/O}= m_O a_O$, où $a_O$ est l'accélération de l'objet.
+
+Donc $a_O=k_g\dfrac{m_M}{d^2}$. Puisque l'objet est en chute libre, $d$ diminue. Donc $a_O$ augmente, puisque $a_O$ est inversement proportionnelle au carré de $d$.
+
+
+**Exercice 2.** Calcule la masse de Jupiter sachant que l'un de ses satellites, Callisto, effectue une révolution circulaire complète de $1,88\cdot 10^6$ km de rayon en 16,7 jours.
+
+**Réponse**: Jupiter attire Callisto avec une force gravitationnelle dont l'intensité est $F_{J/C}=k_g\dfrac{m_Jm_C}{d^2}$, où $m_J$ est la masse de Jupiter, $m_C$ la masse de Callisto et $d$ est la distance qui les sépare. Par la 2e loi de Newton appliquée à Callisto, on a $F_{J/C}= m_C a_C$, où $a_C$ est l'accélération de l'objet.
+
+Donc $a_C=k_g\dfrac{m_J}{d^2}$. Comme Callisto est en orbite circulaire autour de Jupiter, on sait que son accélération est centripète: $a_C=\dfrac{v^2}{d}$. Ainsi, en isolant $m_J$ dans l'équation $\dfrac{v^2}{d}=k_g\dfrac{m_J}{d^2}$, on obtient
+
+$$ m_J = \dfrac{v^2d}{k_g}.$$
+
+Puisque $v=\dfrac{2\pi d}{T}$, $v^2=\dfrac{4\pi^2 d^2}{T^2}$. Donc
+
+$$ m_J = \dfrac{v^2d}{k_g}=\dfrac{4\pi^2 d^3}{k_g T^2}.$$
+
+
+Or $d=1,88\cdot 10^6$ km$=1,88\cdot 10^9$ m. De plus, $T=16,7\text{ jours}=1442880\text{s}$. Donc
+
+$$ m_J= \dfrac{4\pi^2 d^3}{k_g T^2}=\dfrac{4\pi^2(1,88\cdot 10^9)^3}{6,67\cdot 10^{-11}(1442880)^2}\simeq 1,89\cdot 10^{27}\text{kg}.$$
+

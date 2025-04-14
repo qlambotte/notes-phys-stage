@@ -1,0 +1,30 @@
+---
+title: Interro formative
+lang: fr    
+format:
+  html:
+    default-image-extension: svg
+  pdf:
+    keep-tex: true
+    pdf-engine: latexmk
+    default-image-extension: pdf
+    pdf-engine-opts:
+      - '--shell-escape'
+    header-includes: |
+      \usepackage{sansmathfonts}
+      \usepackage[utf8]{inputenc}
+      \usepackage[T1]{fontenc}
+      \renewcommand*\familydefault{\sfdefault}
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
+  docx:
+    default-image-extension: png
+---
+
+**Exercice 1.** Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente.
+
+
+**Exercice 2.** Calcule la masse de Jupiter sachant que l'un de ses satellites, Callisto, effectue une révolution circulaire complète de $1,88\cdot 10^6$ km de rayon en 16,7 jours.

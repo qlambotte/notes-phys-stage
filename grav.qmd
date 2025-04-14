@@ -46,13 +46,7 @@ format:
     
 \end{titlepage}
 ```
-::: {.content-visible when-format="html"}
-## Slides du cours
 
-[Full Screen](grav-slides.qmd)
-
-<iframe class="slide-deck" src="_site/grav-slides.html"></iframe>
-:::
 
 ## Introduction: une longue histoire en quatre étapes
 

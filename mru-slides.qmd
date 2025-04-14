@@ -58,7 +58,7 @@ Un corps est en  *mouvement rectiligne uniforme* s'il parcourt une ligne droite 
 :::
 
 
-## Caractéristiques graphiques
+## Caractéristiques graphiques et analytiques
 
 ::::: {layout="[0.475,-0.05,0.475]" layout-valign="top"}
 
@@ -68,6 +68,9 @@ Un corps est en  *mouvement rectiligne uniforme* s'il parcourt une ligne droite 
 Fonction du premier degré (droite oblique).
 
 ![](figures/mru/fig4.svg){width=100%}
+
+La position en fonction du temps est donnée par $x(t)=v\cdot t+x_0.$
+
 :::
 
 ::: {#rightcol}
@@ -76,30 +79,10 @@ Fonction du premier degré (droite oblique).
 Fonction constante (droite horizontale).
 
 ![](figures/mru/fig5.svg){width=100%}
+
+La vitesse en fonction du temps est donnée par $v(t)=v_{\text{m}}=\text{constante}.$
 :::
 
-:::::
-
-## Caractéristiques analytiques
-
-::::: {layout="[0.55,-0.05,0.55]" layout-valign="top"}
-
-::: {#leftcol}
-### Position
-La position en fonction du temps est donnée par 
-$$
-x(t)=v\cdot t+x_0.
-$$
-
-:::
-
-::: {#rightcol}
-### Vitesse
-La vitesse en fonction du temps est donnée par 
-$$
-v(t)=v_{\text{m}}=\text{constante}. 
-$$
-:::
 :::::
 
 
@@ -177,26 +160,6 @@ Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l'en
 *   Une des deux voitures dépasse l'autre. Quand est-ce le cas et comment l'observer sur le graphique?
 *   Quelle voiture est la plus rapide ?
 
-
-
-## Comparaison: sens opposés
-
-::: {.content-visible when-format="html"}
-
-<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width=100% height="550" style="border: 1px solid #ccc" frameborder=0></iframe>
-
-:::
-
-
-## Questions 
-
-*   Quand se croisent-elles ?
-*   Vitesses respectives ? Quelle voiture est la plus rapide ?
-
-
-
-
-
 ## Exercice 3 : Les oiseaux {#exr-ois}
 
 Décrire chaque mouvement.
@@ -217,6 +180,22 @@ Pendant quelle(s) étape(s) :
 4.  $|v|$ est max ?
 5.  Distance max ?
 6.  Distance min ?
+
+
+## Comparaison: sens opposés
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width=100% height="550" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
+
+
+## Questions 
+
+*   Quand se croisent-elles ?
+*   Vitesses respectives ? Quelle voiture est la plus rapide ?
+
 
 
 

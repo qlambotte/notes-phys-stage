@@ -25,13 +25,7 @@ format:
     default-image-extension: png
 ---
 
-::: {.content-visible when-format="html"}
-## Slides du cours
 
-[Full Screen](mru-slides.qmd)
-
-<iframe class="slide-deck" src="_site/mru-slides.html"></iframe>
-:::
 
 ## Introduction
 
