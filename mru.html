@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.5.57" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Mouvement rectiligne uniforme – Cours de Physique</title>
@@ -24,7 +22,23 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,38 +97,36 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Cours de Physique</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Recherche"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/mru.html"> 
+    <a class="nav-link active" href="./mru.html" aria-current="page"> 
 <span class="menu-text">Mouvement rectiligne uniforme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/ff.html"> 
+    <a class="nav-link" href="./ff.html"> 
 <span class="menu-text">Fusion et fission nucléaires</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/grav.html"> 
+    <a class="nav-link" href="./grav.html"> 
 <span class="menu-text">La gravitation universelle</span></a>
   </li>  
 </ul>
@@ -129,7 +141,24 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#les-caractéristiques-dun-mru" id="toc-les-caractéristiques-dun-mru" class="nav-link" data-scroll-target="#les-caractéristiques-dun-mru">Les caractéristiques d’un MRU</a>
+  <ul class="collapse">
+  <li><a href="#caractéristiques-graphiques" id="toc-caractéristiques-graphiques" class="nav-link" data-scroll-target="#caractéristiques-graphiques">Caractéristiques graphiques</a></li>
+  <li><a href="#caractéristiques-analytiques" id="toc-caractéristiques-analytiques" class="nav-link" data-scroll-target="#caractéristiques-analytiques">Caractéristiques analytiques</a></li>
+  </ul></li>
+  <li><a href="#comparaisons-de-deux-mru" id="toc-comparaisons-de-deux-mru" class="nav-link" data-scroll-target="#comparaisons-de-deux-mru">Comparaisons de deux MRU</a>
+  <ul class="collapse">
+  <li><a href="#parcours-dans-le-même-sens" id="toc-parcours-dans-le-même-sens" class="nav-link" data-scroll-target="#parcours-dans-le-même-sens">Parcours dans le même sens</a></li>
+  <li><a href="#parcours-dans-des-sens-opposés" id="toc-parcours-dans-des-sens-opposés" class="nav-link" data-scroll-target="#parcours-dans-des-sens-opposés">Parcours dans des sens opposés</a></li>
+  </ul></li>
+  <li><a href="#exercices" id="toc-exercices" class="nav-link" data-scroll-target="#exercices">Exercices</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="mru.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="mru.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,38 +181,21 @@ window.Quarto = {
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-  <li><a href="#les-caractéristiques-dun-mru" id="toc-les-caractéristiques-dun-mru">Les caractéristiques d’un MRU</a>
-  <ul>
-  <li><a href="#caractéristiques-graphiques" id="toc-caractéristiques-graphiques">Caractéristiques graphiques</a></li>
-  <li><a href="#caractéristiques-analytiques" id="toc-caractéristiques-analytiques">Caractéristiques analytiques</a></li>
-  </ul></li>
-  <li><a href="#comparaisons-de-deux-mru" id="toc-comparaisons-de-deux-mru">Comparaisons de deux MRU</a>
-  <ul>
-  <li><a href="#parcours-dans-le-même-sens" id="toc-parcours-dans-le-même-sens">Parcours dans le même sens</a></li>
-  <li><a href="#parcours-dans-des-sens-opposés" id="toc-parcours-dans-des-sens-opposés">Parcours dans des sens opposés</a></li>
-  </ul></li>
-  <li><a href="#exercices" id="toc-exercices">Exercices</a></li>
-  </ul>
-</nav>
+
 <section id="introduction" class="level2">
-<h2>Introduction</h2>
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>Nous allons réaliser une expérience numérique à partir de l’application suivante.</p>
 <iframe src="https://www.desmos.com/calculator/fiy6sraekn?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
 <p>Sur cette application, on va d’abord observer le mouvement de la voiture rouge et mesurer la position de cette voiture à 10 moments, en remplissant le tableau suivant.</p>
-<p><img src="figures/mru/fig2.svg" class="img-fluid" style="width:100.0%" /></p>
+<p><img src="figures/mru/fig2.svg" class="img-fluid" style="width:100.0%"></p>
 <p>Que constates-tu? </p>
 <p>Calculons maintenant la vitesse moyenne sur différents intervalles de temps. Pour rappel, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est définie par</p>
 <p><span class="math display">\[
 v_{\text{m}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}.
 \]</span> Autrement dit, la vitesse moyenne entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> est la distance parcourue entre <span class="math inline">\(t_0\)</span> et <span class="math inline">\(t_1\)</span> divisée par la durée <span class="math inline">\(t_1-t_0\)</span>.</p>
 <p>Complétons le tableau suivant.</p>
-<p><img src="figures/mru/fig3.svg" class="img-fluid" style="width:100.0%" /></p>
+<p><img src="figures/mru/fig3.svg" class="img-fluid" style="width:100.0%"></p>
 <p>Que constates-tu?</p>
 <p>Nous venons de construire un modèle pour décrire le mouvement effectué par la voiture. En résumé, le modèle dit ceci:</p>
 <ol type="1">
@@ -205,13 +217,13 @@ x(t)=v\cdot t+x_0=
 <p>Vérifions ces deux affirmations, pour les temps <span class="math inline">\(t_1=\ldots\ldots\)</span> et <span class="math inline">\(t_2=\ldots\ldots\)</span>.</p>
 </section>
 <section id="les-caractéristiques-dun-mru" class="level2">
-<h2>Les caractéristiques d’un MRU</h2>
+<h2 class="anchored" data-anchor-id="les-caractéristiques-dun-mru">Les caractéristiques d’un MRU</h2>
 <div id="def-mru" class="theorem definition">
 <p><span class="theorem-title"><strong>Définition 1</strong></span> Un corps est en <em>mouvement rectiligne uniforme</em> s’il parcourt une ligne droite à vitesse constante, sans changer de sens.</p>
 </div>
 <p>Les MRU ont les caractéristiques suivantes:</p>
 <section id="caractéristiques-graphiques" class="level3">
-<h3>Caractéristiques graphiques</h3>
+<h3 class="anchored" data-anchor-id="caractéristiques-graphiques">Caractéristiques graphiques</h3>
 <div>
 
 </div>
@@ -220,23 +232,23 @@ x(t)=v\cdot t+x_0=
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div id="leftcol" class="quarto-layout-cell" style="flex-basis: 47.5%;justify-content: flex-start;">
 <section id="position" class="level3">
-<h3>Position</h3>
-<p>La représentation de la position en fonction du temps est une droite oblique: la fonction <span class="math inline">\(x(t)\)</span> est une fonction du premier degré. <img src="figures/mru/fig4.svg" class="img-fluid" style="width:100.0%" /></p>
+<h3 class="anchored" data-anchor-id="position">Position</h3>
+<p>La représentation de la position en fonction du temps est une droite oblique: la fonction <span class="math inline">\(x(t)\)</span> est une fonction du premier degré. <img src="figures/mru/fig4.svg" class="img-fluid" style="width:100.0%"></p>
 </section>
 </div>
 <div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 5.0%;justify-content: flex-start;">
-<p> </p>
+<p>&nbsp;</p>
 </div>
 <div id="rightcol" class="quarto-layout-cell" style="flex-basis: 47.5%;justify-content: flex-start;">
 <section id="vitesse" class="level3">
-<h3>Vitesse</h3>
-<p>La représentation de la vitesse en fonction du temps est une droite horizontale: la fonction <span class="math inline">\(v(t)\)</span> est une fonction constante. <img src="figures/mru/fig5.svg" class="img-fluid" style="width:100.0%" /></p>
+<h3 class="anchored" data-anchor-id="vitesse">Vitesse</h3>
+<p>La représentation de la vitesse en fonction du temps est une droite horizontale: la fonction <span class="math inline">\(v(t)\)</span> est une fonction constante. <img src="figures/mru/fig5.svg" class="img-fluid" style="width:100.0%"></p>
 </section>
 </div>
 </div>
 </div>
 <section id="caractéristiques-analytiques" class="level3">
-<h3>Caractéristiques analytiques</h3>
+<h3 class="anchored" data-anchor-id="caractéristiques-analytiques">Caractéristiques analytiques</h3>
 <div>
 
 </div>
@@ -245,18 +257,18 @@ x(t)=v\cdot t+x_0=
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div id="leftcol" class="quarto-layout-cell" style="flex-basis: 47.8%;justify-content: flex-start;">
 <section id="position-1" class="level3">
-<h3>Position</h3>
+<h3 class="anchored" data-anchor-id="position-1">Position</h3>
 <p>La position en fonction du temps est donnée par <span class="math display">\[
 x(t)=v\cdot t+x_0,
 \]</span> où <span class="math inline">\(v\)</span> est la vitesse du corps en MRU et <span class="math inline">\(x_0\)</span> sa position initiale.</p>
 </section>
 </div>
 <div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.4%;justify-content: flex-start;">
-<p> </p>
+<p>&nbsp;</p>
 </div>
 <div id="rightcol" class="quarto-layout-cell" style="flex-basis: 47.8%;justify-content: flex-start;">
 <section id="vitesse-1" class="level3">
-<h3>Vitesse</h3>
+<h3 class="anchored" data-anchor-id="vitesse-1">Vitesse</h3>
 <p>La vitesse en fonction du temps est donnée par <span class="math display">\[
 v(t)=v_{\text{m}}=\text{constante}.
 \]</span></p>
@@ -267,17 +279,17 @@ v(t)=v_{\text{m}}=\text{constante}.
 <div style="page-break-after: always;"></div>
 </section>
 <section id="comparaisons-de-deux-mru" class="level2">
-<h2>Comparaisons de deux MRU</h2>
+<h2 class="anchored" data-anchor-id="comparaisons-de-deux-mru">Comparaisons de deux MRU</h2>
 <p>Revenons à la voiture rouge de l’introduction. Nous allons ajouter une voiture bleue et observer leurs mouvements, dans deux situations: lorsqu’elles parcourent la route dans le même sens et lorsqu’elles parcourent la route dans des sens opposés.</p>
 <section id="parcours-dans-le-même-sens" class="level3">
-<h3>Parcours dans le même sens</h3>
+<h3 class="anchored" data-anchor-id="parcours-dans-le-même-sens">Parcours dans le même sens</h3>
 <iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
 <p>Tu observes qu’une voiture dépasse l’autre. Comment peux-tu donner le temps de ce dépassement à l’aide du graphique?</p>
 <p>Quelle voiture va le plus vite? Peux-tu l’observer à l’aide du graphique?</p>
 </section>
 <section id="parcours-dans-des-sens-opposés" class="level3">
-<h3>Parcours dans des sens opposés</h3>
+<h3 class="anchored" data-anchor-id="parcours-dans-des-sens-opposés">Parcours dans des sens opposés</h3>
 <iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width="100%" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
 <p>Tu observes que les voitures se croisent. Comment peux-tu donner le temps de ce croisement à l’aide du graphique? </p>
@@ -286,37 +298,37 @@ v(t)=v_{\text{m}}=\text{constante}.
 </section>
 </section>
 <section id="exercices" class="level2">
-<h2>Exercices</h2>
+<h2 class="anchored" data-anchor-id="exercices">Exercices</h2>
 <div id="exr-xapdv" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 1</strong></span> Sur le graphique ci-dessous, tu as la vitesse, en fonction du temps, d’un corps en MRU.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig6.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:40.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig6.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
 </figure>
 </div>
-<p>Parmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. <img src="figures/mru/fig7.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" /></p>
+<p>Parmi les graphiques ci-dessous, lequel représente la position en fonction du temps? Explique ton choix. <img src="figures/mru/fig7.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </div>
 <div id="exr-vapdx" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 2</strong></span> Sur le graphique ci-dessous, tu as la position, en fonction du temps, d’un corps en MRU. Trace le graphique de la vitesse de ce corps en fonction du temps.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig8.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:40.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig8.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
 </figure>
 </div>
 </div>
 <div id="exr-ois" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 3</strong></span> Il y a environ 5km entre le Beffroi de Mons et le centre Sparkoh! Sur les repères ci-dessous, l’origine correspond au Beffroi. Ces repères décrivent le mouvement d’oiseaux entre le Beffroi et Sparkoh. Décris ces mouvement et donne leurs caractéristiques (position initiale, position finale et vitesse).</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig9.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig9.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
 <div id="exr-coureur" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 4</strong></span> Voici le graphique de la position d’un coureur en fonction du temps. Tu constates que le parcours du coureur peut être décomposé en 5 étapes. Réponds aux questions suivantes.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig10.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig10.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
 </figure>
 </div>
 <p>Durant quelle(s) étape(s):</p>
@@ -332,8 +344,8 @@ v(t)=v_{\text{m}}=\text{constante}.
 <div id="exr-croisement" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 5</strong></span> Trois particules (A, B et C) se déplacent sur la même droite, comme indiqué sur le graphique ci-dessous.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig11.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig11.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
 </figure>
 </div>
 <p>Indique si les propositions suivantes sont vraies ou fausses. Justifie.</p>
@@ -365,24 +377,20 @@ v(t)=v_{\text{m}}=\text{constante}.
 <div id="exr-calcul-2" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 6</strong></span> Observe le graphique suivant. Calcule sur base du graphique la vitesse du corps en mouvement, ainsi que sa position initiale. Donne ensuite une équation pour <span class="math inline">\(x(t)\)</span> et <span class="math inline">\(v(t)\)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img src="figures/mru/fig12.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:50.0%" /></p>
+<figure class="figure">
+<p><img src="figures/mru/fig12.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
 </figure>
 </div>
 </div>
 <div id="exr-calcul-1" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 7</strong></span> Un élève de Bervoets longe le hall sportif à vitesse constante. Il longe l’entiereté du hall en 2 minutes. Sachant que le hall a une longueur de 90m, donne une formule pour la position de cet élève en fonction du temps. A quel moment aura-t-il parcouru 60m?</p>
 </div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Mouvement rectiligne uniforme">Mouvement rectiligne uniforme</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/mru.html">/mru.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Fusion et fission nucléaires">Fusion et fission nucléaires</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/ff.html">/ff.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:La gravitation universelle">La gravitation universelle</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/grav.html">/grav.html</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Mouvement rectiligne uniforme – Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Cours de Physique</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
-</div>
+
+
 </section>
 
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -804,6 +812,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>
