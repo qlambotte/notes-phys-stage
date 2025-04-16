@@ -466,7 +466,7 @@ Loi de la gravitation universelle
 <div class="callout-body-container callout-body">
 <p>Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :</p>
 <p><span class="math display">\[
-F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{R^2}.
 \]</span></p>
 </div>
 </div>
@@ -480,7 +480,7 @@ F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
 k_g = 6,67 \times 10^{-11} \dfrac{\text{N} \cdot \text{m}^2}{\text{kg}^2}.
 \]</span></p>
 <p>Cette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.<br>
-On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à ce que <span class="math inline">\(k_gm^2=1\)</span>. Ceci permet d’écrire que <span class="math inline">\(F_{m_1/m_2}=\dfrac{1}{d^2}\)</span>. Voici une représentation graphique de <span class="math inline">\(F_{m_1/m_2}\)</span> en fonction de la distance entre les objets.</p>
+On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à ce que <span class="math inline">\(k_gm^2=1\)</span>. Ceci permet d’écrire que <span class="math inline">\(F_{m_1/m_2}=\dfrac{1}{R^2}\)</span>. Voici une représentation graphique de <span class="math inline">\(F_{m_1/m_2}\)</span> en fonction de la distance entre les objets.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figures/grav/fig02.svg" class="img-fluid figure-img" style="width:60.0%"></p>
@@ -530,6 +530,14 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 <td>Masse du Soleil <span class="math inline">\(m_S\)</span></td>
 <td><span class="math inline">\(1,99 \times 10^{30} \text{ kg}\)</span></td>
 </tr>
+<tr class="odd">
+<td>Rayon de la Terre <span class="math inline">\(R_T\)</span></td>
+<td><span class="math inline">\(6,37 \times 10^6\)</span> m</td>
+</tr>
+<tr class="even">
+<td>Distance Terre-Soleil <span class="math inline">\(R_{TS}\)</span></td>
+<td><span class="math inline">\(1,5\times 10^{11}\)</span> m</td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -541,24 +549,24 @@ On choisi deux masses <span class="math inline">\(m_1=m_2=m\)</span> de sorte à
 <p>Tu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.</p>
 <p>Voyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.</p>
 <div id="exm-netpune" class="theorem example">
-<p><span class="theorem-title"><strong>Exemple 1</strong></span> Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.</p>
+<p><span class="theorem-title"><strong>Exemple 1</strong></span> Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est <span class="math inline">\(4 498 400 000 \text{km}=4,4984\cdot 10^{12}\)</span> m.</p>
 <p>Explicitons ce que dit l’énoncé de l’exemple:</p>
 <ol type="1">
-<li><span class="math inline">\(F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}\)</span></li>
-<li><span class="math inline">\(R_N=30R_T\)</span></li>
+<li><span class="math inline">\(F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}\)</span>;</li>
+<li><span class="math inline">\(R_N=4,4984\cdot 10^{12}\)</span> m.</li>
 </ol>
 <p>D’après la deuxième loi de Newton, on a que <span class="math inline">\(F_{S/N}=m_Na_N\)</span> , où <span class="math inline">\(a_N=\dfrac{v^2}{R_N}\)</span> est l’accélération centripète.</p>
 <p>On a donc <span class="math inline">\(v^2=k_g\dfrac{m_S}{R_N}\)</span>. Comme <span class="math inline">\(R_N=30 R_T=30\cdot 6,37\cdot 10^6\text{m}\)</span>, on a que</p>
 <p><span class="math display">\[
-v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2
+v^2=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{4,4984\cdot 10^{12}}=29506713,5 \text{m}^2/\text{s}^2.
 \]</span></p>
-<p>Donc <span class="math inline">\(v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}\)</span>.</p>
+<p>Donc <span class="math inline">\(v\simeq 5432\text{m/s}=19555,2\text{km/h}\)</span>.</p>
 </div>
 <div id="exr-vitesse-orbitale" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 5</strong></span> Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.</p>
 <ol type="1">
 <li>Exprime le rayon de son orbite en fonction du rayon terrestre.</li>
-<li>Calcule sa vitesse orbitale en supposant que <span class="math inline">\(R_T = 6,37 \times 10^6\)</span> m.</li>
+<li>Calcule sa vitesse orbitale.</li>
 <li>Donne la période de révolution du satellite.</li>
 </ol>
 </div>
@@ -598,7 +606,7 @@ m_T = \frac{g R_T^2}{k_g}\simeq 5,97\cdot 10^{24}\text{kg}.
 <div id="exr-masse-mars" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 8</strong></span> Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.</p>
 <ol type="1">
-<li>Calcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut <span class="math inline">\(150\)</span> millions de km.</li>
+<li>Calcule la vitesse de la terre autour du soleil.</li>
 <li>Déduis-en la masse du Soleil.</li>
 </ol>
 </div>
@@ -674,6 +682,8 @@ g_h = \frac{k_g m_T}{(R_T + h)^2}
 </section>
 <section id="orbite-géostationnaire-et-satellites" class="level2">
 <h2 class="anchored" data-anchor-id="orbite-géostationnaire-et-satellites">Orbite géostationnaire et satellites</h2>
+<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" width="100%" height="900" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
 <p>Un satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en <strong>exactement 24h</strong>.</p>
 <div id="exr-periode-geo" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercice 12</strong></span> &nbsp;</p>

@@ -88,14 +88,14 @@
     "href": "grav.html#la-loi-de-la-gravitation-universelle-1",
     "title": "La gravitation universelle",
     "section": "La loi de la gravitation universelle",
-    "text": "La loi de la gravitation universelle\n\nLa démarche de Newton\nNous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.\nLa première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :\n\n\nTout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité \\(g = 9,81\\text{ m/s}^2\\). Si vous lâchez cette pomme, elle tombe. Si vous la lancez horizontalement, elle suit une trajectoire parabolique.\nEn s’appuyant sur cette idée, Newton a imaginé un tir horizontal où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.\nLes observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète \\(a_L\\), que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.\n\n\n\nLa Pomme de Newton et la Lune\n\n\nPour rappel :\n\n\\(a_L = \\omega^2 R = \\dfrac{4\\pi^2 R}{T^2}\\)\nLe rayon Terre-Lune est \\(R = 385 000\\) km\nLe rayon de la Terre est \\(R_0 = 6370\\) km\n\n\nExercice 2  \n\nCalculer \\(\\dfrac{g}{a_L}\\).\nCalculer \\(\\dfrac{R}{R_0}\\).\nDéduire que \\(\\dfrac{g}{a_L} \\simeq \\left(\\dfrac{R}{R_0}\\right)^2\\).\n\n\nNewton en déduit que la force exercée par la Terre sur la pomme, \\(\\overrightarrow{F}_{\\text{T/P}}\\), est de même nature que celle exercée sur la Lune, \\(\\overrightarrow{F}_{\\text{T/L}}\\). Les résultats de l’exercice précédent montrent que cette force est proportionnelle à \\(\\dfrac{1}{R^2}\\).\n\n\n\n\n\n\nDépendance de la distance\n\n\n\nAutrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.\n\n\n\nD’après la deuxième loi de Newton, la force gravitationnelle \\(\\overrightarrow{F}_{\\text{T/L}}\\) est reliée à l’accélération de la Lune par :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = m_L \\overrightarrow{a}_L.\n\\]\nOn en déduit que cette force dépend de la masse de la Lune, \\(m_L\\).\nUn autre paramètre intervient : la masse de la Terre, \\(m_T\\). En effet, selon la loi des actions réciproques, la Lune exerce également une force sur la Terre, \\(\\overrightarrow{F}_{\\text{L/T}}\\). Ces deux forces sont opposées mais de même intensité :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = -\\overrightarrow{F}_{\\text{L/T}}.\n\\]\nD’après la deuxième loi de Newton, \\(\\overrightarrow{F}_{\\text{T/L}}\\) dépend donc aussi de la masse de la Terre.\n\n\n\nL’attraction de la Lune par la Terre\n\n\n\n\nL’énoncé de la loi de la gravitation universelle\nEn résumé, la force \\(\\overrightarrow{F}_{\\text{T/L}}\\) est :\n\nproportionnelle aux masses \\(m_L\\) et \\(m_T\\),\ninversement proportionnelle au carré de la distance \\(R\\) entre les deux corps.\n\nLe génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature.\n\n\n\n\n\n\nLoi de la gravitation universelle\n\n\n\nDeux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :\n\\[\nF_{m_1/m_2}=F_{m_2/m_1} = k_g \\dfrac{m_1 m_2}{d^2}.\n\\]\n\n\n\n\n\n\n\nLa constante \\(k_g\\) est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :\n\\[\nk_g = 6,67 \\times 10^{-11} \\dfrac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}.\n\\]\nCette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.\nOn choisi deux masses \\(m_1=m_2=m\\) de sorte à ce que \\(k_gm^2=1\\). Ceci permet d’écrire que \\(F_{m_1/m_2}=\\dfrac{1}{d^2}\\). Voici une représentation graphique de \\(F_{m_1/m_2}\\) en fonction de la distance entre les objets.\n\n\n\nIntensité de la force en fonction de la distance\n\n\n\nExercice 3  \n\nSi la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?\nUn astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?\nLe poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.\n\n\n\nExercice 4 Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.\n\n\n\nApplications\nPour les exercices qui suivent, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)\n\n\n\n\n\nMouvement des astres dans le système solaire\nLa première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:\n\n\nTu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.\nVoyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.\n\nExemple 1 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.\nExplicitons ce que dit l’énoncé de l’exemple:\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\)\n\\(R_N=30R_T\\)\n\nD’après la deuxième loi de Newton, on a que \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète.\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\). Comme \\(R_N=30 R_T=30\\cdot 6,37\\cdot 10^6\\text{m}\\), on a que\n\\[\nv^2=k_g\\dfrac{m_S}{R_N}=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{6,37\\cdot 10^6}=\\dfrac{6,67\\cdot 1,99}{6,37}\\cdot 10^{13}=2,08\\cdot 10^{13} \\text{m}^2/\\text{s}^2\n\\]\nDonc \\(v\\simeq 4,5\\cdot 10^6 \\text{m/s}=4,5\\text{km/s}\\).\n\n\nExercice 5 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.\n\nExprime le rayon de son orbite en fonction du rayon terrestre.\nCalcule sa vitesse orbitale en supposant que \\(R_T = 6,37 \\times 10^6\\) m.\nDonne la période de révolution du satellite.\n\n\n\nExercice 6 La station spatiale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l’ISS.\n\n\n\n\nL’ISS"
+    "text": "La loi de la gravitation universelle\n\nLa démarche de Newton\nNous allons énoncer la loi de la gravitation universelle en suivant la démarche de Newton.\nLa première idée de Newton est d’interpréter le mouvement de la Lune autour de la Terre comme une chute libre. Voici une animation qui illustre cette interprétation :\n\n\nTout objet proche de la surface de la Terre est soumis à une force gravitationnelle. Par exemple, une pomme que vous tenez dans la main subit une accélération dirigée vers le centre de la Terre, d’intensité \\(g = 9,81\\text{ m/s}^2\\). Si vous lâchez cette pomme, elle tombe. Si vous la lancez horizontalement, elle suit une trajectoire parabolique.\nEn s’appuyant sur cette idée, Newton a imaginé un tir horizontal où la vitesse initiale est si grande que l’objet ne retombe jamais au sol. La Lune, selon cette vision, est en perpétuelle chute libre autour de la Terre, mais sa vitesse lui permet de « manquer » la Terre en permanence.\nLes observations montrent que la trajectoire de la Lune est approximativement circulaire. Nous allons donc supposer dans la suite qu’elle décrit un mouvement circulaire uniforme (MCU) autour de la Terre, avec une vitesse d’intensité constante. Ce modèle implique que la Lune possède une accélération centripète \\(a_L\\), que nous allons comparer à l’accélération d’un objet en chute libre sur Terre.\n\n\n\nLa Pomme de Newton et la Lune\n\n\nPour rappel :\n\n\\(a_L = \\omega^2 R = \\dfrac{4\\pi^2 R}{T^2}\\)\nLe rayon Terre-Lune est \\(R = 385 000\\) km\nLe rayon de la Terre est \\(R_0 = 6370\\) km\n\n\nExercice 2  \n\nCalculer \\(\\dfrac{g}{a_L}\\).\nCalculer \\(\\dfrac{R}{R_0}\\).\nDéduire que \\(\\dfrac{g}{a_L} \\simeq \\left(\\dfrac{R}{R_0}\\right)^2\\).\n\n\nNewton en déduit que la force exercée par la Terre sur la pomme, \\(\\overrightarrow{F}_{\\text{T/P}}\\), est de même nature que celle exercée sur la Lune, \\(\\overrightarrow{F}_{\\text{T/L}}\\). Les résultats de l’exercice précédent montrent que cette force est proportionnelle à \\(\\dfrac{1}{R^2}\\).\n\n\n\n\n\n\nDépendance de la distance\n\n\n\nAutrement dit, l’intensité de la force d’attraction terrestre diminue avec le carré de la distance au centre de la Terre.\n\n\n\nD’après la deuxième loi de Newton, la force gravitationnelle \\(\\overrightarrow{F}_{\\text{T/L}}\\) est reliée à l’accélération de la Lune par :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = m_L \\overrightarrow{a}_L.\n\\]\nOn en déduit que cette force dépend de la masse de la Lune, \\(m_L\\).\nUn autre paramètre intervient : la masse de la Terre, \\(m_T\\). En effet, selon la loi des actions réciproques, la Lune exerce également une force sur la Terre, \\(\\overrightarrow{F}_{\\text{L/T}}\\). Ces deux forces sont opposées mais de même intensité :\n\\[\n\\overrightarrow{F}_{\\text{T/L}} = -\\overrightarrow{F}_{\\text{L/T}}.\n\\]\nD’après la deuxième loi de Newton, \\(\\overrightarrow{F}_{\\text{T/L}}\\) dépend donc aussi de la masse de la Terre.\n\n\n\nL’attraction de la Lune par la Terre\n\n\n\n\nL’énoncé de la loi de la gravitation universelle\nEn résumé, la force \\(\\overrightarrow{F}_{\\text{T/L}}\\) est :\n\nproportionnelle aux masses \\(m_L\\) et \\(m_T\\),\ninversement proportionnelle au carré de la distance \\(R\\) entre les deux corps.\n\nLe génie de Newton a été d’étendre ce raisonnement à tous les astres du système solaire, puis à tous les corps matériels. Il en a déduit une loi fondamentale de la nature.\n\n\n\n\n\n\nLoi de la gravitation universelle\n\n\n\nDeux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :\n\\[\nF_{m_1/m_2}=F_{m_2/m_1} = k_g \\dfrac{m_1 m_2}{R^2}.\n\\]\n\n\n\n\n\n\n\nLa constante \\(k_g\\) est universelle. Elle a été estimée par Newton et mesurée avec précision par Cavendish en 1798 :\n\\[\nk_g = 6,67 \\times 10^{-11} \\dfrac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}.\n\\]\nCette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.\nOn choisi deux masses \\(m_1=m_2=m\\) de sorte à ce que \\(k_gm^2=1\\). Ceci permet d’écrire que \\(F_{m_1/m_2}=\\dfrac{1}{R^2}\\). Voici une représentation graphique de \\(F_{m_1/m_2}\\) en fonction de la distance entre les objets.\n\n\n\nIntensité de la force en fonction de la distance\n\n\n\nExercice 3  \n\nSi la distance entre deux objets double, comment est modifiée la force gravitationnelle entre eux ?\nUn astronaute lâche un objet en chute libre sur une planète inconnue. Son accélération augmente-t-elle au cours de la chute ?\nLe poids d’un kilogramme de plumes est-il le même sur la Terre et sur la Lune ? Justifier.\n\n\n\nExercice 4 Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin.\n\n\n\nApplications\nPour les exercices qui suivent, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)\n\n\nRayon de la Terre \\(R_T\\)\n\\(6,37 \\times 10^6\\) m\n\n\nDistance Terre-Soleil \\(R_{TS}\\)\n\\(1,5\\times 10^{11}\\) m\n\n\n\n\n\nMouvement des astres dans le système solaire\nLa première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:\n\n\nTu peux constater que les trajectoires ont l’air d’être des cercles. Nous supposerons donc, afin de faciliter les calculs, que les trajectoires des astres dans le système solaire sont circulaires. Ceci nous permettra de faire appel à la théorie des MCU pour résoudre les exercices.\nVoyons un exemple d’application pour trouver la vitesse ou la période de révolution d’un astre.\n\nExemple 1 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est \\(4 498 400 000 \\text{km}=4,4984\\cdot 10^{12}\\) m.\nExplicitons ce que dit l’énoncé de l’exemple:\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\);\n\\(R_N=4,4984\\cdot 10^{12}\\) m.\n\nD’après la deuxième loi de Newton, on a que \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète.\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\). Comme \\(R_N=30 R_T=30\\cdot 6,37\\cdot 10^6\\text{m}\\), on a que\n\\[\nv^2=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{4,4984\\cdot 10^{12}}=29506713,5 \\text{m}^2/\\text{s}^2.\n\\]\nDonc \\(v\\simeq 5432\\text{m/s}=19555,2\\text{km/h}\\).\n\n\nExercice 5 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.\n\nExprime le rayon de son orbite en fonction du rayon terrestre.\nCalcule sa vitesse orbitale.\nDonne la période de révolution du satellite.\n\n\n\nExercice 6 La station spatiale internationale (ISS) est en orbite circulaire autour de la Terre à une altitude de 400km. Calcule la vitesse de l’ISS.\n\n\n\n\nL’ISS"
   },
   {
     "objectID": "grav.html#détermination-de-la-masse-des-corps-célestes",
     "href": "grav.html#détermination-de-la-masse-des-corps-célestes",
     "title": "La gravitation universelle",
     "section": "Détermination de la masse des corps célestes",
-    "text": "Détermination de la masse des corps célestes\nLa loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres.\nPrenons l’exemple de la Terre. Comment peut-on déterminer sa masse sans avoir à la “peser” directement ?\nL’idée repose sur la relation entre la force gravitationnelle et l’accélération gravitationnelle \\(g\\).\nNous savons que tout objet de masse \\(m\\) situé près de la surface terrestre subit une accélération \\(g = 9,81\\) m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.\nEn appliquant la deuxième loi de Newton :\n\\[\nm g =  k_g\\frac{m m_T}{R_T^2}\n\\]\nOn peut simplifier :\n\\[\ng = k_g\\frac{ m_T}{R_T^2}\n\\]\nD’où :\n\\[\nm_T = \\frac{g R_T^2}{k_g}\\simeq 5,97\\cdot 10^{24}\\text{kg}.\n\\]\nCe raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.\n\nExercice 7 En utilisant \\(g_M = 3,71\\) m/s² et \\(R_M = 3,39 \\times 10^6\\) m, calcule la masse de Mars.\n\n\nExercice 8 Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.\n\nCalcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut \\(150\\) millions de km.\nDéduis-en la masse du Soleil."
+    "text": "Détermination de la masse des corps célestes\nLa loi de la gravitation est une des seules manières dont nous pouvons mesurer la masse des astres.\nPrenons l’exemple de la Terre. Comment peut-on déterminer sa masse sans avoir à la “peser” directement ?\nL’idée repose sur la relation entre la force gravitationnelle et l’accélération gravitationnelle \\(g\\).\nNous savons que tout objet de masse \\(m\\) situé près de la surface terrestre subit une accélération \\(g = 9,81\\) m/s². Cette accélération est due à la force gravitationnelle exercée par la Terre.\nEn appliquant la deuxième loi de Newton :\n\\[\nm g =  k_g\\frac{m m_T}{R_T^2}\n\\]\nOn peut simplifier :\n\\[\ng = k_g\\frac{ m_T}{R_T^2}\n\\]\nD’où :\n\\[\nm_T = \\frac{g R_T^2}{k_g}\\simeq 5,97\\cdot 10^{24}\\text{kg}.\n\\]\nCe raisonnement nous permet de déterminer la masse de n’importe quel astre en connaissant son rayon et son influence sur un objet en orbite autour de lui ou à sa surface.\n\nExercice 7 En utilisant \\(g_M = 3,71\\) m/s² et \\(R_M = 3,39 \\times 10^6\\) m, calcule la masse de Mars.\n\n\nExercice 8 Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.\n\nCalcule la vitesse de la terre autour du soleil.\nDéduis-en la masse du Soleil."
   },
   {
     "objectID": "grav.html#la-gravité-autour-de-la-terre",
@@ -116,7 +116,7 @@
     "href": "grav.html#orbite-géostationnaire-et-satellites",
     "title": "La gravitation universelle",
     "section": "Orbite géostationnaire et satellites",
-    "text": "Orbite géostationnaire et satellites\nUn satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en exactement 24h.\n\nExercice 12  \n\nEcris une formule qui lie la période d’un satellite et la force de gravitation que celui-ci subit par la Terre.\nDéduis-en l’altitude de ce satellite si celui-ci est en orbite géostationnaire."
+    "text": "Orbite géostationnaire et satellites\n\n\nUn satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en exactement 24h.\n\nExercice 12  \n\nEcris une formule qui lie la période d’un satellite et la force de gravitation que celui-ci subit par la Terre.\nDéduis-en l’altitude de ce satellite si celui-ci est en orbite géostationnaire."
   },
   {
     "objectID": "ff.html",
@@ -385,39 +385,32 @@
     "text": "Exercice 4 Calcule la force d’attraction que tu exerces sur ton voisin le plus proche. Explique ensuite pourquoi tu n’est pas collé à ton voisin."
   },
   {
-    "objectID": "grav-slides.html#applications",
-    "href": "grav-slides.html#applications",
+    "objectID": "grav-slides.html#applications-principe-de-base",
+    "href": "grav-slides.html#applications-principe-de-base",
     "title": "La loi de la gravitation universelle",
-    "section": "Applications",
-    "text": "Applications\nPour les applications, on va travailler sous l’hypothèse des orbites circulaires."
+    "section": "Applications: principe de base",
+    "text": "Applications: principe de base\nQuel est le point de départ de la résolution des exercices d’application?\n\n\\(F_{M/O}=m_Oa_0=k_g\\dfrac{m_Mm_O}{R^2}\\)"
   },
   {
     "objectID": "grav-slides.html#section-6",
     "href": "grav-slides.html#section-6",
     "title": "La loi de la gravitation universelle",
     "section": "",
-    "text": "La conséquence des cette hypothèse sur les orbites circulaire est que, conformément à la loi des aires, les objets en orbite seront en MCU: on pourra donc utiliser la théorie du MCU pour résoudre des exercices an parallèle avec la loi de la gravitation."
+    "text": "Pour les applications, on va travailler sous l’hypothèse des orbites circulaires."
   },
   {
     "objectID": "grav-slides.html#section-7",
     "href": "grav-slides.html#section-7",
     "title": "La loi de la gravitation universelle",
     "section": "",
-    "text": "Pour les exercices, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)"
-  },
-  {
-    "objectID": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
-    "href": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
-    "title": "La loi de la gravitation universelle",
-    "section": "Mouvement des astres dans le système solaire",
-    "text": "Mouvement des astres dans le système solaire\nNous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l’orbite de la Terre autour du soleil.\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\)\n\\(R_N=30R_T\\)\n\nPar la 2e loi de Newton, \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète."
+    "text": "La conséquence des cette hypothèse sur les orbites circulaire est que, conformément à la loi des aires, les objets en orbite seront en MCU: on pourra donc utiliser la théorie du MCU pour résoudre des exercices an parallèle avec la loi de la gravitation."
   },
   {
     "objectID": "grav-slides.html#section-8",
     "href": "grav-slides.html#section-8",
     "title": "La loi de la gravitation universelle",
     "section": "",
-    "text": "Ainsi, \\(m_Na_N=k_g\\dfrac{m_Sm_N}{R_N^2}\\). En simplifiant par \\(m_N\\), on obtient \\(a_N=k_g\\dfrac{m_S}{R_N^2}\\).\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\).\nEn insérant les données, on peut calculer \\(v^2\\):\n\\(v^2=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{6,37\\cdot 10^6}=\\dfrac{6,67\\cdot 1,99}{6,37}\\cdot 10^{13}=2,08\\cdot 10^{13} \\text{m}^2/\\text{s}^2\\).\nDonc \\(v\\simeq 4,5\\cdot 10^6 \\text{m/s}= 1,62\\cdot 10^7 \\text{km/h}\\)."
+    "text": "Pour les exercices, les constantes suivantes seront utilisées.\n\n\n\n\n\n\n\nConstante\nValeur\n\n\n\n\nConstante gravitationnelle \\(k_g\\)\n\\(6,67 \\times 10^{-11} \\frac{\\text{N} \\cdot \\text{m}^2}{\\text{kg}^2}\\)\n\n\nAccélération terrestre \\(g\\)\n\\(9,81 \\text{ m/s}^2\\)\n\n\nMasse de la Terre \\(m_T\\)\n\\(5,97 \\times 10^{24} \\text{ kg}\\)\n\n\nMasse du Soleil \\(m_S\\)\n\\(1,99 \\times 10^{30} \\text{ kg}\\)"
   },
   {
     "objectID": "grav-slides.html#correction-chute-libre-sur-mercure",
@@ -441,18 +434,81 @@
     "text": "\\[ m_J = \\dfrac{v^2d}{k_g}=\\dfrac{4\\pi^2 d^3}{k_g T^2}.\\]\nOr \\(d=1,88\\cdot 10^6\\) km\\(=1,88\\cdot 10^9\\) m.\nDe plus, \\(T=16,7\\text{ jours}=1442880\\text{s}\\).\nDonc\n\\[ m_J= \\dfrac{4\\pi^2 d^3}{k_g T^2}=\\dfrac{4\\pi^2(1,88\\cdot 10^9)^3}{6,67\\cdot 10^{-11}(1442880)^2}\\simeq 1,89\\cdot 10^{27}\\text{kg}.\\]"
   },
   {
-    "objectID": "grav-slides.html#masse-des-astres",
-    "href": "grav-slides.html#masse-des-astres",
+    "objectID": "grav-slides.html#applications-principe-de-base-1",
+    "href": "grav-slides.html#applications-principe-de-base-1",
     "title": "La loi de la gravitation universelle",
-    "section": "Masse des astres",
-    "text": "Masse des astres"
+    "section": "Applications: principe de base",
+    "text": "Applications: principe de base\nQuel est le point de départ de la résolution des exercices d’application?\n\n\\(F_{M/O}=m_Oa_O=k_g\\dfrac{m_Mm_O}{R^2}\\)"
+  },
+  {
+    "objectID": "grav-slides.html#section-10",
+    "href": "grav-slides.html#section-10",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Pour les applications, on va travailler sous l’hypothèse des orbites circulaires."
+  },
+  {
+    "objectID": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
+    "href": "grav-slides.html#mouvement-des-astres-dans-le-système-solaire",
+    "title": "La loi de la gravitation universelle",
+    "section": "Mouvement des astres dans le système solaire",
+    "text": "Mouvement des astres dans le système solaire\nNous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l’orbite de Neptune autour du soleil est de \\(4 498 400 000 km=4,4984\\cdot 10^{12}\\) m.\n\n\\(F_{S/N}=k_g\\dfrac{m_Sm_N}{R_N^2}\\)\n\nPar la 2e loi de Newton, \\(F_{S/N}=m_Na_N\\) , où \\(a_N=\\dfrac{v^2}{R_N}\\) est l’accélération centripète."
+  },
+  {
+    "objectID": "grav-slides.html#section-11",
+    "href": "grav-slides.html#section-11",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Ainsi, \\(m_Na_N=k_g\\dfrac{m_Sm_N}{R_N^2}\\). En simplifiant par \\(m_N\\), on obtient \\(a_N=k_g\\dfrac{m_S}{R_N^2}\\).\nOn a donc \\(v^2=k_g\\dfrac{m_S}{R_N}\\).\nEn insérant les données, on peut calculer \\(v^2\\):\n\\(v^2=6,67\\cdot 10^{-11}\\dfrac{1,99\\cdot 10^{30}}{4,4984\\cdot 10^{12}}=29506713,5 \\text{m}^2/\\text{s}^2\\).\nDonc \\(v\\simeq 5432\\text{m/s}\\)."
+  },
+  {
+    "objectID": "grav-slides.html#prépa",
+    "href": "grav-slides.html#prépa",
+    "title": "La loi de la gravitation universelle",
+    "section": "Prépa",
+    "text": "Prépa\n\nExercice 5 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.\n\nExprime le rayon de son orbite en fonction du rayon terrestre.\nCalcule sa vitesse orbitale en supposant que \\(R_T = 6,37 \\times 10^6\\) m.\nDonne la période de révolution du satellite."
+  },
+  {
+    "objectID": "grav-slides.html#section-12",
+    "href": "grav-slides.html#section-12",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "\\(R=R_T+h\\)"
+  },
+  {
+    "objectID": "grav-slides.html#section-13",
+    "href": "grav-slides.html#section-13",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Comme \\(m_sa_s=k_g\\dfrac{m_Tm_s}{R^2}\\) et \\(a_s=v^2/R\\),\n\n\\[\nv^2=k_g\\dfrac{m_T}{R}=k_g\\dfrac{5,97\\times 10^24}{6,67\\times 10^6+5\\times 10^5}=57962008,73\\text{m}^2\\text{/s}^2.\n\\]\nDonc \\(v\\simeq 7613,27\\text{m/s}\\).\n\nComme \\(v=2\\pi R/T\\), \\(T=2\\pi R/v\\simeq 5669,75\\) s."
   },
   {
     "objectID": "grav-slides.html#la-gravité-autour-de-la-terre",
     "href": "grav-slides.html#la-gravité-autour-de-la-terre",
     "title": "La loi de la gravitation universelle",
     "section": "La gravité autour de la Terre",
-    "text": "La gravité autour de la Terre"
+    "text": "La gravité autour de la Terre\nL’accélération gravitationnelle varie avec l’altitude.\n\nExercice 6 Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée par la Terre sur cette masse si:\n\nelle est à 10m au dessus de la surface de la Terre.\nelle est à 10km au dessus de la surface de la Terre.\nelle est dans la Station Spatiale Internationale (400km d’altitude)."
+  },
+  {
+    "objectID": "grav-slides.html#section-14",
+    "href": "grav-slides.html#section-14",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Ici pour chaque sous question, on a que la force vaut \\(F=k_g\\dfrac{m_T}{(R_T+h)^2}\\).\nDonc:\n\nSi \\(h=10m\\), \\(F\\simeq 9,81\\) N.\nSi \\(h=10km=10000m\\), \\(F\\simeq 9,78\\) N.\nSi \\(h=400km=400000m\\), \\(F\\simeq 8,68\\) N."
+  },
+  {
+    "objectID": "grav-slides.html#section-15",
+    "href": "grav-slides.html#section-15",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "Les calculs réalisés dans l’exercice précédent peuvent se généraliser pour un objet de masse \\(m\\) à une altitude \\(h\\):\n\nPour cet objet, s’il est à la surface de la Terre, nous avons \\(g = \\frac{k_g m_T}{R_T^2}=9,81 \\text{m/s}^2\\). Mais si l’objet est à une altitude \\(h\\), la distance qui le sépare du centre de la Terre devient \\(R_T + h\\)."
+  },
+  {
+    "objectID": "grav-slides.html#section-16",
+    "href": "grav-slides.html#section-16",
+    "title": "La loi de la gravitation universelle",
+    "section": "",
+    "text": "En notant \\(g_h\\) son accélération centripète, on obtient:\n\\[\nmg_h=k_g\\dfrac{m_Tm}{(R_T+h)^2}.\n\\]\nDonc :\n\\[\ng_h = \\frac{k_g m_T}{(R_T + h)^2}.\n\\]"
   },
   {
     "objectID": "grav-slides.html#le-champ-gravitationnel",
@@ -473,7 +529,7 @@
     "href": "grav-slides.html#interro-formative",
     "title": "La loi de la gravitation universelle",
     "section": "Interro formative",
-    "text": "Interro formative\n\nExercice 5 Soit deux corps \\(m_1\\) et \\(m_1\\) de masses respectives \\(2kg\\) et \\(5kg\\). Ces deux corps sont séparés de \\(10km\\). Calcule l’intensité de la force de gravitation exercée par \\(m_2\\) sur \\(m_1\\).\n\n\nExercice 6 Calcule la masse de Jupiter sachant que l’un de ses satellites, Callisto, effectue une révolution circulaire complète de \\(1,88\\cdot 10^6\\) km de rayon en 16,7 jours.\n\n\nExercice 7 Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente."
+    "text": "Interro formative\n\nExercice 7 Soit deux corps \\(m_1\\) et \\(m_1\\) de masses respectives \\(2kg\\) et \\(5kg\\). Ces deux corps sont séparés de \\(10km\\). Calcule l’intensité de la force de gravitation exercée par \\(m_2\\) sur \\(m_1\\).\n\n\nExercice 8 Calcule la masse de Jupiter sachant que l’un de ses satellites, Callisto, effectue une révolution circulaire complète de \\(1,88\\cdot 10^6\\) km de rayon en 16,7 jours.\n\n\nExercice 9 Un objet en chute libre sur Mercure possède-t-il une accélération croissante? Argumente."
   },
   {
     "objectID": "cover-grav.html",
