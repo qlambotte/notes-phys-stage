@@ -300,7 +300,7 @@ Pour les exercices qui suivent, les constantes suivantes seront utilisées.
 | Accélération terrestre $g$ | $9,81 \text{ m/s}^2$ |
 | Masse de la Terre $m_T$ | $5,97 \times 10^{24} \text{ kg}$ |
 | Masse du Soleil $m_S$ | $1,99 \times 10^{30} \text{ kg}$ |
-| Rayon de la Terre $R_T$ | $ 6,37 \times 10^6$ m |
+| Rayon de la Terre $R_T$ | $6,37 \times 10^6$ m |
 | Distance Terre-Soleil $R_{TS}$ | $1,5\times 10^{11}$ m |
 ### Mouvement des astres dans le système solaire
 

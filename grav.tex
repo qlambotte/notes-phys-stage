@@ -152,9 +152,9 @@
 \theoremstyle{definition}
 \newtheorem{exercise}{Exercice}[section]
 \theoremstyle{definition}
-\newtheorem{example}{Exemple}[section]
-\theoremstyle{definition}
 \newtheorem{definition}{Définition}[section]
+\theoremstyle{definition}
+\newtheorem{example}{Exemple}[section]
 \theoremstyle{remark}
 \AtBeginDocument{\renewcommand*{\proofname}{Preuve}}
 \newtheorem*{remark}{Remarque}
@@ -387,7 +387,7 @@ elliptiques, dont un des foyers est occupé par le Soleil. Il s'agit de
 sa première loi, parmi trois qui tentent de décrire le mouvement des
 planètes autour du Soleil.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, colback=white, opacityback=0, rightrule=.15mm, arc=.35mm, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, breakable, toprule=.15mm, colback=white, leftrule=.75mm, arc=.35mm, bottomrule=.15mm, rightrule=.15mm, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -411,7 +411,7 @@ occupé par le Soleil.
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, colback=white, opacityback=0, rightrule=.15mm, arc=.35mm, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, breakable, toprule=.15mm, colback=white, leftrule=.75mm, arc=.35mm, bottomrule=.15mm, rightrule=.15mm, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -435,7 +435,7 @@ Le segment qui joint le Soleil à une planète balaie des secteurs d'aires
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, colback=white, opacityback=0, rightrule=.15mm, arc=.35mm, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, breakable, toprule=.15mm, colback=white, leftrule=.75mm, arc=.35mm, bottomrule=.15mm, rightrule=.15mm, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -616,7 +616,7 @@ exercée sur la Lune, \(\overrightarrow{F}_{\text{T/L}}\). Les résultats
 de l'exercice précédent montrent que cette force est proportionnelle à
 \(\dfrac{1}{R^2}\).
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, breakable, colback=white, opacityback=0, rightrule=.15mm, arc=.35mm, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, opacityback=0, breakable, toprule=.15mm, colback=white, leftrule=.75mm, arc=.35mm, bottomrule=.15mm, rightrule=.15mm, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-important-color}{\faExclamation}
 \end{minipage}%
@@ -681,7 +681,7 @@ Le génie de Newton a été d'étendre ce raisonnement à tous les astres du
 système solaire, puis à tous les corps matériels. Il en a déduit une loi
 fondamentale de la nature.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, breakable, colback=white, opacityback=0, rightrule=.15mm, arc=.35mm, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, breakable, toprule=.15mm, colback=white, leftrule=.75mm, arc=.35mm, bottomrule=.15mm, rightrule=.15mm, left=2mm]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -695,7 +695,7 @@ de leurs masses et inversement proportionnelle au carré de la distance
 qui les sépare :
 
 \[
-F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{R^2}.
 \]
 
 \end{minipage}%
@@ -718,7 +718,7 @@ augmente. Pour mieux comprendre cette relation, représentons
 graphiquement la variation de la force gravitationnelle entre deux
 objets en fonction de leur distance.\\
 On choisi deux masses \(m_1=m_2=m\) de sorte à ce que \(k_gm^2=1\). Ceci
-permet d'écrire que \(F_{m_1/m_2}=\dfrac{1}{d^2}\). Voici une
+permet d'écrire que \(F_{m_1/m_2}=\dfrac{1}{R^2}\). Voici une
 représentation graphique de \(F_{m_1/m_2}\) en fonction de la distance
 entre les objets.
 
@@ -782,6 +782,8 @@ Constante gravitationnelle \(k_g\) &
 Accélération terrestre \(g\) & \(9,81 \text{ m/s}^2\) \\
 Masse de la Terre \(m_T\) & \(5,97 \times 10^{24} \text{ kg}\) \\
 Masse du Soleil \(m_S\) & \(1,99 \times 10^{30} \text{ kg}\) \\
+Rayon de la Terre \(R_T\) & \$ 6,37 \times 10\^{}6\$ m \\
+Distance Terre-Soleil \(R_{TS}\) & \(1,5\times 10^{11}\) m \\
 \end{longtable}
 
 \subsection{Mouvement des astres dans le système
@@ -813,8 +815,8 @@ révolution d'un astre.
 \begin{example}[]\protect\hypertarget{exm-netpune}{}\label{exm-netpune}
 
 Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en
-sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois
-plus grande que le rayon de l'orbite de la Terre autour du soleil.
+sachant que le rayon de l'orbite de Neptune autour du soleil est
+\(4 498 400 000 \text{km}=4,4984\cdot 10^{12}\) m.
 
 Explicitons ce que dit l'énoncé de l'exemple:
 
@@ -822,9 +824,9 @@ Explicitons ce que dit l'énoncé de l'exemple:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \(F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}\)
+  \(F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}\);
 \item
-  \(R_N=30R_T\)
+  \(R_N=4,4984\cdot 10^{12}\) m.
 \end{enumerate}
 
 D'après la deuxième loi de Newton, on a que \(F_{S/N}=m_Na_N\) , où
@@ -834,10 +836,10 @@ On a donc \(v^2=k_g\dfrac{m_S}{R_N}\). Comme
 \(R_N=30 R_T=30\cdot 6,37\cdot 10^6\text{m}\), on a que
 
 \[
-v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2
+v^2=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{4,4984\cdot 10^{12}}=29506713,5 \text{m}^2/\text{s}^2.
 \]
 
-Donc \(v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}\).
+Donc \(v\simeq 5432\text{m/s}=19555,2\text{km/h}\).
 
 \end{example}
 
@@ -852,8 +854,7 @@ km.
 \item
   Exprime le rayon de son orbite en fonction du rayon terrestre.
 \item
-  Calcule sa vitesse orbitale en supposant que
-  \(R_T = 6,37 \times 10^6\) m.
+  Calcule sa vitesse orbitale.
 \item
   Donne la période de révolution du satellite.
 \end{enumerate}
@@ -931,8 +932,7 @@ mouvement de la Terre.
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Calcule la vitesse de la terre autour du soleil, sachant que la
-  distance Terre-Soleil vaut \(150\) millions de km.
+  Calcule la vitesse de la terre autour du soleil.
 \item
   Déduis-en la masse du Soleil.
 \end{enumerate}
