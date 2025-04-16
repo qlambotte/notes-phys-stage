@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  24 MAR 2025 17:22
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  16 APR 2025 11:23
  system commands enabled.
 **fig7.tex
 (./fig7.tex
@@ -487,13 +487,13 @@ Here is how much of LuaTeX's memory you used:
  413 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:316,3:213,4:94,5:22,6:2,7:191,8:2,9:108
+   avail lists: 2:316,3:213,4:94,5:24,6:2,7:191,8:2,9:108
  34436 multiletter control sequences out of 65536+600000
  25 fonts using 1345055 bytes
  117i,7n,114p,388b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on fig7.pdf (1 page, 16400 bytes).
+Output written on fig7.pdf (1 page, 16442 bytes).
 
 PDF statistics: 19 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream

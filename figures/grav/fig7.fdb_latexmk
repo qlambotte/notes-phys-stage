@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742833339.67912 "fig7.tex" "fig7.pdf" "fig7" 1742833341.30196 0
+["lualatex"] 1744795420.64404 "fig7.tex" "fig7.pdf" "fig7" 1744795422.59358 0
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1731490634.78755 127309 677951b359b90ddbfa3eb54f696122f6 ""
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1742562084.36762 392850 c1b1392edadf014e7808f927cba6c198 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -159,8 +159,8 @@
   "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1693603203 13565 c514d92e6ff6be7b2f35d8e0eb56185c ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734025531.12657 5356990 b2b61d7a460b695664a2041d019c4711 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1734025621 12232784 2a215cef41d5f8c8f5e94aa38e604306 ""
-  "fig7.aux" 1742833341.18713 32 3985256e7290058c681f74d7a3565a19 "lualatex"
-  "fig7.tex" 1742833337.35905 607 cb6a52e2bd93ed3c14ce14775c1c79f8 ""
+  "fig7.aux" 1744795422.4762 32 3985256e7290058c681f74d7a3565a19 "lualatex"
+  "fig7.tex" 1744795393.62139 607 fcc7ef7d54d992d6bc9e1624d134b564 ""
   (generated)
   "fig7.aux"
   "fig7.log"

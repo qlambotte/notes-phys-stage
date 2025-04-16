@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  24 MAR 2025 15:30
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.12)  16 APR 2025 11:23
  system commands enabled.
 **fig02.tex
 (./fig02.tex
@@ -902,11 +902,11 @@ L3 programming layer <2024-01-22>
 Here is how much of LuaTeX's memory you used:
  20774 strings out of 476553
  100000,1977958 words of node,token memory allocated
- 10249 words of node memory still in use:
-   142 hlist, 2 vlist, 10 rule, 28 math, 358 glue, 5 kern, 26 glyph, 924 attribu
+ 10256 words of node memory still in use:
+   142 hlist, 2 vlist, 10 rule, 28 math, 359 glue, 5 kern, 26 glyph, 924 attribu
 te, 52 glue_spec, 924 attribute_list, 2 write, 610 pdf_literal, 24 pdf_colorstac
 k nodes
-   avail lists: 2:30,3:1191,4:26,5:23,6:2,7:844,8:5,9:264
+   avail lists: 2:30,3:1191,4:26,5:23,6:2,7:846,8:5,9:264
  41835 multiletter control sequences out of 65536+600000
  34 fonts using 2158639 bytes
  132i,7n,127p,447b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -915,7 +915,7 @@ public/lm/lmsans10-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb>
-Output written on fig02.pdf (1 page, 74131 bytes).
+Output written on fig02.pdf (1 page, 70343 bytes).
 
 PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

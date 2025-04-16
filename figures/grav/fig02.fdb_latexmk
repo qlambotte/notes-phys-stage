@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1742826601.41724 "fig02.tex" "fig02.pdf" "fig02" 1742826604.17157 0
+["lualatex"] 1744795416.643 "fig02.tex" "fig02.pdf" "fig02" 1744795420.28411 0
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1731490634.78755 127309 677951b359b90ddbfa3eb54f696122f6 ""
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1732550949.59241 127628 0e00f3d8ee37a075ce8b5477c9ef1b8a ""
   "/home/quentin/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1742562084.36762 392850 c1b1392edadf014e7808f927cba6c198 ""
@@ -264,8 +264,8 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmss.fd" 1616454256 1657 338c306198616f83902603448cf66d97 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734025531.12657 5356990 b2b61d7a460b695664a2041d019c4711 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1734025621 12232784 2a215cef41d5f8c8f5e94aa38e604306 ""
-  "fig02.aux" 1742826603.90433 32 3985256e7290058c681f74d7a3565a19 "lualatex"
-  "fig02.tex" 1742826599.05124 559 3ce69747c9b803137240dd5caca5ac00 ""
+  "fig02.aux" 1744795419.8743 32 3985256e7290058c681f74d7a3565a19 "lualatex"
+  "fig02.tex" 1744795412.1956 560 6acb3d243df8a1762ac6680e6ef61786 ""
   "fig02.tkzfonct.gnuplot" 1742826544.56821 140 2a4607928cdb85fc113a0b204fc42473 ""
   "fig02.tkzfonct.table" 1742826544.61021 3885 7887b3599a06e393469326eaaf962957 ""
   (generated)

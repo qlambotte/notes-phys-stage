@@ -260,7 +260,7 @@ Le génie de Newton a été d’étendre ce raisonnement à tous les astres du s
 Deux corps ponctuels s’attirent avec une force dirigée selon la droite qui les joint. L’intensité de cette force est proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance qui les sépare :
 
 $$
-F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{d^2}.
+F_{m_1/m_2}=F_{m_2/m_1} = k_g \dfrac{m_1 m_2}{R^2}.
 $$
 :::
 
@@ -274,7 +274,7 @@ $$
 
 Cette valeur montre que la force gravitationnelle est généralement faible. Elle diminue rapidement lorsque la distance entre les objets augmente. 
 Pour mieux comprendre cette relation, représentons graphiquement la variation de la force gravitationnelle entre deux objets en fonction de leur distance.  
-On choisi deux masses $m_1=m_2=m$ de sorte à ce que $k_gm^2=1$. Ceci permet d'écrire que $F_{m_1/m_2}=\dfrac{1}{d^2}$. Voici une représentation graphique de $F_{m_1/m_2}$ en fonction de la distance entre les objets.
+On choisi deux masses $m_1=m_2=m$ de sorte à ce que $k_gm^2=1$. Ceci permet d'écrire que $F_{m_1/m_2}=\dfrac{1}{R^2}$. Voici une représentation graphique de $F_{m_1/m_2}$ en fonction de la distance entre les objets.
 
 ![Intensité de la force en fonction de la distance](figures/grav/fig02){fig-align="center" width=60%}
 
@@ -300,7 +300,8 @@ Pour les exercices qui suivent, les constantes suivantes seront utilisées.
 | Accélération terrestre $g$ | $9,81 \text{ m/s}^2$ |
 | Masse de la Terre $m_T$ | $5,97 \times 10^{24} \text{ kg}$ |
 | Masse du Soleil $m_S$ | $1,99 \times 10^{30} \text{ kg}$ |
-
+| Rayon de la Terre $R_T$ | $ 6,37 \times 10^6$ m |
+| Distance Terre-Soleil $R_{TS}$ | $1,5\times 10^{11}$ m |
 ### Mouvement des astres dans le système solaire
 
 La première loi de Kepler dit que la trajectoire des planètes autour du soleil est elliptique. Voici une représentation de quelques unes de ces trajectoires:
@@ -320,24 +321,25 @@ Tu peux constater que les trajectoires ont l'air d'être des cercles. Nous suppo
 Voyons un exemple d'application pour trouver la vitesse ou la période de révolution d'un astre.
 
 ::: {#exm-netpune}
-Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l'orbite de Neptune autour du soleil est 30 fois plus grande que le rayon de l'orbite de la Terre autour du soleil.
+Dans cet exemple, nous allons estimer la vitesse orbitale de Neptune, en sachant que le rayon de l'orbite de Neptune autour du soleil est $4 498 400 000 \text{km}=4,4984\cdot 10^{12}$ m.
 
 
 
 Explicitons ce que dit l'énoncé de l'exemple:
 
-1. $F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}$
-3. $R_N=30R_T$
+1. $F_{S/N}=k_g\dfrac{m_Sm_N}{R_N^2}$;
+3. $R_N=4,4984\cdot 10^{12}$ m.
 
 D'après la deuxième loi de Newton, on a que $F_{S/N}=m_Na_N$ , où $a_N=\dfrac{v^2}{R_N}$ est l'accélération centripète.
 
 On a donc $v^2=k_g\dfrac{m_S}{R_N}$. Comme $R_N=30 R_T=30\cdot 6,37\cdot 10^6\text{m}$, on a que
 
 $$
-v^2=k_g\dfrac{m_S}{R_N}=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{6,37\cdot 10^6}=\dfrac{6,67\cdot 1,99}{6,37}\cdot 10^{13}=2,08\cdot 10^{13} \text{m}^2/\text{s}^2
+v^2=6,67\cdot 10^{-11}\dfrac{1,99\cdot 10^{30}}{4,4984\cdot 10^{12}}=29506713,5 \text{m}^2/\text{s}^2.
 $$
 
-Donc $v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}$.
+Donc $v\simeq 5432\text{m/s}=19555,2\text{km/h}$.
+
 :::
 
 
@@ -345,7 +347,7 @@ Donc $v\simeq 4,5\cdot 10^6 \text{m/s}=4,5\text{km/s}$.
 Un satellite artificiel tourne autour de la Terre à une altitude de 500 km.  
 
 1. Exprime le rayon de son orbite en fonction du rayon terrestre.
-3. Calcule sa vitesse orbitale en supposant que $R_T = 6,37 \times 10^6$ m.
+3. Calcule sa vitesse orbitale.
 2. Donne la période de révolution du satellite.
 :::
 
@@ -393,7 +395,7 @@ En utilisant $g_M = 3,71$ m/s² et $R_M = 3,39 \times 10^6$ m, calcule la masse 
 ::: {#exr-masse-mars}
 Le but de cet exercice est de calculer la masse du Soleil, sur base du mouvement de la Terre.
 
-1. Calcule la vitesse de la terre autour du soleil, sachant que la distance Terre-Soleil vaut $150$ millions de km.
+1. Calcule la vitesse de la terre autour du soleil.
 2. Déduis-en la masse du Soleil.
 :::
 
@@ -476,6 +478,12 @@ Le rayon de la Lune vaut $1738\text{km}$.
 :::
 
 ## Orbite géostationnaire et satellites
+
+::: {.content-visible when-format="html"}
+
+<iframe src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Comparison_satellite_navigation_orbits.svg" width=100% height="900" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+:::
 
 Un satellite géostationnaire est un satellite qui reste immobile par rapport à la Terre. Cela signifie qu’il doit tourner en **exactement 24h**.    
 

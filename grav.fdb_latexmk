@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1744654886.05524 "grav.tex" "grav.pdf" "grav" 1744654893.51726 0
+["pdflatex"] 1744795437.99561 "grav.tex" "grav.pdf" "grav" 1744795442.96768 0
   "/etc/texmf/web2c/texmf.cnf" 1729019720.29342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -263,13 +263,13 @@
   "figures/grav/aires.pdf" 1742821330.75904 109067 4a45e27f155b67c8aef22df638e18cbe ""
   "figures/grav/copernic.pdf" 1742819766.76328 37469 631e35a9442f5e37d6f26ceee69e1c1f ""
   "figures/grav/epicycle.pdf" 1742816770.64298 25143 24b1f2b56b48239d2bdcd680182a9e5e ""
-  "figures/grav/fig02.pdf" 1742826603.95934 74131 0fe800797587230f74e35b7ceff7c10d ""
+  "figures/grav/fig02.pdf" 1744795420.06229 70343 3036ef0b28b4bf6cd602a688b9c8016e ""
   "figures/grav/fig1.pdf" 1742841132.21383 16903 206cca38b416d4a5484451f9e93f6262 ""
   "figures/grav/fig3.pdf" 1743962406.23685 32918 e5a1e80eeb7d0430082fc8c1791dd9c9 ""
   "figures/grav/fig4.pdf" 1742826184.43447 10218 301049dba6e58c157def5093eb23ac97 ""
   "figures/grav/fig5.pdf" 1742829899.61726 16668 74c3caca38ceb7fdc0c167bbf9b982ae ""
   "figures/grav/fig6.pdf" 1742830669.25925 1882 14bbb4d3c8b705e21e93789fc6eb5f92 ""
-  "figures/grav/fig7.pdf" 1742833341.20013 16400 11fb4819c3b94d009a6a8c1f373cc353 ""
+  "figures/grav/fig7.pdf" 1744795422.4912 16442 47567b868362650e364e7ed2a4c9449e ""
   "figures/grav/galaxie-sombrero.pdf" 1743450191.13507 2649452 bc6a99827c7597c803749ea4ea19aaed ""
   "figures/grav/geo.pdf" 1742822802.44754 112895 c7ffd3eddaf997181c4debec5a24efa6 ""
   "figures/grav/iss.pdf" 1743450796.96739 137812 1e8efe64cd5dd64b214e7401447c0c52 ""
@@ -281,8 +281,8 @@
   "figures/grav/soleil.pdf" 1743449990.09029 3311739 52a13fef8b7bc3678f9c329af11cf236 ""
   "figures/grav/stell.pdf" 1742816160.08293 2420 4d66445a11617bd12c9fad9c40d0e6c5 ""
   "figures/grav/terre-mune.pdf" 1743450079.64881 5089135 8e8be361618aa7c1670ed787f5f71fb4 ""
-  "grav.aux" 1744654892.92235 13733 7abdfd951728b91cb180fd808a92ac00 "pdflatex"
-  "grav.tex" 1744654874.73896 34382 e9b778c82f59dab5b7d1cc0673c46a40 ""
+  "grav.aux" 1744795442.45347 13733 7abdfd951728b91cb180fd808a92ac00 "pdflatex"
+  "grav.tex" 1744795430.3709 34382 800865305eb1eec3551e64c58a19591b ""
   (generated)
   "grav.aux"
   "grav.log"
