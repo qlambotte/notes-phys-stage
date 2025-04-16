@@ -408,7 +408,7 @@ Considérons une bille de plomb de 1kg. Calcule la force de gravitation exercée
 
 1. elle est à 10m au dessus de la surface de la Terre.
 2. elle est à 10km au dessus de la surface de la Terre.
-3. elle est dans la Station Spaciale Internationale (400km d'altitude).
+3. elle est dans la Station Spatiale Internationale (400km d'altitude).
 :::
 
 Les calculs réalisés dans l'exercice précédent peuvent se généraliser pour un objet de masse $m$ à une altitude $h$:
